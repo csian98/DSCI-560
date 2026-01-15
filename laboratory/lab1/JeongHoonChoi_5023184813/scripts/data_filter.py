@@ -12,7 +12,7 @@ def extract_market(soup) -> str:
         pct = div.select_one(".MarketCard-changesPct")
         
         output += f"{symbol.get_text().strip()}," if symbol else ','
-        output += f"{position.get_text().strip()}," if position else ','
+        output += f"{position.get_text().strip().replace(',', '')}," if position else ','
         output += f"{pct.get_text().strip()}\n" if pct else '\n'
     
     return output
@@ -26,7 +26,7 @@ def extract_news(soup) -> str:
         
         output += f"{timestamp.get_text().strip()}," if timestamp else ','
         output += f"{headline.attrs['href']}," if headline else ','
-        output += f"{headline.attrs['title']}\n" if headline else '\n'
+        output += f"\"{headline.attrs['title']}\"\n" if headline else '\n'
         
     return output
 
