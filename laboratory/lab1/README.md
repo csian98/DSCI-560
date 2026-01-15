@@ -45,11 +45,12 @@
 * [![Ubuntu][ubuntu-shield]][ubuntu-url]
 
 ### Installation
-	```sh
-	git clone https://github.com/csian/DSCI-560
-	cd DSCI-560/laboratory/lab1
-	pip3 install -r requirements.txt
-	```
+
+   ```sh
+   git clone https://github.com/csian/DSCI-560
+   cd DSCI-560/laboratory/lab1
+   pip3 install -r requirements.txt
+   ```
 
 ## 🔐 License
 
@@ -66,13 +67,7 @@ Project Link: [https://github.com/DSCI-560](https://github.com/DSCI-560)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[language-shield]: https://img.shields.io/github/languages/top/csian98/sian.svg?style=for-the-badge
-[code-size-shield]: https://img.shields.io/github/languages/code-size/csian98/sian.svg?style=for-the-badge
-[repo-size-shield]: https://img.shields.io/github/repo-size/csian98/sian.svg?style=for-the-badge
-[commit-activity-shield]: https://img.shields.io/github/commit-activity/w/csian98/sian.svg?style=for-the-badge
-[last-commit-shield]: https://img.shields.io/github/last-commit/csian98/sian.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/csian98/sian.svg?style=for-the-badge
-[license-url]: https://github.com/csian98/sian/blob/main/LICENSE
+[language-shield]: https://img.shields.io/github/languages/top/csian98/DSCI-560.svg?style=for-the-badge
 
 [macos-shield]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [macos-url]: https://developer.apple.com/macos

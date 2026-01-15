@@ -41,11 +41,12 @@
 * [[Lab1]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab1) Laboratory Assignment 1
 
 ## Reading
+* [[Reading1]](https://github.com/csian98/DSCI-560/tree/main/reading/red1) CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks
 
 
 ## 🔐 License
 
-Copyright © 2025, *Jeong Hoon Choi* or *Sian*. All rights reserved
+Copyright © 2026, *Jeong Hoon Choi* or *Sian*. All rights reserved
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
