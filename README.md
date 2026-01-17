@@ -37,7 +37,7 @@
 	</p>
 </div>
 
-## Lab
+## Laboratory
 * [[Lab1]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab1) Laboratory Assignment 1
 
 ## Reading
