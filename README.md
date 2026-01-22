@@ -41,7 +41,7 @@
 * [[Lab1]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab1) Laboratory Assignment 1
 
 ## Reading
-* [[Reading1]](https://github.com/csian98/DSCI-560/tree/main/reading/red1) CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks
+* [[Reading1]](https://github.com/csian98/DSCI-560/tree/main/reading/rd1) CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks
 
 
 ## 🔐 License
