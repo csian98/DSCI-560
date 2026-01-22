@@ -38,10 +38,13 @@
 </div>
 
 ## Laboratory
-* [[Lab1]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab1) Laboratory Assignment 1
+* [[Lab1]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab1) Linux & Web Scraper
+* [[Lab2]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab2) Project Prepare 1
+* [[Lab3]](https://github.com/csian98/DSCI-560/tree/main/laboratory/lab3) CUDA Program and Custom Python Library
 
 ## Reading
 * [[Reading1]](https://github.com/csian98/DSCI-560/tree/main/reading/rd1) CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks
+* [[Reading2]](https://github.com/csian98/DSCI-560/tree/main/reading/rd2) Deep learning-based NLP data pipeline for EHR-scanned document information extraction
 
 
 ## 🔐 License
