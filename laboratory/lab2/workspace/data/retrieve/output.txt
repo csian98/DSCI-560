@@ -46,54 +46,58 @@ BERT, evaluating their ability to capture complex sequential patterns in network
 datasets, highlighting its strong capability in detecting a wide range of network anomalies
 CERTIFICATIONS
 Offensive Security Certified Professional (OSCP & OSCP+) Aug 2025
-Chinese Proficiency Test (HSK Lv.5, CEFR C1) Jul 2020Billi "JEONG HOON CHOI SNe |
-“Los Aes, California | (323)630-6334 | chotjeoniausc. edu
+Chinese Proficiency Test (HSK Lv.5, CEFR C1) Jul 2020Bll "JEONG HOON CHOI Feil |
+“los Ags, California | (323)630-6334 | chotjeonialusc. edu
 
-Unive ida alifarat ed Aug 2024 - May 2026
-Master af Science in Appl ed |; cience | GPA 3.9/4.0 Law Angeles, (CA
-Kyung » He . University. ae 1 | i ae ) Mar 2017 - Feb 2023
-i Bachelor of Setenee in i af & Computer Science | GPA 3.8/4.3 Sevul, Republic: of Korea
+i DUCATION Hiv Mi i mu |
+Unive ersity of Southern’ alifarai ed Aug 2024 - May 2026
+Master af Science in Appl ed ; cience| GPA 3.9/4.0 Law Angeles, (CA
+Kyung » He : University. a | | ae : Mar 2017 - Feb 2023
 
-HAO
-ih HH
+i Bachelor of Betence in i ra & Computer Science | GPA 3.8/4.3 Sevul, Republic: of Korea
 
-‘SKILLS a
+WO
+Hi) HH
+
+SKILLS a
 Programming Languages: C icv, Python, R, Assembly 186, Emacs Lisp, SOL, Bash, PowerShell
 
 th i
+WHI
 
-| | Frameworks: CUDA, Boost, Scikit-Leam, TensorFlow, PyTorch, Apache Spark, Apache Flink, Hugging Face
-Tesh Lit Windows Server, Xen, Docker, AWS, Git, Hadoop, Kafka, MySQL, PostgreSQL, SOL Server, MongoDB
+| _ Frameworks: CUDA, Boost, Scikit-Leam, TensorFlow, PyTorch, Apache Spark, Apache Flink, Hugging Face
+Techaoogies Lit Windows Server, Xen, Docker, AWS, Git, Hadoop, Kafka, MySQL, PostgreSQL, SOL Server, MongoDB
 
-sae Hee University, Surface Physics & Organic Nano Device Laboratory Sep 2022 ~ Feb 2024
+EXPE JENCE
+Kyung Hee University, Surface Physics & Organic Nano Device Laboratory Sep 2022 ~ Feb 2024
 Research Internship Seoul, Republic of Kare
-*  Collaborated with the Korea Research Institute of Standards and Science (KRISS) to generate and analyze high-
+*  (Collaborated with the Korea Research Institute of Standards and Science (KRISS) to generate and analyze high-
 resolution X-ray Photoelectron Spectroscopy (XPS) data (+100K spectra) for surface contamination layer identification
 
-«© Designed and trained a 1D Convolutional Deep Neural Network (4.5M parameters) to predict elemental composition and
+© Designed and trained a [1D Convolutional Deep Neural Network (4.5M parameters) to predict elemental composition and
 
 ‘contamination layers from spectral data h
 ‘« Achieved an R? = 0.998, demonstrating exceptional accuracy in quantitative surface analysis and outperforming traditional
-regression-based methods
+regression-based methods,
 
-+ Automated AES/XPS data acquisition with centralized server integration, reducing manual preprocessing and visualization
-time by 4" through pipeline optimization
+* Automated AES/XPS data acquisition with centralized server integration, reducing manual preprocessing and visualization
+time by 4% through pipeline optimization
 
-Kyung Hee University, Complex System & Information Laboratory Nov 2020 - Feb 2022 |
-Research Internship Seoul, Republic of Korea |
-« Researched optical data restoration methods using Compressed Sensing, Deconvolution, PCA, and Machine Leaming bo
-oecover blurred signals caused by instrumental filters |
+Kyung Hee University, Complex System & Information Laboratory Nov 2020) - Feb 2022 |
+Research Internship: Seoul, Republic of Korea
+« Researched optical data restoration methods using Compressed Sensing, Deconvolution, PCA, and Machine Learmuing bo
+nmecover blurred signals caused by instrumental filters |
 « Implemented and evaluated algorithms for signal reconstruction with improved sharpness and noise robustness across |
 ‘multiple optical datasets
-* Managed and optimized a parallel computing server cluster supporting numerical simulations for four physics laboratories,
+« Managed and optimized a parallel computing server cluster supporting numerical simulations for four physics laboratories,
 improving computational efficiency by ~30% and uptime reliability
-‘» Developed and maintained Python libraries for Computational Physics coursework, enabling undergraduate students to
+‘© Developed and maintained Python libraries for Computational Physics coursework, enabling undergraduate students to
 conduct numerical experiments and data visualization with ease
 
 Maple Investment Partners, Investment Team May 2020 - Aug 2020)
-Data Sctence c& Analytics Internship Seoul, Republic of Korea
+Data Sctence & Analytics Internship Seoul, Republic of Korea
 
-« Developed an automated data collection and visualization system in Python and SQL to track real-time venture capital
+e Developed an automated data collection and visualization system in Python and SQL to track real-time venture capital
 investments in South Korea using web scraping and public APIs, aggregating +15K investment events
 
 * Designed data pipelines to aggregate and clean investment metrics, delivering interactive dashboards for market trend

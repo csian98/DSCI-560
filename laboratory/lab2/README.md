@@ -12,7 +12,7 @@
 <br/>
 <div align="center">
 	<a href="https://github.com/csian98/DSCI-560">
-		<img src="../../images/logo.png" alt="Logo" width="150" height="150">
+		<img src="./images/logo.png" alt="Logo" width="150" height="150">
 	</a>
 	<h3 align="center">DSCI-560: Laboratory Assignment 2</h3>	
 	<a href="mailto:csian7386@gmail.com"><img src="https://img.shields.io/badge/csian7386@gmail.com-grey?logo=Gmail"></a>
