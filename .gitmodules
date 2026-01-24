@@ -1,9 +1,9 @@
 [submodule "laboratory/lab1"]
 	path = laboratory/lab1
-	url = https://github/csian98/DSCI-560-lab1
+	url = https://github.com/csian98/DSCI-560-lab1.git
 [submodule "laboratory/lab2"]
 	path = laboratory/lab2
-	url = https://github/csian98/DSCI-560-lab2
+	url = https://github.com/csian98/DSCI-560-lab2.git
 [submodule "laboratory/lab3"]
 	path = laboratory/lab3
-	url = https://github/csian98/DSCI-560-lab3
+	url = https://github.com/csian98/DSCI-560-lab3.git
