@@ -7,3 +7,9 @@
 [submodule "laboratory/lab3"]
 	path = laboratory/lab3
 	url = https://github.com/csian98/DSCI-560-lab3.git
+[submodule "laboratory/lab3/mp-cuda-performance-analyze"]
+	path = laboratory/lab3/mp-cuda-performance-analyze
+	url = https://github.com/csian98/mp-cuda-performance-analyze.git
+[submodule "laboratory/lab1/dynamic-web-scrapper"]
+	path = laboratory/lab1/dynamic-web-scrapper
+	url = https://github.com/csian98/dynamic-web-scrapper.git
