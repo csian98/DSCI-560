@@ -13,3 +13,12 @@
 [submodule "laboratory/lab1/dynamic-web-scrapper"]
 	path = laboratory/lab1/dynamic-web-scrapper
 	url = https://github.com/csian98/dynamic-web-scrapper.git
+[submodule "laboratory/lab2/image-pdf-html-text-extraction"]
+	path = laboratory/lab2/image-pdf-html-text-extraction
+	url = https://github.com/csian98/image-pdf-html-text-extraction.git
+[submodule "laboratory/laboratory/lab4/mock-trading-environment"]
+	path = laboratory/laboratory/lab4/mock-trading-environment
+	url = https://github.com/csian98/mock-trading-environment.git
+[submodule "laboratory/lab4/mock-trading-environment"]
+	path = laboratory/lab4/mock-trading-environment
+	url = https://github.com/csian98/mock-trading-environment.git
