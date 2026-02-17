@@ -22,3 +22,6 @@
 [submodule "laboratory/lab4/mock-trading-environment"]
 	path = laboratory/lab4/mock-trading-environment
 	url = https://github.com/csian98/mock-trading-environment.git
+[submodule "laboratory/lab5/web-scratch-forum-analysis"]
+	path = laboratory/lab5/web-scratch-forum-analysis
+	url = https://github.com/csian98/web-scraping-forum-analysis.git
