@@ -1,0 +1,2097 @@
+[Chih-Yun Pai] 16:12:18
+Alright?
+
+[Viraj Bansal] 16:12:20
+Hello.
+
+[Chih-Yun Pai] 16:12:23
+Okay.
+
+[Viraj Bansal] 16:12:23
+Okay.
+
+[Jeong Hoon Choi] 16:12:24
+I'm pacing record, yeah.
+
+[Viraj Bansal] 16:12:26
+Okay, cool. Um, let's see, let's take a look at the… the lab now.
+
+[Chih-Yun Pai] 16:12:33
+Uh…
+
+[Jeong Hoon Choi] 16:12:34
+This week, we have so many things to do.
+
+[Chih-Yun Pai] 16:12:34
+So…
+
+[Viraj Bansal] 16:12:37
+Yeah…
+
+[Chih-Yun Pai] 16:12:38
+Basically, I feel like we have to do a, uh, extraction from PDF.
+
+[Chih-Yun Pai] 16:12:45
+files, and also grab the, uh…
+
+[Chih-Yun Pai] 16:12:49
+other information from the… from the link from the web about the well.
+
+[Jeong Hoon Choi] 16:12:54
+Yeah.
+
+[Viraj Bansal] 16:12:55
+Yeah…
+
+[Chih-Yun Pai] 16:12:56
+And then, uh, we will have to do the same.
+
+[Chih-Yun Pai] 16:13:00
+data processing that we did last assignment.
+
+[Chih-Yun Pai] 16:13:05
+And finally, we'll, uh…
+
+[Chih-Yun Pai] 16:13:08
+We'll create a web page that is…
+
+[Chih-Yun Pai] 16:13:12
+sort of, like, combining the word map and, uh…
+
+[Chih-Yun Pai] 16:13:17
+I don't know if we have to write some…
+
+[Chih-Yun Pai] 16:13:20
+JavaScript code to, like,
+
+[Viraj Bansal] 16:13:24
+I think we will. We will need to write some JavaScript.
+
+[Jeong Hoon Choi] 16:13:25
+Yeah, in the labor of this, talking about the Note.js, that kind of thing.
+
+[Viraj Bansal] 16:13:27
+code, too.
+
+[Chih-Yun Pai] 16:13:30
+Yeah, to create a pop-up one.
+
+[Viraj Bansal] 16:13:33
+Um…
+
+[Viraj Bansal] 16:13:35
+Okay, so let's, uh, let's figure this out. Uh…
+
+[Viraj Bansal] 16:13:38
+Well, again, we'll use Snowflake for this.
+
+[Viraj Bansal] 16:13:41
+Um, do you guys already have the account access for it, so we should be good there.
+
+[Viraj Bansal] 16:13:45
+Um, what I'll do is I'll spin up another…
+
+[Viraj Bansal] 16:13:49
+database for…
+
+[Viraj Bansal] 16:13:50
+Uh, this particular project?
+
+[Viraj Bansal] 16:13:53
+Um…
+
+[Viraj Bansal] 16:13:56
+Do you guys want a quick tour of Snowflake, by any chance? I can give you a quick tour of Snowflake, and…
+
+[Viraj Bansal] 16:14:03
+like, show you around. I don't know if you guys are interested.
+
+[Viraj Bansal] 16:14:06
+Um, that way, one of you guys can do…
+
+[Viraj Bansal] 16:14:09
+more of the database work this time around.
+
+[Viraj Bansal] 16:14:12
+Um, or I can, again, I can do a… I don't mind doing the database work, but I don't know if you guys wanted to do some more of the database work.
+
+[Chih-Yun Pai] 16:14:14
+Yeah.
+
+[Jeong Hoon Choi] 16:14:20
+Little tit-chos, yeah.
+
+[Viraj Bansal] 16:14:21
+Okay, okay, okay, so, um…
+
+[Jeong Hoon Choi] 16:14:22
+Oh, by the way, Snowflake also have a, like, similar, like, uh, it's the Amazon web service, they also…
+
+[Jeong Hoon Choi] 16:14:30
+give us prompt, I mean, in share.
+
+[Jeong Hoon Choi] 16:14:34
+assess, can you work as a…
+
+[Jeong Hoon Choi] 16:14:37
+Maybe this environment?
+
+[Viraj Bansal] 16:14:40
+Yeah, yeah, you can. You can work in Linux environment. It's, um…
+
+[Jeong Hoon Choi] 16:14:43
+Oh, okay.
+
+[Viraj Bansal] 16:14:44
+Yeah, you just need to install the… there's just a Python library for it.
+
+[Viraj Bansal] 16:14:48
+Cian? Um, one thing I'm gonna say, guys, uh, when we're working and we're installing any new libraries, um,
+
+[Viraj Bansal] 16:14:56
+I created a requirements.txt,
+
+[Viraj Bansal] 16:15:00
+file, um, in our last…
+
+[Jeong Hoon Choi] 16:15:01
+Okay.
+
+[Viraj Bansal] 16:15:02
+Yeah, in our last, uh, lab as well, like, anytime you install a new library,
+
+[Viraj Bansal] 16:15:08
+like, make sure you throw…
+
+[Viraj Bansal] 16:15:10
+that new library's name into that requirements.txt, that way, like,
+
+[Viraj Bansal] 16:15:14
+If one of us, like, needs to run the lab, like, code or anything like that,
+
+[Viraj Bansal] 16:15:20
+Um, we just do, like, pip install-r requirements.txt, and then…
+
+[Viraj Bansal] 16:15:25
+Um, like, uh, we get the libraries that we need for the lab, essentially.
+
+[Jeong Hoon Choi] 16:15:30
+Yeah.
+
+[Viraj Bansal] 16:15:30
+Um, I was keeping track of that last time, but, like, I think we just need to be…
+
+[Viraj Bansal] 16:15:34
+like, we just need to make sure we put all our libraries in there.
+
+[Viraj Bansal] 16:15:38
+Um, that way we don't have to, like,
+
+[Viraj Bansal] 16:15:40
+find it manually and, like, install it case by case.
+
+[Viraj Bansal] 16:15:45
+Um…
+
+[Chih-Yun Pai] 16:15:45
+Okay.
+
+[Viraj Bansal] 16:15:46
+Yeah, I think that'll be better. So, like, for example, PIPDF will be in there if you use PyPDF or OCR MyPDF, or whatever.
+
+[Viraj Bansal] 16:15:53
+like, we'll just throw that in there.
+
+[Viraj Bansal] 16:15:55
+Um… okay, and uh… let's see… so, for this…
+
+[Viraj Bansal] 16:16:02
+Um, we need to parse the PDF files.
+
+[Viraj Bansal] 16:16:05
+And collect information from given websites.
+
+[Viraj Bansal] 16:16:10
+I'm thinking…
+
+[Viraj Bansal] 16:16:12
+Um, I can spin up the database at the very least.
+
+[Viraj Bansal] 16:16:16
+Uh, but we should, I guess, ideally get started…
+
+[Viraj Bansal] 16:16:20
+on at least parsing…
+
+[Viraj Bansal] 16:16:22
+what is it, the, um…
+
+[Viraj Bansal] 16:16:24
+the PDFs, the scanned PDFs,
+
+[Viraj Bansal] 16:16:27
+Um, I think Professor mentioned that, like, there might be, like,
+
+[Viraj Bansal] 16:16:32
+different artifacts and stuff on there that'll make it difficult for us to scan all the PDFs with a single script, so, like,
+
+[Viraj Bansal] 16:16:39
+Well, we might have to… like, one of us might have to workshop
+
+[Viraj Bansal] 16:16:41
+that script a bit, and make… make it so that you could extract, essentially, 100% of the information.
+
+[Viraj Bansal] 16:16:49
+Um…
+
+[Viraj Bansal] 16:16:50
+But, uh,
+
+[Viraj Bansal] 16:16:52
+Yeah… yeah, we should aim to have that, I guess, finished
+
+[Viraj Bansal] 16:16:59
+like, ideally…
+
+[Viraj Bansal] 16:17:01
+end of tomorrow?
+
+[Viraj Bansal] 16:17:04
+Um…
+
+[Viraj Bansal] 16:17:05
+What do you guys think?
+
+[Jeong Hoon Choi] 16:17:07
+You mean the PTAP extraction?
+
+[Viraj Bansal] 16:17:10
+Yeah, the PDF extraction.
+
+[Jeong Hoon Choi] 16:17:12
+Yeah, we can.
+
+[Viraj Bansal] 16:17:14
+End of tomorrow to start a Friday,
+
+[Viraj Bansal] 16:17:17
+I think, uh, one of us could start working on that.
+
+[Viraj Bansal] 16:17:21
+while the other, um, starts working, I guess, on the, uh, what is it?
+
+[Viraj Bansal] 16:17:27
+the web scraping part of it?
+
+[Viraj Bansal] 16:17:29
+what is it, um…
+
+[Viraj Bansal] 16:17:31
+We use the API number well name extracted above to gather additional information related to the wells from…
+
+[Viraj Bansal] 16:17:39
+your task here it is, right? Iterate over each of the ros of the database, and for each database entry,
+
+[Viraj Bansal] 16:17:45
+use the API number and well name to make a search query on this page. Oh, okay.
+
+[Viraj Bansal] 16:17:53
+Um, okay, so…
+
+[Viraj Bansal] 16:17:55
+Yeah, I guess we could start, uh, like, we could do this concurrently, basically.
+
+[Viraj Bansal] 16:17:59
+have one person, like, start a sort of work on the web scraping script
+
+[Viraj Bansal] 16:18:04
+Um, it won't be able to iterate over the database just yet, because, like,
+
+[Viraj Bansal] 16:18:10
+you know, we're still building… we're still scraping the, um…
+
+[Jeong Hoon Choi] 16:18:12
+Mm-hmm.
+
+[Viraj Bansal] 16:18:13
+PDFs themselves.
+
+[Jeong Hoon Choi] 16:18:15
+Yes.
+
+[Viraj Bansal] 16:18:15
+Uh, but… but…
+
+[Viraj Bansal] 16:18:18
+I think, um…
+
+[Viraj Bansal] 16:18:21
+whoever's gonna do the web scraping thing can just…
+
+[Viraj Bansal] 16:18:24
+at least set up the initial parts of the script where, like, you know, you just read one of the, uh, just assume, like, you know,
+
+[Viraj Bansal] 16:18:31
+Or, like, you're just hard-coded in right now.
+
+[Viraj Bansal] 16:18:34
+Um, the API number and the… what is it, the well name?
+
+[Viraj Bansal] 16:18:38
+And just use that to write a script that can, like, at least…
+
+[Viraj Bansal] 16:18:42
+you know, type in the API number and the well name, perform the search, and then scrape
+
+[Viraj Bansal] 16:18:49
+the associated information.
+
+[Viraj Bansal] 16:18:52
+Uh, from that particular API number and well name.
+
+[Viraj Bansal] 16:18:56
+a page that pops up.
+
+[Viraj Bansal] 16:18:57
+Um, and then we can add the iterating over each entry in the database part-like.
+
+[Viraj Bansal] 16:19:03
+Um, later, once we have all the data scraped from the PDF, but just… just to get us started, like, just work off of one well name and one API number.
+
+[Viraj Bansal] 16:19:12
+Um, does that make sense?
+
+[Jeong Hoon Choi] 16:19:14
+Yes.
+
+[Chih-Yun Pai] 16:19:15
+Yeah.
+
+[Viraj Bansal] 16:19:16
+Yeah, um…
+
+[Viraj Bansal] 16:19:18
+Okay, and then…
+
+[Viraj Bansal] 16:19:21
+I think, uh, oh, and then the pre-processing…
+
+[Viraj Bansal] 16:19:24
+For the pre-processing, I think we could just use, like, uh…
+
+[Viraj Bansal] 16:19:28
+the pre-processing scripts you wrote, Howard, in the last lab?
+
+[Chih-Yun Pai] 16:19:32
+Yeah.
+
+[Viraj Bansal] 16:19:32
+to get rid of HTML tags and, like, special characters and, like, any random thing.
+
+[Viraj Bansal] 16:19:37
+I think there's, like, a clean…
+
+[Viraj Bansal] 16:19:40
+um… clean text…
+
+[Chih-Yun Pai] 16:19:41
+Yeah, I think most of the… most of the code will be the same.
+
+[Viraj Bansal] 16:19:45
+Yeah, yeah, I think it'll be the same.
+
+[Chih-Yun Pai] 16:19:47
+Yep. Uh-huh.
+
+[Viraj Bansal] 16:19:47
+So, we'll just copy and paste that over as is.
+
+[Viraj Bansal] 16:19:50
+And just reuse it, so we don't have to do too much…
+
+[Jeong Hoon Choi] 16:19:53
+Yeah.
+
+[Chih-Yun Pai] 16:19:54
+I think, like, this process is combined with the web scraping one.
+
+[Viraj Bansal] 16:19:54
+Um,
+
+[Chih-Yun Pai] 16:19:59
+So maybe one person, uh…
+
+[Chih-Yun Pai] 16:20:02
+I mean, whoever…
+
+[Chih-Yun Pai] 16:20:04
+Uh, assigned to this job can do both.
+
+[Viraj Bansal] 16:20:09
+So, wait, sorry, say that again, Howard?
+
+[Chih-Yun Pai] 16:20:13
+I mean, like, uh, whoever does the web scraping,
+
+[Chih-Yun Pai] 16:20:17
+Uh, job can also take this one, because it's sort of, like, combined.
+
+[Chih-Yun Pai] 16:20:22
+Right.
+
+[Viraj Bansal] 16:20:22
+Uh, web scraping and data preprocessing?
+
+[Chih-Yun Pai] 16:20:24
+Yeah.
+
+[Viraj Bansal] 16:20:25
+Yeah, yeah, yeah, I agree. Like, take the pre-processing and the web scraping,
+
+[Jeong Hoon Choi] 16:20:26
+Hmm.
+
+[Viraj Bansal] 16:20:29
+And they just own that. I agree.
+
+[Viraj Bansal] 16:20:32
+Yeah, I agree, that's fair.
+
+[Chih-Yun Pai] 16:20:33
+So, um, so do we have to store the PDF data into…
+
+[Chih-Yun Pai] 16:20:39
+Snowflake first, and then take the information out again, and add some after the data preprocessing.
+
+[Viraj Bansal] 16:20:48
+Uh…
+
+[Viraj Bansal] 16:20:49
+I think the data preprocessing is…
+
+[Viraj Bansal] 16:20:52
+um, part of the scraping
+
+[Viraj Bansal] 16:20:55
+Um…
+
+[Chih-Yun Pai] 16:20:55
+Yeah.
+
+[Viraj Bansal] 16:20:57
+whatever pre-processing I think you need to do, is that what you're asking? The preprocessing for the…
+
+[Viraj Bansal] 16:21:02
+PDF stuff? Or, like, what do you mean?
+
+[Chih-Yun Pai] 16:21:05
+Uh, I mean, like…
+
+[Chih-Yun Pai] 16:21:07
+Can we do, uh…
+
+[Chih-Yun Pai] 16:21:10
+these two in parallel, and then…
+
+[Chih-Yun Pai] 16:21:13
+combine the… all the information.
+
+[Chih-Yun Pai] 16:21:16
+And then start it into a Snowflake database.
+
+[Chih-Yun Pai] 16:21:20
+Or should we, like…
+
+[Chih-Yun Pai] 16:21:22
+um, start a PDF information into a database first.
+
+[Chih-Yun Pai] 16:21:27
+And then grab the information out to, uh, scrape the API number.
+
+[Chih-Yun Pai] 16:21:32
+based on the API number.
+
+[Viraj Bansal] 16:21:32
+I think we need to do it… I think we need to do it that way, the way you just said, like, store.
+
+[Jeong Hoon Choi] 16:21:36
+Yeah, at the end, we need to, yeah, do Twitter, but now when we do the project, I think we can…
+
+[Viraj Bansal] 16:21:38
+Because the…
+
+[Jeong Hoon Choi] 16:21:43
+So it's one person started to PDF extraction.
+
+[Viraj Bansal] 16:21:47
+Yeah.
+
+[Jeong Hoon Choi] 16:21:47
+I'm preparing the web scrapper and the…
+
+[Jeong Hoon Choi] 16:21:50
+processing together.
+
+[Jeong Hoon Choi] 16:21:51
+Yeah, I think we can do like that.
+
+[Viraj Bansal] 16:21:52
+Yeah.
+
+[Viraj Bansal] 16:21:54
+Yeah, yeah, I agree. Um,
+
+[Chih-Yun Pai] 16:21:56
+Uh, yeah, so…
+
+[Viraj Bansal] 16:21:56
+And I can… yeah, go ahead. Yeah, wait, go ahead.
+
+[Chih-Yun Pai] 16:21:58
+Okay. Ah.
+
+[Chih-Yun Pai] 16:22:01
+Um, so, so we have to store them.
+
+[Chih-Yun Pai] 16:22:04
+you know, first step.
+
+[Viraj Bansal] 16:22:04
+Yeah, we do need to store the PDF data into the data, like, because that's what the directions tell us to do.
+
+[Chih-Yun Pai] 16:22:05
+After.
+
+[Viraj Bansal] 16:22:10
+Um, yeah, they want us to…
+
+[Chih-Yun Pai] 16:22:12
+Ah, okay.
+
+[Viraj Bansal] 16:22:13
+take the PDF data, extract it,
+
+[Viraj Bansal] 16:22:17
+store it in the database first.
+
+[Viraj Bansal] 16:22:19
+Right? I'm gonna be using PDF for… the above folder has different PD…
+
+[Chih-Yun Pai] 16:22:22
+Ah. Oh, I see.
+
+[Viraj Bansal] 16:22:24
+Yeah, uh…
+
+[Chih-Yun Pai] 16:22:25
+I actually store it in your database table.
+
+[Viraj Bansal] 16:22:27
+Iterative extract the information… yeah, store it in your database tables.
+
+[Viraj Bansal] 16:22:31
+So we do need to extract all the data from the PDFs and store it in the database first.
+
+[Chih-Yun Pai] 16:22:32
+Okay.
+
+[Viraj Bansal] 16:22:38
+Um, and then the scraper needs to grab the data from the database. I think they don't want us to…
+
+[Viraj Bansal] 16:22:44
+have it such that the scraper just, like,
+
+[Viraj Bansal] 16:22:47
+takes it directly from the…
+
+[Viraj Bansal] 16:22:49
+the PDF extraction script, whoever writes that.
+
+[Chih-Yun Pai] 16:22:52
+Okay.
+
+[Viraj Bansal] 16:22:52
+Like, that script needs to work on its own.
+
+[Viraj Bansal] 16:22:55
+this web scraper script needs to work on its own.
+
+[Viraj Bansal] 16:22:58
+preprocessing Script needs to work on its own, so on and so forth.
+
+[Viraj Bansal] 16:23:02
+Um, so, yeah, I think we could work on it. I think we can work on those two individually. One person works on the PDF extraction,
+
+[Viraj Bansal] 16:23:09
+one person works on the web scraping,
+
+[Viraj Bansal] 16:23:11
+The guy that's working on the web scraping
+
+[Viraj Bansal] 16:23:14
+Um, eventually, they connect it to the database,
+
+[Viraj Bansal] 16:23:17
+Uh, Howard, um, so that they can grab it, like, row by row, but that'll come later once the person who's finished with the PDF extraction.
+
+[Viraj Bansal] 16:23:26
+And they can put it into their database.
+
+[Viraj Bansal] 16:23:29
+Um… yeah.
+
+[Chih-Yun Pai] 16:23:31
+Okay.
+
+[Viraj Bansal] 16:23:34
+And then part two, let's just try to finish, I think,
+
+[Viraj Bansal] 16:23:38
+all of Part 1 by Friday.
+
+[Jeong Hoon Choi] 16:23:41
+Yeah, I also think so.
+
+[Viraj Bansal] 16:23:42
+Because part two…
+
+[Viraj Bansal] 16:23:43
+I think part two relies a lot on basically having all the data from part…
+
+[Viraj Bansal] 16:23:50
+a part one.
+
+[Viraj Bansal] 16:23:51
+Like, all the extracted data, and then all the well-information data,
+
+[Viraj Bansal] 16:23:56
+needs to be there. I don't see how we could start Part 2.
+
+[Viraj Bansal] 16:24:00
+Simultaneously, unless you guys have an idea if we can… of starting it simultaneously.
+
+[Jeong Hoon Choi] 16:24:07
+Yeah, sounds good.
+
+[Viraj Bansal] 16:24:08
+Use a web-related…
+
+[Chih-Yun Pai] 16:24:08
+Um, I think the only thing we can do for Part 2
+
+[Chih-Yun Pai] 16:24:12
+Maybe it's just set up, uh, the Apache web server.
+
+[Viraj Bansal] 16:24:18
+Oh, yeah.
+
+[Viraj Bansal] 16:24:19
+the web server.
+
+[Chih-Yun Pai] 16:24:21
+And… yeah.
+
+[Viraj Bansal] 16:24:21
+of…
+
+[Jeong Hoon Choi] 16:24:21
+We kind of learned the… apart from the snowflake.
+
+[Viraj Bansal] 16:24:26
+Uh, no. I think the web server will probably…
+
+[Viraj Bansal] 16:24:32
+We'll probably just…
+
+[Viraj Bansal] 16:24:33
+get run…
+
+[Viraj Bansal] 16:24:35
+locally…
+
+[Viraj Bansal] 16:24:37
+I think the web server… because the web server, like, for example,
+
+[Viraj Bansal] 16:24:41
+Um, let me… let me look this up, because I'm trying to understand Apache web server…
+
+[Viraj Bansal] 16:24:48
+Because, like, have you guys heard of ExpressJS? It allows you to, like…
+
+[Viraj Bansal] 16:24:52
+just start a web server locally, and you define all the configuration for the
+
+[Viraj Bansal] 16:24:58
+web server…
+
+[Viraj Bansal] 16:24:59
+on your computer, and it just… yeah, it just does it from there.
+
+[Viraj Bansal] 16:25:03
+I'm trying to see…
+
+[Viraj Bansal] 16:25:09
+Can I…
+
+[Viraj Bansal] 16:25:11
+or… anyone…
+
+[Viraj Bansal] 16:25:14
+Okay.
+
+[Jeong Hoon Choi] 16:25:14
+Yeah, so at first time, I'm thinking about just…
+
+[Jeong Hoon Choi] 16:25:17
+I mean, like, plant those small computer problem.
+
+[Jeong Hoon Choi] 16:25:21
+AWDS, and using together.
+
+[Jeong Hoon Choi] 16:25:24
+Because we also need to use, like, uh…
+
+[Jeong Hoon Choi] 16:25:28
+that server engine?
+
+[Viraj Bansal] 16:25:30
+Yeah, if we need to do that, then…
+
+[Viraj Bansal] 16:25:33
+like, we'll probably need to create one. Let me see if we…
+
+[Viraj Bansal] 16:25:36
+need to do that, because if we don't need to create, like, a AWS…
+
+[Viraj Bansal] 16:25:41
+thing, or, like, use any cloud computing, like, server. I'd rather not.
+
+[Viraj Bansal] 16:25:47
+But if we do, then we need to, but let me see if we can… let me just, like, talk… ask ChatGPT real quick.
+
+[Viraj Bansal] 16:25:52
+whether we need to do that.
+
+[Jeong Hoon Choi] 16:25:53
+Yeah, I already have a talker fire tool on my SQR, and with the Apache together.
+
+[Jeong Hoon Choi] 16:26:00
+But I'm not sure we can work together.
+
+[Chih-Yun Pai] 16:26:06
+Sorry, what'd they just say?
+
+[Jeong Hoon Choi] 16:26:08
+Oh, oh, I mean, we can't just loan the local buyer to learning the…
+
+[Jeong Hoon Choi] 16:26:14
+my escareer and that together.
+
+[Jeong Hoon Choi] 16:26:16
+But I'm not sure we can work together about…
+
+[Viraj Bansal] 16:26:20
+We are working on…
+
+[Viraj Bansal] 16:26:25
+GitHub…
+
+[Chih-Yun Pai] 16:26:27
+Uh, you mean that, uh, you're not sure about whether we can…
+
+[Viraj Bansal] 16:26:30
+swine room
+
+[Chih-Yun Pai] 16:26:32
+connected ApacheWash server with Snowflake.
+
+[Jeong Hoon Choi] 16:26:36
+Oh, I…
+
+[Viraj Bansal] 16:26:36
+You will actually… we can, uh, connecting the web server will not be an issue. That'll…
+
+[Viraj Bansal] 16:26:40
+like, that won't be…
+
+[Viraj Bansal] 16:26:43
+too hard, um…
+
+[Viraj Bansal] 16:26:44
+I just need to figure out if we actually need to host the web server.
+
+[Viraj Bansal] 16:26:48
+on AWS or something like that.
+
+[Jeong Hoon Choi] 16:26:48
+Yeah.
+
+[Viraj Bansal] 16:26:50
+Or we could run it locally, because you know how, for the automation script in the last one,
+
+[Viraj Bansal] 16:26:55
+like I thought we would need to run the automation script on the…
+
+[Viraj Bansal] 16:26:59
+like, on Snowflake or something like that.
+
+[Viraj Bansal] 16:27:02
+But it turned out, like, we didn't really need to do that. I'm wondering if we can do this… if we can get away with the same thing and…
+
+[Jeong Hoon Choi] 16:27:06
+Always
+
+[Viraj Bansal] 16:27:10
+this lab, um, without having to deploy it.
+
+[Jeong Hoon Choi] 16:27:11
+Oh, makes sense.
+
+[Chih-Yun Pai] 16:27:11
+I feel like we'll only have to…
+
+[Chih-Yun Pai] 16:27:13
+I feel like we'll only have to do it locally, like, create a web.
+
+[Viraj Bansal] 16:27:15
+Yeah. We are working on GitHub, and I was wondering whether we…
+
+[Viraj Bansal] 16:27:26
+on AWS, or anything like that.
+
+[Viraj Bansal] 16:27:31
+Okay, we…
+
+[Viraj Bansal] 16:27:33
+Cheng Xiao
+
+[Viraj Bansal] 16:27:35
+Uh, the…
+
+[Viraj Bansal] 16:27:37
+web server…
+
+[Viraj Bansal] 16:27:39
+funding locally.
+
+[Viraj Bansal] 16:27:41
+During demo.
+
+[Viraj Bansal] 16:27:46
+Just do that.
+
+[Viraj Bansal] 16:27:49
+get everybody
+
+[Viraj Bansal] 16:27:57
+Long movie.
+
+[Viraj Bansal] 16:28:06
+towards hidden away.
+
+[Viraj Bansal] 16:28:34
+Yeah, we can run the Apache…
+
+[Viraj Bansal] 16:28:36
+like, the web server, uh, just on our local thing. You just, like, run it
+
+[Viraj Bansal] 16:28:41
+on your local environment.
+
+[Chih-Yun Pai] 16:28:44
+Okay, great.
+
+[Viraj Bansal] 16:28:45
+Yeah, yeah, we can just do it off of that. So…
+
+[Viraj Bansal] 16:28:49
+Um,
+
+[Viraj Bansal] 16:28:51
+Yeah, yeah, we could just run at localhost,
+
+[Viraj Bansal] 16:28:53
+Um, it'll just, like, run on the local host.
+
+[Viraj Bansal] 16:28:56
+And, uh, we don't have to deploy… worry about deploying it or anything. I think that's just a necessary complexity.
+
+[Jeong Hoon Choi] 16:29:02
+Oh, let's see.
+
+[Viraj Bansal] 16:29:02
+for something like this, yeah.
+
+[Viraj Bansal] 16:29:04
+So, yeah, let's plan on doing that, but we'll still use Snowflake for…
+
+[Viraj Bansal] 16:29:10
+Um, the, the, um…
+
+[Viraj Bansal] 16:29:13
+the databasing solution,
+
+[Jeong Hoon Choi] 16:29:14
+Mm-hmm.
+
+[Viraj Bansal] 16:29:14
+Um, I can…
+
+[Viraj Bansal] 16:29:18
+Oh, so let's see. One thing about Snowflake is, um…
+
+[Viraj Bansal] 16:29:23
+I can create, I guess, or do you guys want to do that, how much SQL you guys know, you guys…
+
+[Viraj Bansal] 16:29:29
+Do you guys only know, like, select statements, or…?
+
+[Viraj Bansal] 16:29:32
+Like, do you guys know how to create database tables, and…
+
+[Viraj Bansal] 16:29:36
+like, um… like, do you guys know how to put data into a database table? Like, have you guys done any of that type of stuff?
+
+[Jeong Hoon Choi] 16:29:44
+I can do that with the SQL.
+
+[Viraj Bansal] 16:29:47
+With SQL, CN, you know how to do… you know how to write the SQL for that?
+
+[Jeong Hoon Choi] 16:29:49
+Yeah, yeah.
+
+[Jeong Hoon Choi] 16:29:51
+Yes.
+
+[Viraj Bansal] 16:29:52
+like, uh, you know, create…
+
+[Viraj Bansal] 16:29:55
+create or replace table…
+
+[Jeong Hoon Choi] 16:29:56
+Tapes?
+
+[Viraj Bansal] 16:29:57
+Yeah, or copy into… like, have you heard of these commands that I'm talking about?
+
+[Jeong Hoon Choi] 16:30:03
+copy into, no?
+
+[Chih-Yun Pai] 16:30:04
+I've heard of creative, but not coffee.
+
+[Viraj Bansal] 16:30:05
+Uh…
+
+[Viraj Bansal] 16:30:08
+Okay, or have you heard, um, insert into table…
+
+[Chih-Yun Pai] 16:30:12
+Yeah, insert.
+
+[Viraj Bansal] 16:30:12
+And then you'll give the table… yeah, okay, so you know, you know some… the basic, like, uh…
+
+[Viraj Bansal] 16:30:18
+definition stuff. Okay, so…
+
+[Viraj Bansal] 16:30:20
+Um…
+
+[Viraj Bansal] 16:30:22
+you guys… I can set up the database for us,
+
+[Viraj Bansal] 16:30:26
+Um, and make sure the permissioning is correct.
+
+[Viraj Bansal] 16:30:29
+And… and then I can also, uh…
+
+[Viraj Bansal] 16:30:32
+Again, add the configuration stuff for running Snowflake.
+
+[Viraj Bansal] 16:30:37
+Um, on your, on your, um…
+
+[Viraj Bansal] 16:30:40
+what do you call it, on your VM, we might need to hop on another call tomorrow.
+
+[Jeong Hoon Choi] 16:30:45
+Okay.
+
+[Viraj Bansal] 16:30:45
+Um, so I can just show you how to set that up.
+
+[Viraj Bansal] 16:30:48
+But after that, like, um…
+
+[Viraj Bansal] 16:30:50
+It'll be sort of on you guys to… or whoever's doing the… I think the, um…
+
+[Viraj Bansal] 16:30:58
+what is it?
+
+[Viraj Bansal] 16:31:00
+Actually, before we do that, um…
+
+[Viraj Bansal] 16:31:02
+Uh, let's figure out who's doing what real quick.
+
+[Viraj Bansal] 16:31:05
+Um, I guess…
+
+[Viraj Bansal] 16:31:08
+what should we do with this webpage stuff? Should we just leave it till Friday, and try to deal with it then?
+
+[Viraj Bansal] 16:31:13
+Or should we try it?
+
+[Jeong Hoon Choi] 16:31:13
+web page.
+
+[Jeong Hoon Choi] 16:31:16
+Uh, web page just delay, like, after finish this PDF and the web scrapping.
+
+[Viraj Bansal] 16:31:21
+Okay. Right? Uh…
+
+[Viraj Bansal] 16:31:24
+Yeah, it says we'll use initial tools unless you go to…
+
+[Viraj Bansal] 16:31:27
+For this test, we'll be focused on creating map layers to plot the wells.
+
+[Viraj Bansal] 16:31:31
+And present the additional information we collected along with the
+
+[Viraj Bansal] 16:31:35
+Set up an Apache web server, create a web page with a section for the map to be displayed,
+
+[Viraj Bansal] 16:31:42
+integrate maps for your data using libraries,
+
+[Viraj Bansal] 16:31:45
+You may use any map APIs, platforms available, including open layers, as mentioned in the sample links.
+
+[Viraj Bansal] 16:31:52
+configure the map to display a base map and set up the initial view, then push pins marker.
+
+[Viraj Bansal] 16:31:58
+So we'll be added to the map to indicate the locations of the wells.
+
+[Viraj Bansal] 16:32:02
+Pushpin should correspond to weld location.
+
+[Viraj Bansal] 16:32:07
+This can be done differently depending on the platform that you decide to use, ensure that the coordinates
+
+[Viraj Bansal] 16:32:13
+Longitude, longitude from your database are used to position the pushpins accurately, implement a mechanism that displays pop-up window with detail and information.
+
+[Viraj Bansal] 16:32:22
+I'm gonna push button is clicked…
+
+[Viraj Bansal] 16:32:24
+Okay, oh, okay.
+
+[Viraj Bansal] 16:32:26
+Um, we could. Actually, now that I think about it, if I'm reading this correctly,
+
+[Viraj Bansal] 16:32:31
+one of us could also start this.
+
+[Viraj Bansal] 16:32:34
+there's some web page stuff. Um, whoever's gonna do this will just have to manually look up
+
+[Viraj Bansal] 16:32:40
+like, a location for, say, a well.
+
+[Viraj Bansal] 16:32:43
+And, like, um, look up the information for now.
+
+[Viraj Bansal] 16:32:47
+And just hardcode that information, and then we'll integrate all of this stuff with the database,
+
+[Viraj Bansal] 16:32:53
+look up and actually getting the wells information from the database and all that stuff.
+
+[Viraj Bansal] 16:32:59
+Um, later, so…
+
+[Viraj Bansal] 16:33:01
+I think all three of us could potentially work on all three of these parts separately.
+
+[Viraj Bansal] 16:33:06
+Um,
+
+[Viraj Bansal] 16:33:08
+And then we try to integrate it later.
+
+[Viraj Bansal] 16:33:11
+Um… how does that sound?
+
+[Jeong Hoon Choi] 16:33:14
+It sounds good, but have you guys…
+
+[Jeong Hoon Choi] 16:33:18
+do the web programming people. We need to do, right?
+
+[Viraj Bansal] 16:33:22
+I've done web programming, I've done a lot of JavaScript, TypeScript stuff.
+
+[Jeong Hoon Choi] 16:33:25
+Uh-oh.
+
+[Viraj Bansal] 16:33:26
+So, if you want to do that, or I could do it…
+
+[Viraj Bansal] 16:33:30
+like, I don't know if you guys want to learn that and try to do that, or…
+
+[Jeong Hoon Choi] 16:33:31
+I…
+
+[Viraj Bansal] 16:33:34
+I could take it and…
+
+[Chih-Yun Pai] 16:33:37
+I'll definitely want to do the snowflake more than… than there's…
+
+[Viraj Bansal] 16:33:42
+You want to do the snowflake more? Okay, okay, that's fair.
+
+[Chih-Yun Pai] 16:33:44
+Joshua.
+
+[Viraj Bansal] 16:33:45
+Okay, so Howard, which… well, I'll let you take your first pick. Unless, Cianne, you wanna… you wanna… because I… I can take whatever you guys don't wanna take, honestly. I don't mind, like, I can do, like, essentially anything out of this.
+
+[Viraj Bansal] 16:33:57
+So, if you guys… whatever you guys don't want, I'll take that.
+
+[Jeong Hoon Choi] 16:34:02
+I think accept number 3.
+
+[Jeong Hoon Choi] 16:34:03
+I can't do.
+
+[Viraj Bansal] 16:34:07
+Uh, uh, the webpage stuff, Cien, you're gonna…
+
+[Jeong Hoon Choi] 16:34:09
+Yeah, yeah, and then we're… I did in two people.
+
+[Jeong Hoon Choi] 16:34:13
+I'm not sure I can do that.
+
+[Viraj Bansal] 16:34:15
+Oh, you don't want to do the webpage stuff.
+
+[Jeong Hoon Choi] 16:34:18
+No. I don't know, yeah.
+
+[Viraj Bansal] 16:34:19
+Okay, okay, I can…
+
+[Viraj Bansal] 16:34:21
+Okay, that's fair. I can take care of the webpage stuff, so I'll do all the…
+
+[Viraj Bansal] 16:34:26
+JavaScript…
+
+[Viraj Bansal] 16:34:28
+and TypeScript, uh, stuff I can, uh, work on setting up the webpage stuff.
+
+[Viraj Bansal] 16:34:33
+Um, that shouldn't be an issue for me.
+
+[Viraj Bansal] 16:34:37
+Okay, I'll take that, and then…
+
+[Viraj Bansal] 16:34:40
+Um, so which, uh, which one do you want to do, Sian? You want to do the scraper, or do you, uh…
+
+[Viraj Bansal] 16:34:45
+Do you want to do… I think whoever's doing the, um…
+
+[Viraj Bansal] 16:34:50
+the PDF extraction basically has to deal with all the Snowflake stuff.
+
+[Viraj Bansal] 16:34:55
+So, um, Howard, you're gonna… if you're gonna do the Snowflake, then the PDF extraction part, I think, is gonna go with you.
+
+[Viraj Bansal] 16:35:04
+Um, and you're gonna have to write the library functions that, um,
+
+[Viraj Bansal] 16:35:09
+CN will have to use. You remember that Snowflake underscore utils dot pi?
+
+[Viraj Bansal] 16:35:15
+file I created in the last lab.
+
+[Jeong Hoon Choi] 16:35:15
+Mm-hmm.
+
+[Viraj Bansal] 16:35:17
+Um, Howard, that's gonna be on you to create, to make that…
+
+[Chih-Yun Pai] 16:35:17
+Yeah.
+
+[Viraj Bansal] 16:35:21
+Um, a functions library, so that CN can use it
+
+[Viraj Bansal] 16:35:27
+in his… in his code,
+
+[Viraj Bansal] 16:35:28
+Um, later on, once, uh, once you've gotten all the, uh,
+
+[Viraj Bansal] 16:35:33
+the PDFs extracted, essentially.
+
+[Viraj Bansal] 16:35:35
+Are you cool with doing that?
+
+[Chih-Yun Pai] 16:35:36
+Um, yeah, uh, so in that library,
+
+[Chih-Yun Pai] 16:35:41
+like, what kind of… what kind of function do I have to create?
+
+[Viraj Bansal] 16:35:44
+Um, so, like, uh, if you look at the last… here, let me share my screen, so…
+
+[Viraj Bansal] 16:35:49
+So we could just go through it together.
+
+[Viraj Bansal] 16:35:51
+Let me open up, um, the last, uh,
+
+[Viraj Bansal] 16:35:55
+what do you call?
+
+[Viraj Bansal] 16:35:57
+Uh, web scraping… yeah, that last assignment.
+
+[Chih-Yun Pai] 16:35:57
+Simon? Workspace.
+
+[Viraj Bansal] 16:36:01
+And…
+
+[Viraj Bansal] 16:36:03
+Here, I can share my screen.
+
+[Viraj Bansal] 16:36:11
+Okay. Um, you see my screen?
+
+[Chih-Yun Pai] 16:36:14
+Yes.
+
+[Jeong Hoon Choi] 16:36:14
+Yeah.
+
+[Viraj Bansal] 16:36:15
+So, uh, this is, like, this file you see right here, I implemented this last time.
+
+[Viraj Bansal] 16:36:21
+Howard, but you're gonna have to make a similar file.
+
+[Viraj Bansal] 16:36:24
+that basically allows, um…
+
+[Viraj Bansal] 16:36:28
+Cienta just, like, for example, this… this function, like, puts data into Snowflake,
+
+[Viraj Bansal] 16:36:35
+Um, this function does some… does computation.
+
+[Viraj Bansal] 16:36:40
+stuff with that data in Snowflake, for example. And these are functions that
+
+[Viraj Bansal] 16:36:44
+Um, Cian can just call.
+
+[Viraj Bansal] 16:36:47
+Um, so primarily for CN, he'll basically need a function to…
+
+[Viraj Bansal] 16:36:52
+get data from Snowflake, I believe, and then I think, uh, do you need to store this data back into Snowflake?
+
+[Viraj Bansal] 16:37:01
+a task here to iterate over that. Okay, preprocess…
+
+[Chih-Yun Pai] 16:37:02
+Yeah, I think we'll have to.
+
+[Jeong Hoon Choi] 16:37:04
+They say MySQL.
+
+[Viraj Bansal] 16:37:06
+transfer data, so replaced, and then…
+
+[Viraj Bansal] 16:37:12
+But the Wells information. I think you might need to…
+
+[Chih-Yun Pai] 16:37:13
+I… I think we'll have to.
+
+[Chih-Yun Pai] 16:37:17
+We'll have to store them, right? Because…
+
+[Chih-Yun Pai] 16:37:20
+Uh, otherwise, there's no need to scrape.
+
+[Chih-Yun Pai] 16:37:23
+Um, the website.
+
+[Viraj Bansal] 16:37:26
+reprocess the data, remove, transform the data into SUIS, convert…
+
+[Viraj Bansal] 16:37:31
+Yeah, I think we might… I think we might have to store the data. So, the scraping data that's, uh…
+
+[Viraj Bansal] 16:37:38
+CN that you're gonna do, I think we're gonna need to take that data
+
+[Jeong Hoon Choi] 16:37:39
+Mm-hmm.
+
+[Viraj Bansal] 16:37:41
+whatever gets scraped, pre-processed, and then that data
+
+[Viraj Bansal] 16:37:46
+Yeah, the extracted information should be appended as additional fields.
+
+[Viraj Bansal] 16:37:50
+to the existing entries,
+
+[Viraj Bansal] 16:37:52
+in the database. So yeah, like, um…
+
+[Viraj Bansal] 16:37:55
+you're gonna have to write the, um…
+
+[Viraj Bansal] 16:38:00
+functions, Howard, that allows Cian to…
+
+[Viraj Bansal] 16:38:02
+put his data, like,
+
+[Viraj Bansal] 16:38:05
+into, um, into Snowflake, essentially.
+
+[Viraj Bansal] 16:38:09
+Um, I'm ha- I'm like, I'll help you on all that stuff, so, like, if you need any help with that,
+
+[Viraj Bansal] 16:38:14
+Like, if something's not working, or whatever, or, like, there's gonna be a permissioning issue, like,
+
+[Viraj Bansal] 16:38:18
+just hit me up and, like, we'll hop on a call and, like,
+
+[Viraj Bansal] 16:38:21
+just figure that out together. But you're basically gonna have to write these…
+
+[Viraj Bansal] 16:38:25
+these functions that CN can use
+
+[Viraj Bansal] 16:38:29
+to call in his scripts.
+
+[Viraj Bansal] 16:38:31
+Um…
+
+[Chih-Yun Pai] 16:38:31
+So, basically, it's, like, uh, to grab the information.
+
+[Viraj Bansal] 16:38:36
+Mm-hmm.
+
+[Chih-Yun Pai] 16:38:36
+And to store the information.
+
+[Viraj Bansal] 16:38:38
+Correct, exactly. Yeah, exactly, exactly. That's exactly right. Yeah, you're gonna have to write these functions to do that, and there's gonna be some SQL, like you see over here, I'm like,
+
+[Chih-Yun Pai] 16:38:38
+the functions. Okay.
+
+[Viraj Bansal] 16:38:48
+There's SQL in the…
+
+[Viraj Bansal] 16:38:52
+in the, uh, the actual, like, strings that get executed on Snowflake, you're gonna have to, like, come up with these SQL statements.
+
+[Viraj Bansal] 16:38:58
+to do that. Um…
+
+[Chih-Yun Pai] 16:38:59
+Okay.
+
+[Viraj Bansal] 16:39:01
+So,
+
+[Jeong Hoon Choi] 16:39:01
+So… so as I understand, so first,
+
+[Jeong Hoon Choi] 16:39:05
+the PDF extraction.
+
+[Jeong Hoon Choi] 16:39:08
+the world need to extract the wear name.
+
+[Jeong Hoon Choi] 16:39:12
+this data, right? And…
+
+[Jeong Hoon Choi] 16:39:13
+For me, with this information, I need to search and extract the…
+
+[Jeong Hoon Choi] 16:39:18
+It's yellow highlighted information.
+
+[Viraj Bansal] 16:39:20
+Mm-hmm.
+
+[Jeong Hoon Choi] 16:39:21
+And you're gonna use this to make the graph.
+
+[Jeong Hoon Choi] 16:39:25
+Right? Okay.
+
+[Viraj Bansal] 16:39:25
+Correct, yeah. I'll use this to… yeah, yeah, exactly.
+
+[Viraj Bansal] 16:39:28
+So, yeah, Tian, you won't have…
+
+[Viraj Bansal] 16:39:32
+the database to work at… work on initially, again.
+
+[Viraj Bansal] 16:39:36
+So you'll just have to, like, just grab an example of an API number and a well name from the PDF for now.
+
+[Viraj Bansal] 16:39:42
+And just use that as, like, a baseline to create your…
+
+[Viraj Bansal] 16:39:45
+scraper.
+
+[Jeong Hoon Choi] 16:39:46
+Okay.
+
+[Viraj Bansal] 16:39:47
+Yeah. Well, um…
+
+[Jeong Hoon Choi] 16:39:49
+No problem, bro.
+
+[Viraj Bansal] 16:39:49
+Yeah, well, how we're sort of
+
+[Viraj Bansal] 16:39:52
+figures out the database,
+
+[Viraj Bansal] 16:39:55
+structure. Um, Howard, if you need me to, like, yeah, again, if you need me to do any of the Snowflake stuff,
+
+[Viraj Bansal] 16:40:01
+Or, like, show you around, or, like,
+
+[Viraj Bansal] 16:40:03
+If you don't know, um, or help you with the database architecture, like,
+
+[Viraj Bansal] 16:40:07
+let me know, man, like, because I… I know the database stuff can be kind of, like, weird at times, if you've, like, never done database work.
+
+[Jeong Hoon Choi] 16:40:13
+Perfect.
+
+[Viraj Bansal] 16:40:14
+Um, like, you might need to set up a…
+
+[Viraj Bansal] 16:40:16
+staging table, or like a post-processing table, or something like that.
+
+[Viraj Bansal] 16:40:22
+Um, that could be, like, kind of weird.
+
+[Viraj Bansal] 16:40:24
+Um, so… so as you're going through it, um, just, like, let me know.
+
+[Viraj Bansal] 16:40:30
+But, like, initially, I would just say, like, focus on finishing this PDF extraction stuff.
+
+[Viraj Bansal] 16:40:36
+And if you're not done with… yeah, if you're not done with the Snowflake stuff by Friday, like,
+
+[Chih-Yun Pai] 16:40:36
+Yeah, I will.
+
+[Viraj Bansal] 16:40:41
+It's no issues, like, we'll just… we'll just work on it together, and, like, figure out that part.
+
+[Viraj Bansal] 16:40:46
+But, um…
+
+[Viraj Bansal] 16:40:48
+Yeah.
+
+[Jeong Hoon Choi] 16:40:48
+Oh, and in the Part 2, the web…
+
+[Chih-Yun Pai] 16:40:50
+Sure.
+
+[Jeong Hoon Choi] 16:40:52
+about the web, they took out the MySQL, so do you think I need to…
+
+[Viraj Bansal] 16:40:57
+No, no, you don't need…
+
+[Jeong Hoon Choi] 16:40:59
+just gonna use the snowflake.
+
+[Jeong Hoon Choi] 16:40:59
+Estor…
+
+[Viraj Bansal] 16:41:00
+No, the… yeah, yeah, you're gonna use Snowflake.
+
+[Jeong Hoon Choi] 16:41:02
+Okay, okay. I see.
+
+[Viraj Bansal] 16:41:03
+You don't need to use the MySQL, like, we're gonna have a…
+
+[Viraj Bansal] 16:41:07
+API call for you to…
+
+[Viraj Bansal] 16:41:10
+retrieve, um…
+
+[Viraj Bansal] 16:41:12
+data from the database.
+
+[Viraj Bansal] 16:41:14
+Um, in… in Node.js or something like that. It'll… it'll basically do that for you, so…
+
+[Viraj Bansal] 16:41:20
+Do you don't need to worry about that.
+
+[Jeong Hoon Choi] 16:41:23
+Okay, so every data is moving on cloud.
+
+[Viraj Bansal] 16:41:27
+Yes, it'll be hosted on a cloud database, Snowflake.
+
+[Viraj Bansal] 16:41:31
+Specifically, yeah.
+
+[Jeong Hoon Choi] 16:41:31
+Oh, okay. Then, everybody, maybe, for how older than me, may be making…
+
+[Jeong Hoon Choi] 16:41:37
+So I'll put, like, just extract one.
+
+[Jeong Hoon Choi] 16:41:41
+And, like, share each other, so we can start directly parallel.
+
+[Viraj Bansal] 16:41:45
+Yeah, Howard, if you, uh, I mean, yeah, that's up to you, Howard. If you want to do it.
+
+[Viraj Bansal] 16:41:51
+Or we could just look at it directly.
+
+[Viraj Bansal] 16:41:54
+CN, so that Howard can just focus on extracting
+
+[Viraj Bansal] 16:41:57
+Like, on his own. I don't want Howard to… like, I don't want us to wait on Howard
+
+[Jeong Hoon Choi] 16:41:58
+Oh, yeah.
+
+[Viraj Bansal] 16:42:02
+um, like, getting the first extraction done.
+
+[Viraj Bansal] 16:42:05
+Because if he's, like, struggling with that, then you and I will just get stuck on something to, like…
+
+[Viraj Bansal] 16:42:09
+My suggestion is just go into the PDFs,
+
+[Viraj Bansal] 16:42:14
+that, uh, the professor has provided.
+
+[Viraj Bansal] 16:42:16
+and look through…
+
+[Viraj Bansal] 16:42:18
+like, just find an API number and a well name to use.
+
+[Viraj Bansal] 16:42:22
+And just use that, and then I'll do the same, too. I'll go… go through the PDF, find an API number and a well name,
+
+[Viraj Bansal] 16:42:29
+go to that website, search for that,
+
+[Viraj Bansal] 16:42:32
+API number and well name, and then just, like, copy and paste these extracted, like,
+
+[Viraj Bansal] 16:42:38
+um, these yellow…
+
+[Viraj Bansal] 16:42:40
+fields just directly for now, while you're working on a scraper CN.
+
+[Viraj Bansal] 16:42:44
+And I'll use that to build out the mapping and the… all the JavaScript stuff and everything.
+
+[Jeong Hoon Choi] 16:42:44
+Yeah.
+
+[Viraj Bansal] 16:42:50
+Um, the web paging, all that stuff, I do that on my end.
+
+[Viraj Bansal] 16:42:55
+Um, separately.
+
+[Viraj Bansal] 16:42:57
+Um, but yeah.
+
+[Jeong Hoon Choi] 16:42:59
+Yeah, then I'm gonna decide to skim, I mean, output format, and then I'll give you a sample.
+
+[Jeong Hoon Choi] 16:43:05
+So, we can't start.
+
+[Viraj Bansal] 16:43:06
+Okay, yeah, that sounds great. Yeah, don't worry, yeah, cool, cool, that sounds great.
+
+[Chih-Yun Pai] 16:43:11
+And, uh, Raj, can I ask you a quick question about the snowflake?
+
+[Viraj Bansal] 16:43:14
+Mm-hmm.
+
+[Viraj Bansal] 16:43:16
+Uh-huh.
+
+[Chih-Yun Pai] 16:43:17
+So, you said that, uh, we… uh, I will… I might have to create a staging table, or…
+
+[Chih-Yun Pai] 16:43:24
+uh… post-processing table.
+
+[Viraj Bansal] 16:43:26
+Mm-hmm.
+
+[Chih-Yun Pai] 16:43:27
+Uh, can you explain, like, what is it for?
+
+[Viraj Bansal] 16:43:29
+Yeah, okay. Okay, so I don't… actually, so I'm thinking about this, like, this databasing…
+
+[Viraj Bansal] 16:43:37
+set up what…
+
+[Viraj Bansal] 16:43:39
+I think probably is gonna end up happening is because we don't need an automation script,
+
+[Viraj Bansal] 16:43:45
+Um, you probably won't need a post… you won't need a staging table. I think you might… I think the database is actually going to be very simple for this project.
+
+[Viraj Bansal] 16:43:53
+Uh, for this lab, as opposed to the last one, because there was an automation script.
+
+[Viraj Bansal] 16:43:57
+So I have to do, like, a little bit more…
+
+[Viraj Bansal] 16:44:01
+database design work in the last one to make sure that we don't have, like, duplicate data.
+
+[Viraj Bansal] 16:44:06
+Or anything like that. But for this one…
+
+[Viraj Bansal] 16:44:10
+Um, I think you'll only need to create one table
+
+[Viraj Bansal] 16:44:14
+And that table should have basically all the fields
+
+[Viraj Bansal] 16:44:19
+Um…
+
+[Viraj Bansal] 16:44:21
+necessary, uh, and…
+
+[Viraj Bansal] 16:44:25
+you'll basically do that in one database and one schema.
+
+[Chih-Yun Pai] 16:44:29
+Okay.
+
+[Viraj Bansal] 16:44:29
+I'm thinking. Yeah.
+
+[Viraj Bansal] 16:44:32
+Uh…
+
+[Viraj Bansal] 16:44:34
+Here, let's see… trying to think. Um, so let me…
+
+[Viraj Bansal] 16:44:38
+First, go to Snowflake.
+
+[Chih-Yun Pai] 16:44:45
+Oh, is that an app, or… is it a web page?
+
+[Viraj Bansal] 16:44:49
+Uh, what?
+
+[Chih-Yun Pai] 16:44:50
+This is… is this on the webpage, or does it have a, like, an app?
+
+[Chih-Yun Pai] 16:44:56
+for Snowflake.
+
+[Viraj Bansal] 16:44:56
+This is a web page, this is a website.
+
+[Chih-Yun Pai] 16:44:58
+Oh, okay.
+
+[Viraj Bansal] 16:44:58
+you… you should have… I invited you to it already, so you should be able to…
+
+[Viraj Bansal] 16:45:04
+access it.
+
+[Viraj Bansal] 16:45:09
+Okay. Um…
+
+[Viraj Bansal] 16:45:11
+Don't worry about all of this stuff.
+
+[Viraj Bansal] 16:45:13
+this might be, like, you don't need to worry about that.
+
+[Viraj Bansal] 16:45:17
+Um, all you do when you get into Snowflake,
+
+[Viraj Bansal] 16:45:20
+Um, Howard, you go over here,
+
+[Viraj Bansal] 16:45:22
+And you create SQL file,
+
+[Chih-Yun Pai] 16:45:27
+Yeah?
+
+[Viraj Bansal] 16:45:27
+Um… and this is where you type in all your SQL, okay? Uh, let me…
+
+[Viraj Bansal] 16:45:33
+for sake, just since we're already here, I want to create you…
+
+[Viraj Bansal] 16:45:37
+Um, the database that we're gonna use for this particular
+
+[Viraj Bansal] 16:45:41
+thing. Um, one thing is, go up here and make sure you change
+
+[Viraj Bansal] 16:45:45
+your role to sysadmin?
+
+[Viraj Bansal] 16:45:48
+Um, and…
+
+[Viraj Bansal] 16:45:50
+that should be… that should be it. That… that'll be good.
+
+[Viraj Bansal] 16:45:54
+Um, so let me create the database for you. We'll just create, uh, replace…
+
+[Viraj Bansal] 16:45:59
+Um… what is it?
+
+[Viraj Bansal] 16:46:02
+Oh, let's see, lab…
+
+[Viraj Bansal] 16:46:06
+6…
+
+[Viraj Bansal] 16:46:09
+database…
+
+[Viraj Bansal] 16:46:14
+On what? Oh.
+
+[Viraj Bansal] 16:46:16
+There we go. Database.
+
+[Jeong Hoon Choi] 16:46:17
+Oh, yeah, I thought they're using T-ProLSQ.
+
+[Viraj Bansal] 16:46:21
+Um, and then within this particular database, you need to refresh it sometimes. So you see how here, like, the database popped up?
+
+[Chih-Yun Pai] 16:46:28
+Oh, yeah.
+
+[Viraj Bansal] 16:46:30
+Um, and then in here, I'll create, um…
+
+[Viraj Bansal] 16:46:34
+You'll need a schema in here, but…
+
+[Viraj Bansal] 16:46:37
+Basically, you'll use create or replace
+
+[Viraj Bansal] 16:46:41
+schema, and then use…
+
+[Viraj Bansal] 16:46:43
+schema, name.
+
+[Viraj Bansal] 16:46:46
+like, figure this part out.
+
+[Viraj Bansal] 16:46:47
+Essentially. Um, but…
+
+[Chih-Yun Pai] 16:46:49
+Uh-huh.
+
+[Viraj Bansal] 16:46:51
+Uh, Kira, I had to create 3 different schemas.
+
+[Viraj Bansal] 16:46:55
+Um, just think of schemas as, like,
+
+[Viraj Bansal] 16:46:58
+there are just, like, sections of your data, so, like, for example, like,
+
+[Viraj Bansal] 16:47:02
+Imagine if you had, like, a database, and um…
+
+[Viraj Bansal] 16:47:05
+And there was, like… you had, like, raw data, and there was a bunch of tables for your raw data.
+
+[Viraj Bansal] 16:47:11
+And then… you had, like, maybe, uh…
+
+[Viraj Bansal] 16:47:15
+a cleaning, like, a cleaned post-processed data, so you'll have a separate
+
+[Viraj Bansal] 16:47:20
+section for, like, clean. So, like, you see right here, raw contains all the raw data.
+
+[Viraj Bansal] 16:47:25
+tables, like, it'll have multiple data tables that are just raw data.
+
+[Viraj Bansal] 16:47:29
+Um, and then you can have another, uh, schema that
+
+[Viraj Bansal] 16:47:32
+has, like, a different section of data, like, it'll contain clean data, and then maybe you'll have a different section of data that contains, like, an embedding version of that data, so you'll have a…
+
+[Viraj Bansal] 16:47:41
+like a vector database, like a vector.
+
+[Chih-Yun Pai] 16:47:45
+Yeah.
+
+[Viraj Bansal] 16:47:45
+schema right here. So, like, the schema stuff is just for, like, sectioning
+
+[Viraj Bansal] 16:47:49
+versions of your data.
+
+[Viraj Bansal] 16:47:51
+Um, that's primarily how I used it, and that's primarily how you end up using it in database.
+
+[Viraj Bansal] 16:47:57
+Um, setup. So, like, that's basically how you want to set up your schemas, but I'll let you pick that out and figure that part out. I at least created the database.
+
+[Viraj Bansal] 16:48:06
+Um, for you, so you can hop in here and, you know, write your create…
+
+[Viraj Bansal] 16:48:12
+um, you know, create or replace, uh, table,
+
+[Viraj Bansal] 16:48:16
+Um, some table name, and…
+
+[Viraj Bansal] 16:48:19
+And then define your columns in here.
+
+[Chih-Yun Pai] 16:48:22
+Okay.
+
+[Viraj Bansal] 16:48:22
+Yeah.
+
+[Viraj Bansal] 16:48:25
+So, I'll leave that up to you, essentially.
+
+[Chih-Yun Pai] 16:48:28
+Okay.
+
+[Viraj Bansal] 16:48:28
+But you should have access to all of this.
+
+[Viraj Bansal] 16:48:30
+Um, and if sysadmin's not working, like, let me know right away, because that's…
+
+[Viraj Bansal] 16:48:35
+that's probably because there's a permissioning issue, so I'll have to…
+
+[Viraj Bansal] 16:48:39
+enable it on my end.
+
+[Chih-Yun Pai] 16:48:41
+Okay, I'll first work on the PDF extraction part.
+
+[Viraj Bansal] 16:48:45
+Yeah, yeah, yeah. Sounds good.
+
+[Chih-Yun Pai] 16:48:46
+Yeah. Okay.
+
+[Viraj Bansal] 16:48:51
+Okay, um…
+
+[Viraj Bansal] 16:48:53
+Uh, Corey said? Is that it? Are we… are we good?
+
+[Chih-Yun Pai] 16:48:58
+Yeah, I think so.
+
+[Jeong Hoon Choi] 16:48:58
+Yeah.
+
+[Viraj Bansal] 16:49:00
+Alright, sounds good.
+
+[Jeong Hoon Choi] 16:49:01
+But… oh, just for me anything.
+
+[Viraj Bansal] 16:49:03
+Oh, go ahead, go ahead, Tian.
+
+[Jeong Hoon Choi] 16:49:05
+So I thought I need to give you the data, it's all from the website, but when I…
+
+[Jeong Hoon Choi] 16:49:10
+just… it seemed like I also need to keep the information.
+
+[Jeong Hoon Choi] 16:49:14
+from the PDF together, right?
+
+[Jeong Hoon Choi] 16:49:17
+So, like, latitude, longitude is from PDF.
+
+[Jeong Hoon Choi] 16:49:22
+And…
+
+[Viraj Bansal] 16:49:22
+That will be all in the database, CN. You don't need to give it to me, per se. I'll grab it.
+
+[Viraj Bansal] 16:49:29
+using, um…
+
+[Viraj Bansal] 16:49:31
+like, using, like, a database…
+
+[Viraj Bansal] 16:49:34
+like, uh, API call.
+
+[Jeong Hoon Choi] 16:49:36
+Oh, yeah, but…
+
+[Viraj Bansal] 16:49:36
+So, like, you just need to make sure you load your data into the database.
+
+[Jeong Hoon Choi] 16:49:41
+Yeah, but I just want to give you the sample, but it seems like I cannot do.
+
+[Jeong Hoon Choi] 16:49:46
+Like, now.
+
+[Viraj Bansal] 16:49:49
+Oh, wait, I didn't understand. What do you mean?
+
+[Jeong Hoon Choi] 16:49:51
+Oh, I'm just told I need to give you the sample today, so you can start the…
+
+[Jeong Hoon Choi] 16:49:56
+making the plot depended.
+
+[Viraj Bansal] 16:49:56
+No, don't… no, don't worry about that. Just… just work on your part. I'll grab all that information on my… on my own.
+
+[Jeong Hoon Choi] 16:49:59
+Okay.
+
+[Jeong Hoon Choi] 16:50:03
+Oh, okay.
+
+[Viraj Bansal] 16:50:04
+Yeah, I'll just grab it manually for right now, and just worry about…
+
+[Viraj Bansal] 16:50:08
+getting your scraper working and your, uh,
+
+[Viraj Bansal] 16:50:11
+preprocessing script working.
+
+[Viraj Bansal] 16:50:13
+Um, as accurately as you can.
+
+[Jeong Hoon Choi] 16:50:16
+Uh, okay.
+
+[Viraj Bansal] 16:50:16
+And, um, and we should be… we should be good to go. I suspect that you're probably gonna be done before me and…
+
+[Viraj Bansal] 16:50:23
+me and Howard. So…
+
+[Jeong Hoon Choi] 16:50:24
+Yeah, I gotta hurt a few guys.
+
+[Viraj Bansal] 16:50:26
+So, yeah, you could help either one of us, like, with the…
+
+[Viraj Bansal] 16:50:30
+Either you can help Howard with the database stuff and, like, maybe write a few of the database functions yourself, or…
+
+[Viraj Bansal] 16:50:35
+something of the sort. But, um…
+
+[Jeong Hoon Choi] 16:50:36
+Yeah.
+
+[Viraj Bansal] 16:50:38
+Yeah, just focus on getting your preprocessing and your skipper working.
+
+[Jeong Hoon Choi] 16:50:42
+Okay, sounds good.
+
+[Viraj Bansal] 16:50:44
+All right, cool. Um…
+
+[Chih-Yun Pai] 16:50:47
+I…
+
+[Viraj Bansal] 16:50:47
+Let's see if we can pull out the transcript real quick.
+
+[Viraj Bansal] 16:50:51
+Save transcript.
+

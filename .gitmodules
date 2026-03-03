@@ -25,3 +25,6 @@
 [submodule "laboratory/lab5/web-scratch-forum-analysis"]
 	path = laboratory/lab5/web-scratch-forum-analysis
 	url = https://github.com/csian98/web-scraping-forum-analysis.git
+[submodule "laboratory/lab6/advance-text-extraction"]
+	path = laboratory/lab6/advance-text-extraction
+	url = https://github.com/csian98/advance-text-extraction.git
