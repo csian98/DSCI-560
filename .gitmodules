@@ -31,3 +31,6 @@
 [submodule "laboratory/lab8/embedding-comparison"]
 	path = laboratory/lab8/embedding-comparison
 	url = https://github.com/csian98/embedding-comparison.git
+[submodule "laboratory/lab7/cloud-IoT-hub"]
+	path = laboratory/lab7/cloud-IoT-hub
+	url = https://github.com/csian98/cloud-IoT-hub.git
