@@ -28,3 +28,6 @@
 [submodule "laboratory/lab6/advance-text-extraction"]
 	path = laboratory/lab6/advance-text-extraction
 	url = https://github.com/csian98/advance-text-extraction.git
+[submodule "laboratory/lab8/embedding-comparison"]
+	path = laboratory/lab8/embedding-comparison
+	url = https://github.com/csian98/embedding-comparison.git

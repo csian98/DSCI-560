@@ -1,0 +1,1170 @@
+[virajbansal] 16:39:21
+Oh.
+
+[Jeong Hoon Choi] 16:39:23
+Oh, okay, I lost.
+
+[Jeong Hoon Choi] 16:39:25
+Start.
+
+[virajbansal] 16:39:26
+Yeah, just start it now, it's fine. It's fine, it's fine.
+
+[Jeong Hoon Choi] 16:39:29
+Yeah, yeah.
+
+[virajbansal] 16:39:30
+Yeah, one of you guys… I don't see it online, actually, what the heck?
+
+[virajbansal] 16:39:35
+Uh, shouldn't transfer it.
+
+[Chih-Yun Pai] 16:39:37
+I mean, it's just rip?
+
+[virajbansal] 16:39:39
+Okay, I think I see it, no. Okay, there we go, there we go, there we go.
+
+[virajbansal] 16:39:42
+Um, yeah, so one of you… one of us could take on that.
+
+[virajbansal] 16:39:45
+Um, just owning the Dr. Vec
+
+[virajbansal] 16:39:49
+And the three configurations, and then the clustering for that one?
+
+[virajbansal] 16:39:53
+Um…
+
+[Chih-Yun Pai] 16:39:53
+Yeah.
+
+[virajbansal] 16:39:55
+So, yeah, and then I guess you'll just, like,
+
+[virajbansal] 16:39:58
+figure out which one of those configurations are best, like,
+
+[virajbansal] 16:40:01
+Do what you need to. Um, and then after that, what is this? There are other ways to vectorize documents. One notable way…
+
+[virajbansal] 16:40:08
+as a vector of word frequencies to convert a body of…
+
+[virajbansal] 16:40:12
+And do a variable-sized vector of word frequencies, you will need to group
+
+[virajbansal] 16:40:18
+slash cluster the words into specific numbers of bins. For this test, you can manually bin all words in their dataset based on the similarities and differences
+
+[virajbansal] 16:40:27
+Attorney, you may accelerate this place using another
+
+[virajbansal] 16:40:29
+program called Word2Vec to vectorize all your data in…
+
+[virajbansal] 16:40:33
+odd words in your…
+
+[virajbansal] 16:40:35
+data set and cluster them into specific bins based on the vector distance.
+
+[virajbansal] 16:40:39
+Therefore, go through the tutorial.
+
+[virajbansal] 16:40:42
+Okay.
+
+[virajbansal] 16:40:44
+found the dimension may be adjusted to optimize the representation accuracy, but keep in mind.
+
+[virajbansal] 16:40:57
+general vector of end dimensions for a single reddit post you can use.
+
+[virajbansal] 16:41:02
+Okay, so, like, I guess there's a…
+
+[virajbansal] 16:41:05
+Ward Tevec part of this, then for each post, you partition…
+
+[virajbansal] 16:41:09
+Okay, bins, and right, create a…
+
+[virajbansal] 16:41:12
+Director with Kentries.
+
+[virajbansal] 16:41:14
+each representing a number of words.
+
+[virajbansal] 16:41:18
+In Japan to normalize the vector, you can divide…
+
+[virajbansal] 16:41:25
+Um…
+
+[virajbansal] 16:41:27
+Oh, okay. Wow, this is, like, super easy.
+
+[virajbansal] 16:41:30
+Um…
+
+[virajbansal] 16:41:33
+Okay, uh, I don't know. Which ones do you guys want to do? Like, one person could just do Word2Vec and the other person can do Dog2Vec.
+
+[virajbansal] 16:41:41
+And I guess, like, whoever wants the less, like,
+
+[virajbansal] 16:41:45
+comparative analysis.
+
+[virajbansal] 16:41:48
+stuff could, like, basically own the entire report and just do the comparative analysis.
+
+[virajbansal] 16:41:54
+In that, particularly compare and contrast the two methods mentioned above.
+
+[virajbansal] 16:41:58
+choose a couple of ways of evaluation.
+
+[virajbansal] 16:42:00
+Okay.
+
+[Jeong Hoon Choi] 16:42:02
+Yeah, I think we… anyway, we need to break down the report.
+
+[Jeong Hoon Choi] 16:42:06
+their own parts. So, I'm also thinking, like, divided into just number 1, 2, 3, each person.
+
+[virajbansal] 16:42:11
+Okay.
+
+[Jeong Hoon Choi] 16:42:11
+So, one two can do together, right? The peddler?
+
+[Jeong Hoon Choi] 16:42:15
+So, Jage…
+
+[virajbansal] 16:42:15
+Yeah, 1-2 can do in parallel. And then once, yeah,
+
+[Jeong Hoon Choi] 16:42:17
+Yeah, it's…
+
+[virajbansal] 16:42:20
+Go ahead, yeah.
+
+[Jeong Hoon Choi] 16:42:21
+Oh, yeah, so I think, because anyway, you need to set up the snowflake now, right?
+
+[virajbansal] 16:42:26
+Yeah.
+
+[Jeong Hoon Choi] 16:42:26
+So, while you start doing that, me and Hawar start 1 and 2.
+
+[Chih-Yun Pai] 16:42:32
+Oh, okay.
+
+[virajbansal] 16:42:32
+Yeah, yeah.
+
+[Jeong Hoon Choi] 16:42:34
+Yeah, I think one is already have a retry people.
+
+[Jeong Hoon Choi] 16:42:37
+So, it's not gonna be… post… yeah, so easy, but…
+
+[virajbansal] 16:42:42
+Okay. Yeah, which one do you want to take, uh…
+
+[virajbansal] 16:42:46
+see on, like, Dr. Vec or Word2Vec?
+
+[Chih-Yun Pai] 16:42:49
+Yeah, I think CNU did, like, Wordevacc in the last…
+
+[Chih-Yun Pai] 16:42:53
+Uh, you know, Simon Fly, right?
+
+[Jeong Hoon Choi] 16:42:56
+The ones stuck to a back.
+
+[Chih-Yun Pai] 16:42:58
+No one's talking about. Okay, so you want to do Dr. Vag again, or you want to try it?
+
+[Chih-Yun Pai] 16:43:03
+I mean, both…
+
+[Jeong Hoon Choi] 16:43:03
+No, last week, you do a lot, so I want to do something.
+
+[Jeong Hoon Choi] 16:43:07
+More things to do, but I don't know which one seems similar.
+
+[Chih-Yun Pai] 16:43:09
+That's… that's what I… I'm just not even having the easy tube. I mean, that's not a big deal.
+
+[Jeong Hoon Choi] 16:43:18
+Alright, you choose, I got nothing.
+
+[virajbansal] 16:43:18
+Sienna, if you want to do Word2VEC, you could do… I think that one might be a little bit more involved if you want to do Word2V.
+
+[Jeong Hoon Choi] 16:43:24
+Yeah, I gotta do the number 2 then.
+
+[virajbansal] 16:43:26
+Okay.
+
+[Chih-Yun Pai] 16:43:26
+Oh, okay, sure. Um…
+
+[Chih-Yun Pai] 16:43:28
+But, uh, probably I'll give my, uh, my output…
+
+[Chih-Yun Pai] 16:43:36
+My result in…
+
+[Chih-Yun Pai] 16:43:38
+on Friday, because I have another homework.
+
+[Chih-Yun Pai] 16:43:41
+Let's do tomorrow, or today, I forgot.
+
+[Jeong Hoon Choi] 16:43:43
+Yeah, I also have a path on Friday, so I think I'm also gonna finish until Friday.
+
+[virajbansal] 16:43:44
+Yeah, yeah, totally fine.
+
+[Chih-Yun Pai] 16:43:47
+Yeah.
+
+[Chih-Yun Pai] 16:43:49
+Yeah, so…
+
+[virajbansal] 16:43:49
+Yeah, that's totally fine.
+
+[Jeong Hoon Choi] 16:43:49
+Night.
+
+[Chih-Yun Pai] 16:43:51
+Okay.
+
+[virajbansal] 16:43:51
+Um, because I can BS, like, all the comparative part and the report part, like, don't even worry about it. Like, that's, like, Saturday, like, last minute, I'll just, like, whip up something quick, so…
+
+[Jeong Hoon Choi] 16:43:57
+Yeah.
+
+[virajbansal] 16:44:01
+Um, yeah, yeah, like, take your time. Friday, even Saturday is honestly fine.
+
+[virajbansal] 16:44:06
+Um…
+
+[Chih-Yun Pai] 16:44:07
+Alright, so just to make sure, uh, you will…
+
+[Chih-Yun Pai] 16:44:11
+upload your snowflakes utility functions to GitHub again, and…
+
+[Chih-Yun Pai] 16:44:15
+Is that correct?
+
+[virajbansal] 16:44:16
+Yeah, yeah, I'll do that, I'll do that right now, honestly. I'll run the scripts for you guys, and then I'll…
+
+[virajbansal] 16:44:22
+I'll put the… the snowflake utility function.
+
+[virajbansal] 16:44:25
+So you guys just, like, used that to get the data?
+
+[virajbansal] 16:44:28
+Um…
+
+[Chih-Yun Pai] 16:44:28
+So, our job is to get the data using your functions and have the result.
+
+[virajbansal] 16:44:34
+Yeah, exactly.
+
+[Chih-Yun Pai] 16:44:35
+Um, what, what, what format will…
+
+[Chih-Yun Pai] 16:44:38
+Like, say, the results is likely to be.
+
+[virajbansal] 16:44:42
+Um, it all… if you go into Snowflake, like, log into the Snowflake instance,
+
+[virajbansal] 16:44:46
+Um, and just look at the posts table in there.
+
+[Chih-Yun Pai] 16:44:50
+Well, I mean, uh, after our Dr. Vectors.
+
+[virajbansal] 16:44:55
+Oh, um, just like a graph, I guess, of your clusters and stuff. Whatever, it's up to you guys, honestly, like, it's…
+
+[virajbansal] 16:45:02
+Um,
+
+[Chih-Yun Pai] 16:45:03
+Okay.
+
+[Jeong Hoon Choi] 16:45:03
+Boy, we need to decide to make the same dimension, you mean?
+
+[Jeong Hoon Choi] 16:45:09
+Or… what is the main?
+
+[Chih-Yun Pai] 16:45:09
+I'm not sure. Yeah, I'm…
+
+[Chih-Yun Pai] 16:45:12
+Actually, I'm not sure how should we, like, compare between Dr. VAT and where to vet.
+
+[Jeong Hoon Choi] 16:45:19
+Oh, that's true. Why don't we start doing maybe somebody leech forms? We can share…
+
+[Chih-Yun Pai] 16:45:24
+Oh, okay, okay.
+
+[Jeong Hoon Choi] 16:45:25
+like, dimension of that kind of thing. Yeah.
+
+[Chih-Yun Pai] 16:45:27
+Yeah, sure, great, okay.
+
+[virajbansal] 16:45:30
+Um…
+
+[virajbansal] 16:45:31
+Push
+
+[virajbansal] 16:45:34
+Definition Data Preview.
+
+[virajbansal] 16:45:38
+Yeah, I mean, they're only going to be a couple of columns
+
+[virajbansal] 16:45:42
+That'll come in. You guys are all able to see… you guys will be able to see it. Um…
+
+[virajbansal] 16:45:47
+It's pretty…
+
+[virajbansal] 16:45:49
+straightforward, I would say. Uh…
+
+[virajbansal] 16:45:52
+Okay, I'll just, yeah, I'll write that and load the data for you guys right now, so you guys should have it.
+
+[virajbansal] 16:45:58
+Um, soon.
+
+[Jeong Hoon Choi] 16:46:00
+Oh, okay.
+
+[Chih-Yun Pai] 16:46:01
+Okay.
+
+[virajbansal] 16:46:02
+Yeah.
+
+[Jeong Hoon Choi] 16:46:04
+Sounds good.
+
+[virajbansal] 16:46:05
+All right.
+
+[Jeong Hoon Choi] 16:46:06
+We
+
+[Chih-Yun Pai] 16:46:06
+Alright, I think that's it.
+
+[virajbansal] 16:46:08
+Oh, what were you gonna say, Sam?
+
+[Chih-Yun Pai] 16:46:08
+Is it?
+
+[Jeong Hoon Choi] 16:46:09
+Oh, no, I mean, the data is…
+
+[Jeong Hoon Choi] 16:46:13
+still in the… our snowflake, I'm just checking what…
+
+[Jeong Hoon Choi] 16:46:16
+It's the lowest.
+
+[virajbansal] 16:46:16
+Uh, yeah, go inside Snowflake. There is some data in there. Uh, it… it's… but it's like 60 rows. I think we need more than that.
+
+[virajbansal] 16:46:23
+I'll probably load in, like,
+
+[Jeong Hoon Choi] 16:46:24
+Oh, okay, I see.
+
+[virajbansal] 16:46:25
+like, a thousand… do you think 1,000 would be good enough?
+
+[Chih-Yun Pai] 16:46:29
+Yeah.
+
+[Jeong Hoon Choi] 16:46:29
+Uh, that is… yeah.
+
+[virajbansal] 16:46:31
+Thousand should be fine, right?
+
+[Chih-Yun Pai] 16:46:32
+thousand in a thousand posts, right?
+
+[virajbansal] 16:46:35
+Yeah, a thousand hosts.
+
+[Chih-Yun Pai] 16:46:37
+Yeah, I think that would be enough.
+
+[virajbansal] 16:46:39
+Okay. Yeah, I'll load in, like,
+
+[Jeong Hoon Choi] 16:46:40
+Oh, can you change the post, uh, let it tighter, a little more extreme? Like, uh…
+
+[Jeong Hoon Choi] 16:46:47
+more easy to distinguish.
+
+[Jeong Hoon Choi] 16:46:50
+For example, one is pack, or one is about art industry, like that?
+
+[Chih-Yun Pai] 16:46:55
+Oh, you mean… you mean that…
+
+[Jeong Hoon Choi] 16:46:55
+it's possible to train?
+
+[virajbansal] 16:46:57
+Oh, you want… you mean use different Reddit, uh, subreddits?
+
+[Chih-Yun Pai] 16:46:57
+You mean the…
+
+[Jeong Hoon Choi] 16:47:01
+Yeah, so it's more like a look extreme, so we can distinguish more easily.
+
+[Chih-Yun Pai] 16:47:20
+Can you guys hear me?
+
+[virajbansal] 16:47:20
+what do you call them? Yeah, I can hear you.
+
+[Jeong Hoon Choi] 16:47:22
+Well
+
+[Chih-Yun Pai] 16:47:23
+Uh, I think he's saying that, uh, we should pick…
+
+[Chih-Yun Pai] 16:47:28
+topic from different industry, so that when clustering, it will be, like, more easy to see the differences.
+
+[Jeong Hoon Choi] 16:47:34
+Yeah, long nights.
+
+[virajbansal] 16:47:35
+Okay. Um…
+
+[virajbansal] 16:47:38
+How about this?
+
+[virajbansal] 16:47:40
+Uh… shoot, how should we do this?
+
+[virajbansal] 16:47:43
+I think we need to, like, pick out those…
+
+[virajbansal] 16:47:46
+subreddits now, then? Like, which ones…
+
+[virajbansal] 16:47:48
+Should we do… so that way… that way, like,
+
+[virajbansal] 16:47:50
+After this call, like, I'll load those…
+
+[virajbansal] 16:47:53
+load that data in, um, for us to use.
+
+[Chih-Yun Pai] 16:47:55
+I think, like…
+
+[Chih-Yun Pai] 16:47:58
+Uh, art, math,
+
+[Jeong Hoon Choi] 16:48:00
+Oh yeah, like a subject.
+
+[virajbansal] 16:48:00
+Uh, let me… hold up, let me…
+
+[Chih-Yun Pai] 16:48:01
+uh… politics?
+
+[virajbansal] 16:48:02
+Let me… let me tell you what we already have, hold up, hold up, let me… let me tell you…
+
+[virajbansal] 16:48:06
+the subreddits that I'm already… Right now, we have data science, tech, math, programming, artificial intelligence, and short stories.
+
+[virajbansal] 16:48:14
+I think we should keep short stories in there.
+
+[virajbansal] 16:48:18
+Um…
+
+[Chih-Yun Pai] 16:48:18
+Yeah…
+
+[virajbansal] 16:48:20
+maybe math?
+
+[virajbansal] 16:48:22
+And then you're saying you want to do art?
+
+[Chih-Yun Pai] 16:48:24
+Maybe arts? Yeah.
+
+[virajbansal] 16:48:26
+is r slash art actual reddit, r slash art. Let me just make sure that that's an actual thing.
+
+[Jeong Hoon Choi] 16:48:30
+Oh, yeah, that's true.
+
+[virajbansal] 16:48:34
+Uh, the thing is, this is all pictures.
+
+[Jeong Hoon Choi] 16:48:38
+Oh, okay.
+
+[Chih-Yun Pai] 16:48:38
+Oh, shoot
+
+[virajbansal] 16:48:38
+Um, Howard, it, like, all pictures.
+
+[virajbansal] 16:48:41
+Like, should we do r slash poems, or poems might be good.
+
+[virajbansal] 16:48:45
+r slash poems. It'll be poetry.
+
+[Jeong Hoon Choi] 16:48:49
+Yeah, that sounds nice.
+
+[Chih-Yun Pai] 16:48:49
+Yeah, sure.
+
+[virajbansal] 16:48:49
+Howard, yeah, look at… uh, okay, so we'll do…
+
+[virajbansal] 16:48:52
+Let me… let me make a little list of this shit, uh…
+
+[virajbansal] 16:48:56
+Or should I do this?
+
+[virajbansal] 16:48:59
+Let me make a list.
+
+[virajbansal] 16:49:01
+Um, let me do…
+
+[Jeong Hoon Choi] 16:49:04
+finance…
+
+[virajbansal] 16:49:06
+r slash…
+
+[virajbansal] 16:49:08
+some subreddit…
+
+[virajbansal] 16:49:11
+Uh, r slash art…
+
+[virajbansal] 16:49:15
+r slash, um…
+
+[virajbansal] 16:49:18
+Matt, r slash…
+
+[Jeong Hoon Choi] 16:49:20
+Binance?
+
+[virajbansal] 16:49:20
+short stories.
+
+[virajbansal] 16:49:23
+uh… finance, you're saying? Let me, let me just check, let me make sure that one's not…
+
+[Chih-Yun Pai] 16:49:25
+Oh, finance.
+
+[virajbansal] 16:49:27
+Let me check that one, too.
+
+[virajbansal] 16:49:30
+No, we can't do r slash art, what am I saying? r slash poetry, what…
+
+[virajbansal] 16:49:34
+Okay, r slash poetry, r slash mat, r slash…
+
+[virajbansal] 16:49:39
+short stories. Uh, you said r slash finance, right? Cian, let me check that one.
+
+[Jeong Hoon Choi] 16:49:43
+Yeah.
+
+[virajbansal] 16:49:46
+Oh, God.
+
+[Chih-Yun Pai] 16:49:46
+Uh, I think there's a lot of…
+
+[Chih-Yun Pai] 16:49:49
+wordsening? Or maybe they're… it's just think.
+
+[Chih-Yun Pai] 16:49:53
+for the youth.
+
+[virajbansal] 16:49:56
+Um, let's see…
+
+[virajbansal] 16:49:59
+Oh, these are… yeah, there's a lot of links in this one.
+
+[Jeong Hoon Choi] 16:50:03
+Oh, yeah, I seem like…
+
+[virajbansal] 16:50:04
+It's just, uh, titles.
+
+[Chih-Yun Pai] 16:50:04
+Or maybe… is there, like, a news?
+
+[Chih-Yun Pai] 16:50:08
+are assessed news, let me check.
+
+[virajbansal] 16:50:09
+Uh, we can try Lou, yeah, try News.
+
+[Chih-Yun Pai] 16:50:12
+Uh, it's also a link.
+
+[virajbansal] 16:50:12
+r slash…
+
+[virajbansal] 16:50:17
+Frick, um…
+
+[virajbansal] 16:50:19
+what should we do? Is there something as a r slash stock?
+
+[virajbansal] 16:50:24
+Picks… I don't want to do Wall Street Best, because that'll be, like,
+
+[Jeong Hoon Choi] 16:50:25
+Hopefully?
+
+[Chih-Yun Pai] 16:50:27
+Of sports?
+
+[virajbansal] 16:50:28
+Oh, that might… no, sports might be pictures.
+
+[virajbansal] 16:50:31
+Because it'll, like, have pictures
+
+[virajbansal] 16:50:33
+Let's… let's check sports. Let me… let me check sports.
+
+[Chih-Yun Pai] 16:50:36
+And there's even videos.
+
+[virajbansal] 16:50:38
+Yeah, there's videos… that's not gonna work for us.
+
+[virajbansal] 16:50:41
+Gosh, okay, what else, uh…
+
+[virajbansal] 16:50:44
+I know there's r slash relationships, but I, like, that might be weird.
+
+[Jeong Hoon Choi] 16:50:51
+Face and shit?
+
+[virajbansal] 16:50:51
+Yeah, I mean… yeah, r slash relationships is, like, a bunch of personal testimonies of people, like,
+
+[virajbansal] 16:50:57
+I broke up with my boyfriend, da-da-da, like, that type of stuff.
+
+[virajbansal] 16:51:02
+So… I don't know.
+
+[Jeong Hoon Choi] 16:51:04
+Oh, yeah, it's wrong.
+
+[virajbansal] 16:51:06
+Do you want to do this? Should we just do it?
+
+[Chih-Yun Pai] 16:51:07
+Um…
+
+[Jeong Hoon Choi] 16:51:08
+Yeah, just do. So, they say leisure is not important, you can write down there, right?
+
+[virajbansal] 16:51:09
+Dating… dating partner of two…
+
+[virajbansal] 16:51:13
+Like, look at this one, dude, like…
+
+[virajbansal] 16:51:15
+Dating partner of 2 months only disclosed herpes diagnosis after I found his medic… oh my god, I don't know!
+
+[virajbansal] 16:51:26
+Okay, what is… uh, there's…
+
+[virajbansal] 16:51:29
+r slash… no.
+
+[virajbansal] 16:51:31
+r slash…
+
+[virajbansal] 16:51:35
+What is… what else can we do?
+
+[virajbansal] 16:51:38
+Um…
+
+[virajbansal] 16:51:40
+Is there just something as r slash text?
+
+[virajbansal] 16:51:43
+r slash…
+
+[Chih-Yun Pai] 16:51:45
+Let's see… tax…
+
+[virajbansal] 16:51:47
+No, it's pictures. It's pictures, it's all pictures.
+
+[Chih-Yun Pai] 16:51:47
+Oh, yeah…
+
+[virajbansal] 16:51:52
+r slash…
+
+[virajbansal] 16:51:55
+document…
+
+[virajbansal] 16:51:58
+Uh, no, we're not getting anything.
+
+[virajbansal] 16:52:01
+document…
+
+[virajbansal] 16:52:02
+Therese?
+
+[Chih-Yun Pai] 16:52:03
+A recipe?
+
+[virajbansal] 16:52:04
+Oh, that's a good one!
+
+[Jeong Hoon Choi] 16:52:05
+Oh, oh, makes sense.
+
+[Chih-Yun Pai] 16:52:09
+Wait, it says, uh, we're shutting down.
+
+[virajbansal] 16:52:12
+It's pictures. It's a lot of pictures. Pictures of food.
+
+[Jeong Hoon Choi] 16:52:16
+We'll put the picture on the lesson.
+
+[virajbansal] 16:52:18
+There's, like, no… yeah, there's, like, uh…
+
+[virajbansal] 16:52:21
+Here, let me check the…
+
+[Jeong Hoon Choi] 16:52:21
+Oh, everybody put the picture, yeah.
+
+[virajbansal] 16:52:23
+It's all pictures, and the recipes and the comments, so… oh, I…
+
+[virajbansal] 16:52:28
+It would be good, but they freaking put all of the recipes in the com… like…
+
+[Jeong Hoon Choi] 16:52:32
+Oh, yeah. I said, like…
+
+[virajbansal] 16:52:33
+what else, what else could we do?
+
+[Chih-Yun Pai] 16:52:35
+Oh, politics, uh, politics.
+
+[virajbansal] 16:52:37
+Politics might be news links, again, try it.
+
+[virajbansal] 16:52:40
+But, yeah.
+
+[Chih-Yun Pai] 16:52:42
+Yeah, it's a new thing.
+
+[virajbansal] 16:52:45
+Um…
+
+[virajbansal] 16:52:52
+This is hard, uh…
+
+[Jeong Hoon Choi] 16:52:56
+How many we already write down?
+
+[virajbansal] 16:52:59
+We have… I have 3. I only have…
+
+[Jeong Hoon Choi] 16:53:03
+Pretty… oh, good.
+
+[virajbansal] 16:53:04
+I mean, programming… programming could be…
+
+[Chih-Yun Pai] 16:53:06
+Um…
+
+[virajbansal] 16:53:08
+Like, we could keep programming.
+
+[virajbansal] 16:53:10
+Right?
+
+[Jeong Hoon Choi] 16:53:10
+Yeah, yeah, one or two is fine. I think we need an extreme, well, like, one or two.
+
+[virajbansal] 16:53:16
+Let me just make sure programming doesn't…
+
+[virajbansal] 16:53:20
+Oh, let's try, uh, maybe r slash jokes.
+
+[virajbansal] 16:53:22
+jokes? Oh…
+
+[Chih-Yun Pai] 16:53:23
+Oh, I see. Education's kind of…
+
+[Chih-Yun Pai] 16:53:26
+like, that's great, because there's a lot of tags.
+
+[virajbansal] 16:53:30
+I'll do… I'll do jokes. Yeah, there's, like, a lot of texts in this one.
+
+[Chih-Yun Pai] 16:53:35
+Yeah, and maybe education, because I find education's…
+
+[virajbansal] 16:53:39
+Okay. Education's a lot of text.
+
+[Chih-Yun Pai] 16:53:40
+Um, yeah.
+
+[Chih-Yun Pai] 16:53:42
+Yeah. Yes.
+
+[virajbansal] 16:53:42
+Howard? Okay, r slash jokes and education.
+
+[virajbansal] 16:53:46
+That's 5, should we get one more in there?
+
+[virajbansal] 16:53:50
+We still… we could still do programming, actually. Let me… let me just make sure again.
+
+[virajbansal] 16:53:53
+That it's not a… not a, like, a…
+
+[Chih-Yun Pai] 16:54:00
+Maybe, and…
+
+[virajbansal] 16:54:03
+r slash programming…
+
+[virajbansal] 16:54:05
+Oh, wait, no, it's a lot of links.
+
+[virajbansal] 16:54:09
+Um…
+
+[virajbansal] 16:54:11
+Uh, what was our… it was r slash tech good?
+
+[virajbansal] 16:54:15
+was r slash tech any good?
+
+[Chih-Yun Pai] 16:54:18
+Tech…
+
+[virajbansal] 16:54:19
+No, it's also a lot of links.
+
+[virajbansal] 16:54:22
+Well, we use, uh… what else do we use? We used…
+
+[virajbansal] 16:54:25
+tech data science programming,
+
+[Jeong Hoon Choi] 16:54:30
+No stupid question, what is this?
+
+[virajbansal] 16:54:34
+I know a popular one is…
+
+[virajbansal] 16:54:36
+Uh, am I the asshole? Is, like…
+
+[virajbansal] 16:54:39
+And it's a bunch of, um…
+
+[virajbansal] 16:54:45
+We could do this.
+
+[Jeong Hoon Choi] 16:54:46
+Yeah, most stupid question, this also have many texts.
+
+[virajbansal] 16:54:50
+Bob, what was it? What's the subreddit name?
+
+[Jeong Hoon Choi] 16:54:54
+No stupid questions.
+
+[virajbansal] 16:54:56
+most stupid…
+
+[virajbansal] 16:54:58
+questioned?
+
+[Jeong Hoon Choi] 16:54:59
+most… most paid cash, yeah?
+
+[virajbansal] 16:55:02
+Wait, type that in chat? I can't tell, uh, what you're saying.
+
+[Jeong Hoon Choi] 16:55:03
+Yes.
+
+[Jeong Hoon Choi] 16:55:07
+Well…
+
+[virajbansal] 16:55:07
+Uh… no stupid questions. Oh, okay, okay, okay, okay.
+
+[Jeong Hoon Choi] 16:55:09
+Yeah,
+
+[virajbansal] 16:55:11
+I'm hearing Mo, I don't know why I was hearing Mo the entire time. Okay.
+
+[Jeong Hoon Choi] 16:55:12
+I said,
+
+[virajbansal] 16:55:15
+No stupid questions, let's check this one.
+
+[virajbansal] 16:55:19
+Why do people, poor people, have the most… okay. You could do this one.
+
+[virajbansal] 16:55:24
+Well, you could definitely do this one.
+
+[virajbansal] 16:55:27
+This one might… the thing is, this one might bleed into… oh, let's see… it might bleed into jokes?
+
+[virajbansal] 16:55:34
+I'm wondering… or actually it should be fine.
+
+[virajbansal] 16:55:37
+r slash jokes.
+
+[Jeong Hoon Choi] 16:55:37
+Yeah, they're gonna be… seem like, yeah.
+
+[virajbansal] 16:55:42
+r slash…
+
+[Chih-Yun Pai] 16:55:42
+This one's so dumb.
+
+[virajbansal] 16:55:45
+Okay, F it. We'll… we'll do… well, yeah, we'll do, uh, No Stupid questions, I guess.
+
+[virajbansal] 16:55:52
+Uh, let me check the link for this. No stupid questions. Okay, I'll, I'll, uh, I'll pull these.
+
+[Jeong Hoon Choi] 16:55:53
+Okay.
+
+[virajbansal] 16:55:57
+Right now.
+
+[Chih-Yun Pai] 16:55:58
+That's a topic that do some strip club really over you, or you can eat buffet.
+
+[virajbansal] 16:56:01
+Hopefully, you have an easier time clustering, though.
+
+[Jeong Hoon Choi] 16:56:04
+Uh, I think better than last time, maybe.
+
+[virajbansal] 16:56:09
+Because they're all tech, man, they're… I agree, like…
+
+[Jeong Hoon Choi] 16:56:09
+Let's true, let's try.
+
+[virajbansal] 16:56:12
+They were definitely all, um, tech-oriented, which I…
+
+[virajbansal] 16:56:17
+Which I wasn't… which I was having a hard time, like, when we did the two clusters for it, it was, like, hard to tell. You could probably do, like, 3 clusters or 4 clusters for this one now.
+
+[Chih-Yun Pai] 16:56:26
+Okay.
+
+[virajbansal] 16:56:26
+So there'll be, like, slightly…
+
+[Jeong Hoon Choi] 16:56:26
+Yeah.
+
+[virajbansal] 16:56:28
+Slightly different. Um…
+
+[virajbansal] 16:56:31
+Okay. Actually, one other one that I think…
+
+[virajbansal] 16:56:36
+product reviews. I wonder if…
+
+[virajbansal] 16:56:42
+r slash movie reviews?
+
+[virajbansal] 16:56:45
+I think we… I might want to train… change out the jokes one, just because I feel like that's a little too similar to the no stupid questions.
+
+[Chih-Yun Pai] 16:56:53
+Yeah, sure. I mean, you can change…
+
+[Chih-Yun Pai] 16:56:56
+Whatever you want.
+
+[virajbansal] 16:56:57
+Yeah, I'll do… I'll do, um, r slash movie reviews is another one.
+
+[virajbansal] 16:57:01
+So I'll take out jokes to do movie reviews.
+
+[Chih-Yun Pai] 16:57:04
+How can movie reviews.
+
+[Chih-Yun Pai] 16:57:06
+Sounds good.
+
+[virajbansal] 16:57:06
+Okay. Okay.
+
+[virajbansal] 16:57:08
+Alright, um, I will, uh, let you guys know shortly, once, uh, once it's all there.
+
+[virajbansal] 16:57:14
+Um…
+
+[Jeong Hoon Choi] 16:57:14
+Yeah. Oh, anyway, we get the full credit… oh, I'm sorry.
+
+[virajbansal] 16:57:16
+And… and if you… if you want…
+
+[virajbansal] 16:57:19
+Um, actually, if you want to just get started, Tian,
+
+[virajbansal] 16:57:23
+Um…
+
+[virajbansal] 16:57:25
+Uh, the post table already has 60…
+
+[virajbansal] 16:57:28
+rows, um, in Snowflake.
+
+[Jeong Hoon Choi] 16:57:29
+Oh, yeah, okay.
+
+[virajbansal] 16:57:32
+To that and download it from Snowflake. There's a way to download it.
+
+[virajbansal] 16:57:35
+Uh, you can chat GPT if you want, like, hit Data Preview, I believe, and…
+
+[virajbansal] 16:57:39
+Um, there's a download button there.
+
+[virajbansal] 16:57:41
+under post table. Yeah, so if you guys just want to get started,
+
+[Jeong Hoon Choi] 16:57:41
+Oh, okay.
+
+[virajbansal] 16:57:45
+Um, I haven't had dinner or lunch yet, so I'm gonna probably go eat first. So while you guys do that, I'll probably…
+
+[virajbansal] 16:57:51
+Um, I'll do it, like, in the background, and then I'll let you guys know.
+
+[virajbansal] 16:57:55
+Once the… the table is up and then the snowflake function is there for you guys to retrieve the data, so you guys can recluster and everything. But at least for the time being, you guys can…
+
+[virajbansal] 16:58:05
+work off of, um, whatever's in there. It's just all…
+
+[virajbansal] 16:58:09
+tech and data science and artificial intelligence right now, but it'll give you, um…
+
+[virajbansal] 16:58:14
+like something to write your code with.
+
+[Jeong Hoon Choi] 16:58:17
+Oh, okay.
+
+[Chih-Yun Pai] 16:58:17
+Sure.
+
+[virajbansal] 16:58:19
+Okay. Um…
+
+[virajbansal] 16:58:21
+All right. Uh, I think one of you guys should save the transcript.
+
