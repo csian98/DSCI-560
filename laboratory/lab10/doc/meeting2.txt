@@ -1,0 +1,468 @@
+[Chih-Yun Pai] 16:03:57
+Oh, okay, I can hear you eventually.
+
+[Chih-Yun Pai] 16:03:59
+Uh, I'm… I'm creating the…
+
+[Chih-Yun Pai] 16:04:03
+Amazon, uh, EC2.
+
+[Jeong Hoon Choi] 16:04:05
+Mm-hmm.
+
+[virajbansal] 16:04:06
+Okay.
+
+[Chih-Yun Pai] 16:04:07
+Yeah, that's what I'm working on.
+
+[virajbansal] 16:04:11
+Um, there's not much…
+
+[virajbansal] 16:04:13
+Um, part of this is…
+
+[virajbansal] 16:04:16
+Uh, you need to set up the MySQL server
+
+[virajbansal] 16:04:22
+Um…
+
+[virajbansal] 16:04:23
+the backend…
+
+[virajbansal] 16:04:26
+And do the, um…
+
+[virajbansal] 16:04:29
+And set up a ENV, a .env.
+
+[Chih-Yun Pai] 16:04:35
+Oh, yeah, oh…
+
+[Chih-Yun Pai] 16:04:37
+I mean, the first part, the…
+
+[virajbansal] 16:04:39
+Yeah, and then…
+
+[virajbansal] 16:04:41
+I think the second part is…
+
+[virajbansal] 16:04:44
+You need to set up the…
+
+[virajbansal] 16:04:47
+self-hosted Llama.
+
+[virajbansal] 16:04:48
+Auto?
+
+[Jeong Hoon Choi] 16:04:52
+Mm-hmm.
+
+[Chih-Yun Pai] 16:04:52
+Uh, we are going to use option A or B.
+
+[Jeong Hoon Choi] 16:04:57
+Uh, I think… B…
+
+[virajbansal] 16:04:57
+Uh…
+
+[Jeong Hoon Choi] 16:05:01
+The more ET.
+
+[Jeong Hoon Choi] 16:05:05
+So, who you are in.
+
+[Chih-Yun Pai] 16:05:07
+I'm not sure you have, say, GPU… well, where the GPU run on…
+
+[Jeong Hoon Choi] 16:05:17
+Yeah, I don't think… but we can try the really light motor.
+
+[Chih-Yun Pai] 16:05:25
+Okay.
+
+[virajbansal] 16:05:29
+And, uh, I can…
+
+[virajbansal] 16:05:31
+there's nothing for the front-end part, really.
+
+[virajbansal] 16:05:35
+Um, we just need to get the…
+
+[virajbansal] 16:05:37
+the LLM and the backend running on the ET2.
+
+[virajbansal] 16:05:40
+And then, um…
+
+[Chih-Yun Pai] 16:05:45
+Or maybe you can, like, work on the final proposal.
+
+[Chih-Yun Pai] 16:05:50
+Hmm.
+
+[virajbansal] 16:05:50
+I'll work on that too, but I'm seeing there's the Android part that we need to work on.
+
+[Jeong Hoon Choi] 16:05:55
+Yeah.
+
+[virajbansal] 16:05:55
+So I'll probably do that. I'll probably work on the Android…
+
+[Jeong Hoon Choi] 16:05:59
+Oh, you want to try the Android path?
+
+[virajbansal] 16:06:02
+Yeah, I'll probably do the Android part.
+
+[Jeong Hoon Choi] 16:06:04
+Okay.
+
+[virajbansal] 16:06:06
+Yeah, um…
+
+[Chih-Yun Pai] 16:06:11
+Uh, I'll need you guys to create it.
+
+[Chih-Yun Pai] 16:06:15
+public key, and…
+
+[Chih-Yun Pai] 16:06:18
+Uh, can you mean that, again.
+
+[virajbansal] 16:06:23
+You can't just use the old ones that we sent?
+
+[Chih-Yun Pai] 16:06:26
+Oh, the old one?
+
+[virajbansal] 16:06:29
+Yeah…
+
+[Jeong Hoon Choi] 16:06:32
+Is there have?
+
+[Chih-Yun Pai] 16:06:34
+Let me see if I can…
+
+[virajbansal] 16:06:34
+Uh, actually, it's fine, we can create a new one. I forgot how to do that, though, or…
+
+[virajbansal] 16:06:39
+What were the commands?
+
+[Jeong Hoon Choi] 16:06:41
+Oh, shit, SSH Key Gen.
+
+[virajbansal] 16:06:45
+Wait, how did you… how did you pull that, uh…
+
+[Jeong Hoon Choi] 16:06:45
+SSH…
+
+[virajbansal] 16:06:49
+what command did you use to get that?
+
+[virajbansal] 16:06:51
+to print.
+
+[Jeong Hoon Choi] 16:06:52
+S… oh, I'm already made it before, but you can use the SSOs.
+
+[Jeong Hoon Choi] 16:06:59
+SSH Keaton.
+
+[virajbansal] 16:06:59
+OSSH key…
+
+[Jeong Hoon Choi] 16:07:07
+they require an auditioner.
+
+[Jeong Hoon Choi] 16:07:08
+I think you can do it that way.
+
+[virajbansal] 16:07:10
+No, no, I… I… how do you see the old one, though? The one that we made…
+
+[Jeong Hoon Choi] 16:07:15
+Oh, so under the SSH…
+
+[Jeong Hoon Choi] 16:07:20
+usually if they have, like, in this directory, in the…
+
+[virajbansal] 16:07:24
+dot SSHIDRSA, okay.
+
+[virajbansal] 16:07:59
+But it's not letting me do that.
+
+[Jeong Hoon Choi] 16:08:02
+Oh, you don't have?
+
+[virajbansal] 16:08:03
+I should have it, uh…
+
+[Jeong Hoon Choi] 16:08:12
+on the home directory, they don't have a .ssh.
+
+[virajbansal] 16:08:17
+It's… I don't know, it's selling permission denied, I'm not sure why.
+
+[Jeong Hoon Choi] 16:08:23
+on Ubuntu?
+
+[Jeong Hoon Choi] 16:08:26
+Let's here.
+
+[virajbansal] 16:08:28
+Uh… no, this is not the Ubuntu, this is, like, my MacBook one.
+
+[virajbansal] 16:08:32
+Remember?
+
+[Jeong Hoon Choi] 16:08:32
+Oh…
+
+[Jeong Hoon Choi] 16:08:36
+Maple also what's the same.
+
+[virajbansal] 16:08:36
+I'm scrolling up to see if I can find it. I'll just, like…
+
+[virajbansal] 16:08:40
+Or that you heard.
+
+[Chih-Yun Pai] 16:08:46
+Oh, where's on?
+
+[Chih-Yun Pai] 16:08:48
+I'm trying to… looking to…
+
+[Chih-Yun Pai] 16:08:52
+through SSH2. I will cut to organize myself.
+
+[virajbansal] 16:09:32
+Here, I'll pin this.
+
+[virajbansal] 16:09:37
+How do I do that?
+
+[virajbansal] 16:10:26
+So here's… here's the old one that I have.
+
+[virajbansal] 16:10:29
+Uh… Howard.
+
+[virajbansal] 16:10:32
+I just forwarded it. Yeah, just use that one.
+
+[Chih-Yun Pai] 16:10:32
+Oh, I see.
+
+[Chih-Yun Pai] 16:10:35
+Okay.
+
+[Chih-Yun Pai] 16:10:41
+I will let you know when I said it.
+
+[virajbansal] 16:10:45
+Okay.
+
+[Jeong Hoon Choi] 16:10:46
+Okay…
+
+[virajbansal] 16:10:48
+Do we know… do we all know what we're doing?
+
+[Chih-Yun Pai] 16:10:54
+I wills…
+
+[Chih-Yun Pai] 16:10:57
+to set it up, and see how far I can go, and maybe I… wait, um, so…
+
+[Chih-Yun Pai] 16:11:03
+JJ, you will start. Basically, you will do…
+
+[Chih-Yun Pai] 16:11:07
+Uh, part two, right?
+
+[virajbansal] 16:11:07
+Yeah, I'll do all the Android stuff, all the Android stuff I'll do.
+
+[Chih-Yun Pai] 16:11:11
+Okay, then I'll just…
+
+[Chih-Yun Pai] 16:11:14
+see how far I can go, and…
+
+[virajbansal] 16:11:16
+Yeah. That's fine.
+
+[Chih-Yun Pai] 16:11:17
+And the rest, I'll continue to see it, maybe like that.
+
+[Jeong Hoon Choi] 16:11:21
+Yeah, let's… together, I think that's all we need to do in this week, right?
+
+[virajbansal] 16:11:27
+Yeah, and…
+
+[Jeong Hoon Choi] 16:11:28
+Yeah, Horat, I'm also gonna join, and we can set up together. You think it's not better.
+
+[Chih-Yun Pai] 16:11:35
+Um, but if we can almost, uh, set up to, uh, their…
+
+[Chih-Yun Pai] 16:11:42
+I don't know, I feel like we may conflict at some points, like, maybe you are creating…
+
+[Jeong Hoon Choi] 16:11:47
+Oh.
+
+[Chih-Yun Pai] 16:11:50
+the same thing that I created before, or…
+
+[Jeong Hoon Choi] 16:11:52
+Then, for me, I have on my desktop with the GPU, then I'm gonna try to…
+
+[Jeong Hoon Choi] 16:11:58
+maybe open.app port.
+
+[Jeong Hoon Choi] 16:12:02
+and connect to your…
+
+[Jeong Hoon Choi] 16:12:04
+What is the AWS?
+
+[Jeong Hoon Choi] 16:12:06
+I'll watch it. I'm gonna set up that part.
+
+[virajbansal] 16:12:10
+Alright, how would we access that? Because if it's on your computer…
+
+[virajbansal] 16:12:15
+then it wouldn't.
+
+[Jeong Hoon Choi] 16:12:15
+I'm gonna just connect to VPN between.
+
+[Jeong Hoon Choi] 16:12:19
+to AWSN, my computer.
+
+[virajbansal] 16:12:22
+Okay, but how would, uh…
+
+[virajbansal] 16:12:25
+How would the code on your computer run
+
+[virajbansal] 16:12:28
+if we're running stuff from the EC2
+
+[virajbansal] 16:12:32
+If that makes sense.
+
+[Jeong Hoon Choi] 16:12:34
+Oh, I thought easy to get the…
+
+[Jeong Hoon Choi] 16:12:37
+What is the error be turned through to API. They did not use that.
+
+[virajbansal] 16:12:43
+Uh, I don't know. If you do that, you might have to edit the code files. That's the thing.
+
+[virajbansal] 16:12:48
+So that it… yeah, so you might need to…
+
+[Jeong Hoon Choi] 16:12:49
+Oh, it's too much things.
+
+[virajbansal] 16:12:54
+Um, honestly, just… why not just wait?
+
+[virajbansal] 16:12:58
+Howard, that you… once you finish the, um…
+
+[Jeong Hoon Choi] 16:13:00
+Mm-hmm.
+
+[virajbansal] 16:13:01
+the setup for the backend?
+
+[Jeong Hoon Choi] 16:13:04
+Yeah.
+
+[virajbansal] 16:13:05
+just let CN know.
+
+[virajbansal] 16:13:07
+And then he can go in and set up the…
+
+[virajbansal] 16:13:10
+Llama stuff.
+
+[Chih-Yun Pai] 16:13:12
+I probably will need your help, uh, when…
+
+[Chih-Yun Pai] 16:13:15
+setting up this, uh, Thomas 3, because I find that there might…
+
+[Chih-Yun Pai] 16:13:21
+be some arrows when setting up these.
+
+[Jeong Hoon Choi] 16:13:23
+Yeah, and I just found the…
+
+[Chih-Yun Pai] 16:13:23
+I don't know.
+
+[Jeong Hoon Choi] 16:13:25
+under what Tanya gave. She also said the llama…
+
+[Jeong Hoon Choi] 16:13:30
+editor and API with the…
+
+[Jeong Hoon Choi] 16:13:33
+that envelope modifier.
+
+[Jeong Hoon Choi] 16:13:35
+So, yeah, anyway, I'm gonna wait then.
+
+[Chih-Yun Pai] 16:13:38
+Yeah.
+
+[Jeong Hoon Choi] 16:13:38
+Let's set together after you've done that.
+
+[Chih-Yun Pai] 16:13:41
+Yeah, I'm struggling now, babe.
+
+[Chih-Yun Pai] 16:13:44
+Right now.
+
+[Jeong Hoon Choi] 16:13:44
+Okay, sounds good.
+
+[virajbansal] 16:13:46
+Okay. Uh, do we have the transcript for this?
+
+[Chih-Yun Pai] 16:13:48
+Oh, okay.
+
+[Jeong Hoon Choi] 16:13:50
+Yeah, I'm… just for a minute.
+
+[Jeong Hoon Choi] 16:13:52
+Oh, by the way, I just bought the one Android phone.
+
+[virajbansal] 16:13:57
+Oh, you have an Android?
+
+[Jeong Hoon Choi] 16:13:59
+I just thought I'd go order. I
+

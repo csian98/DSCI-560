@@ -1,0 +1,1713 @@
+[Jeong Hoon Choi] 16:24:02
+Great.
+
+[virajbansal] 16:24:04
+Oh, shit.
+
+[virajbansal] 16:24:18
+Okay, so I'm going to share my screen.
+
+[virajbansal] 16:24:25
+Okay. Um…
+
+[virajbansal] 16:24:28
+Yeah, it's saying…
+
+[virajbansal] 16:24:33
+So, you already have this in the EC2.
+
+[virajbansal] 16:24:35
+Right?
+
+[Jeong Hoon Choi] 16:24:36
+Yes.
+
+[virajbansal] 16:24:38
+Um, it's saying…
+
+[virajbansal] 16:24:40
+We need to put this… since your front end is being served by FastAPI, put the file in your backend static directory, or wherever front-end files live.
+
+[virajbansal] 16:24:52
+Does that make sense?
+
+[Jeong Hoon Choi] 16:24:54
+Yeah, it was in there, in the front end.
+
+[virajbansal] 16:24:56
+Okay, it's in there. And then…
+
+[virajbansal] 16:25:02
+rebuild and run again in Android Studio.
+
+[virajbansal] 16:25:07
+I need to ask.
+
+[virajbansal] 16:25:12
+Okay, that file is in…
+
+[virajbansal] 16:25:16
+Back end…
+
+[virajbansal] 16:25:27
+Reinstall your signed up and launch.
+
+[Jeong Hoon Choi] 16:26:00
+And later image such fast.
+
+[virajbansal] 16:26:07
+Oh, I need to try this, okay.
+
+[virajbansal] 16:26:10
+that you see two, so…
+
+[virajbansal] 16:26:13
+Let's take…
+
+[virajbansal] 16:26:28
+Uh, well, no…
+
+[Jeong Hoon Choi] 16:26:30
+Yeah, I can see.
+
+[virajbansal] 16:26:32
+Let's seat links…
+
+[virajbansal] 16:26:34
+You tried it? It's working?
+
+[Jeong Hoon Choi] 16:26:36
+Yeah.
+
+[virajbansal] 16:26:36
+Yep, uh, it's working. Okay, great.
+
+[virajbansal] 16:26:40
+So that's working…
+
+[virajbansal] 16:26:57
+Okay, I just have to…
+
+[virajbansal] 16:27:01
+Stop.
+
+[virajbansal] 16:27:20
+Wait the heck?
+
+[Jeong Hoon Choi] 16:27:24
+Oh, you already see the…
+
+[virajbansal] 16:27:29
+Uh, what was that?
+
+[Jeong Hoon Choi] 16:27:31
+We already can see the screen, just…
+
+[virajbansal] 16:27:33
+Yeah, I don't know why he wants us to get us… get the separate emulator, or…
+
+[virajbansal] 16:27:38
+I don't know what the deal with that is, but…
+
+[virajbansal] 16:27:42
+Yeah.
+
+[virajbansal] 16:27:49
+Um…
+
+[virajbansal] 16:27:51
+Okay, stop the app, and…
+
+[virajbansal] 16:27:53
+click run again.
+
+[virajbansal] 16:29:33
+I don't know, I don't… I don't know what I'm expecting to happen.
+
+[Jeong Hoon Choi] 16:29:38
+Sounds safe.
+
+[virajbansal] 16:29:40
+Yeah, it looks the same.
+
+[Jeong Hoon Choi] 16:30:12
+But this already successfully authentication paper?
+
+[virajbansal] 16:30:30
+I just tried this, right?
+
+[Jeong Hoon Choi] 16:30:32
+Yeah.
+
+[virajbansal] 16:30:33
+Yeah, this works.
+
+[Jeong Hoon Choi] 16:31:04
+you using the HTTPS now?
+
+[virajbansal] 16:31:06
+No, I'm not. I'm just using HTTP.
+
+[Jeong Hoon Choi] 16:31:17
+Maybe in that work. TTPS.
+
+[Jeong Hoon Choi] 16:31:42
+Yeah, maybe we can try HTTPS.
+
+[virajbansal] 16:31:51
+So, to addition.
+
+[virajbansal] 16:31:53
+Okay, so do I just change this to HTTPS?
+
+[Jeong Hoon Choi] 16:31:58
+Yeah, let's try. I also didn't know that PWA that much.
+
+[virajbansal] 16:32:03
+I mean, close this…
+
+[virajbansal] 16:32:13
+I'll stop this.
+
+[virajbansal] 16:32:43
+Huh?
+
+[Jeong Hoon Choi] 16:34:03
+their mindset. In Browder, HTTPS are still not working.
+
+[virajbansal] 16:34:09
+But this is not working, period, anymore.
+
+[virajbansal] 16:34:12
+I don't know what's wrong.
+
+[virajbansal] 16:34:21
+Oh,
+
+[Jeong Hoon Choi] 16:34:24
+Okay.
+
+[virajbansal] 16:36:26
+Oh, try this.
+
+[virajbansal] 16:36:40
+Um, Tian?
+
+[Jeong Hoon Choi] 16:36:42
+Mm-hmm.
+
+[virajbansal] 16:36:44
+Um…
+
+[virajbansal] 16:36:45
+I think we… it's asking…
+
+[virajbansal] 16:36:49
+It's telling us to use ngrok.
+
+[virajbansal] 16:36:52
+And we're gonna get a new URL.
+
+[virajbansal] 16:36:55
+from that, that'll look something like this.
+
+[virajbansal] 16:36:59
+So try… try this command.
+
+[virajbansal] 16:37:02
+On your end?
+
+[Jeong Hoon Choi] 16:37:06
+Yeah, I don't have any groups.
+
+[virajbansal] 16:37:10
+on the EC2, by the way, on the EC2.
+
+[Jeong Hoon Choi] 16:37:12
+Yeah.
+
+[Jeong Hoon Choi] 16:37:30
+Yeah, just put me in the handy to install the end clock burst.
+
+[virajbansal] 16:37:35
+Oh, yeah.
+
+[Jeong Hoon Choi] 16:37:51
+So I need to use the same port.
+
+[Jeong Hoon Choi] 16:37:54
+It's just more testing, right? I gotta try it, Don.
+
+[virajbansal] 16:37:56
+Uh, just use the same port… just use the same port for now.
+
+[virajbansal] 16:38:01
+Um…
+
+[virajbansal] 16:38:02
+I mean, it doesn't matter too much, actually.
+
+[Jeong Hoon Choi] 16:38:13
+That's probably a tether error.
+
+[Jeong Hoon Choi] 16:38:16
+I need to set the auto…
+
+[virajbansal] 16:38:17
+You're gonna get error?
+
+[Jeong Hoon Choi] 16:38:18
+Yeah, and it just says something.
+
+[Jeong Hoon Choi] 16:38:20
+I need to add…
+
+[Jeong Hoon Choi] 16:38:23
+authentication token.
+
+[virajbansal] 16:38:26
+Oh, what?
+
+[Jeong Hoon Choi] 16:38:26
+What is this? Oh, comfortable?
+
+[Jeong Hoon Choi] 16:38:58
+Or maybe I need, um…
+
+[Jeong Hoon Choi] 16:39:00
+I need to restart the suburb.
+
+[Jeong Hoon Choi] 16:39:04
+I'm in the…
+
+[virajbansal] 16:39:06
+The EC2? Uh…
+
+[virajbansal] 16:39:09
+I thought only… oh, yeah, yeah, restart it.
+
+[Jeong Hoon Choi] 16:39:09
+No, the inside.
+
+[Jeong Hoon Choi] 16:39:11
+the suburb.
+
+[virajbansal] 16:39:16
+Try that, yeah.
+
+[Jeong Hoon Choi] 16:39:46
+Yeah. Can you try again?
+
+[virajbansal] 16:39:50
+Okay. Wait, what URL did you get from that?
+
+[Jeong Hoon Choi] 16:39:55
+URL.
+
+[virajbansal] 16:39:56
+Yeah, like, you should have gotten something that looks like this.
+
+[Jeong Hoon Choi] 16:39:59
+Oh, no, no, no, I didn't use the ngrok yet. I am just restart the…
+
+[Jeong Hoon Choi] 16:40:04
+your Bitcoin server, best API.
+
+[virajbansal] 16:40:05
+Oh,
+
+[virajbansal] 16:40:06
+Yeah.
+
+[Jeong Hoon Choi] 16:40:07
+I don't think it can handle the problem, but…
+
+[virajbansal] 16:40:12
+Okay, let me know when you have the ngrok.
+
+[virajbansal] 16:40:15
+thing, because that's what I need.
+
+[Jeong Hoon Choi] 16:40:16
+But I think in order to learn the angrown, I need to…
+
+[Jeong Hoon Choi] 16:40:21
+put some…
+
+[Jeong Hoon Choi] 16:40:25
+code. They say token.
+
+[Jeong Hoon Choi] 16:40:26
+I don't know what is this top component.
+
+[virajbansal] 16:40:30
+Um…
+
+[virajbansal] 16:40:36
+Wait, uh, what does it say exactly?
+
+[virajbansal] 16:40:39
+Can you send a screenshot? Send a screenshot to the Discord, so I'll ask ChatGPT what, like, what I…
+
+[Jeong Hoon Choi] 16:40:45
+Yeah.
+
+[virajbansal] 16:40:46
+what the issue is.
+
+[Jeong Hoon Choi] 16:40:48
+Well, now I really cannot understand, because now we learn with the Ubicore.
+
+[Jeong Hoon Choi] 16:40:54
+That one is already HTTP protocol.
+
+[Jeong Hoon Choi] 16:40:56
+how we can assess through the… with the HTTPS.
+
+[Jeong Hoon Choi] 16:42:21
+Or do I need to learn the Ubicorn with the HTTPS, I can make the key and certification.
+
+[virajbansal] 16:42:29
+Uh, do you know how to do that?
+
+[Jeong Hoon Choi] 16:42:32
+Um, I also can ask the ChatGPT.
+
+[virajbansal] 16:42:34
+Yeah, I'd try asking it.
+
+[Jeong Hoon Choi] 16:44:40
+Can you try again?
+
+[virajbansal] 16:44:43
+Yeah, let me…
+
+[virajbansal] 16:45:02
+Uh, with HTTPS?
+
+[Jeong Hoon Choi] 16:45:04
+S, yes.
+
+[virajbansal] 16:45:08
+I think I gave me… it gave me an error.
+
+[Jeong Hoon Choi] 16:45:11
+Oh, that's… that's right. Connection is not private, because now we're using the certification.
+
+[virajbansal] 16:45:17
+Yeah, I tried, but I added the S, though.
+
+[virajbansal] 16:45:26
+What the heck?
+
+[virajbansal] 16:45:29
+Yeah, it's still…
+
+[Jeong Hoon Choi] 16:45:31
+All depends.
+
+[Jeong Hoon Choi] 16:45:34
+And I think they're able to trust something they don't have.
+
+[virajbansal] 16:45:42
+I mean, that didn't work.
+
+[Jeong Hoon Choi] 16:45:50
+The one is now using HTTPS.
+
+[Jeong Hoon Choi] 16:45:54
+Yeah, you assess, I have your log in the…
+
+[Jeong Hoon Choi] 16:45:58
+sober side.
+
+[virajbansal] 16:46:02
+Well, what happens if I just visit this…
+
+[virajbansal] 16:46:06
+Using the HTTPS.
+
+[virajbansal] 16:46:09
+Here…
+
+[Jeong Hoon Choi] 16:46:12
+Yeah, that's right. You need to call out advance and…
+
+[Jeong Hoon Choi] 16:46:15
+You need to just get in.
+
+[virajbansal] 16:46:17
+Yeah, yeah, that, like…
+
+[virajbansal] 16:46:19
+It's not authenticating.
+
+[virajbansal] 16:46:22
+Which I don't know why.
+
+[Jeong Hoon Choi] 16:46:53
+I think that is the success.
+
+[virajbansal] 16:47:38
+Huh? Okay…
+
+[virajbansal] 16:47:44
+Did you take the HTTPS off?
+
+[Jeong Hoon Choi] 16:47:47
+No, now I'm using the HTTPS.
+
+[virajbansal] 16:47:54
+Right, it's working…
+
+[Jeong Hoon Choi] 16:48:17
+I mean, if you turn off the…
+
+[Jeong Hoon Choi] 16:48:21
+smartphone and thermal game, it kind of have the same warning again.
+
+[Jeong Hoon Choi] 16:49:03
+We need a barely certification?
+
+[Jeong Hoon Choi] 16:49:15
+We don't have a trusted certification, how we get there?
+
+[virajbansal] 16:49:18
+You might need to do this ngrok thing, honestly. It's asking me to do the ngrok.
+
+[Jeong Hoon Choi] 16:49:24
+Okay, then maybe we need to ask what is the token meaning in the ankro?
+
+[virajbansal] 16:49:28
+Yeah, artist setup…
+
+[virajbansal] 16:49:32
+the ngrok…
+
+[virajbansal] 16:49:34
+And EC2 has been…
+
+[virajbansal] 16:49:47
+So you did this stuff, right?
+
+[Jeong Hoon Choi] 16:49:49
+Yes, I started that.
+
+[virajbansal] 16:49:51
+And then it gives you an ngrok version.
+
+[virajbansal] 16:49:58
+Okay.
+
+[Jeong Hoon Choi] 16:49:58
+Yes?
+
+[virajbansal] 16:50:02
+go to this… this website right here.
+
+[virajbansal] 16:50:05
+I can paste it for you, copy.
+
+[virajbansal] 16:50:14
+And then copy the token. You'll probably have to create a free account.
+
+[Jeong Hoon Choi] 16:52:47
+So, we, uh…
+
+[Jeong Hoon Choi] 16:52:49
+Can you just ask one thing to ChatGPT that we need to still learning, though?
+
+[Jeong Hoon Choi] 16:52:55
+support with HTTP or HTTPS.
+
+[Jeong Hoon Choi] 16:52:59
+Vita and Grog.
+
+[virajbansal] 16:53:01
+uh… say that again?
+
+[Jeong Hoon Choi] 16:53:03
+So, in the back… and we need to learn the HTTP or HTTPS.
+
+[Jeong Hoon Choi] 16:53:11
+with the UV corn.
+
+[virajbansal] 16:53:14
+Uh, do we…
+
+[virajbansal] 16:53:17
+to run HTTP or HTTPS.
+
+[virajbansal] 16:53:21
+With, uh, UV corn…
+
+[Jeong Hoon Choi] 16:53:22
+your Bitcoin.
+
+[virajbansal] 16:53:24
+Or, uh…
+
+[Jeong Hoon Choi] 16:53:33
+Okay.
+
+[Jeong Hoon Choi] 16:53:37
+apart this…
+
+[Jeong Hoon Choi] 16:53:41
+We need to know that Brando Anglok.
+
+[virajbansal] 16:53:44
+Yeah. Okay, so ngrok will handle that, and you'll, uh…
+
+[virajbansal] 16:53:52
+Yeah, keep this.
+
+[virajbansal] 16:53:54
+then ngrokHTTP,
+
+[virajbansal] 16:53:57
+8,000?
+
+[virajbansal] 16:53:58
+And then we should get some sort of URL from that, and you need to give me that URL.
+
+[Jeong Hoon Choi] 16:54:03
+Okay, I just get it.
+
+[Jeong Hoon Choi] 16:54:08
+That thing is this.
+
+[virajbansal] 16:54:14
+Okay, let's copy…
+
+[virajbansal] 16:54:30
+Is this even see me?
+
+[virajbansal] 16:54:32
+Okay, I hope it's saving.
+
+[virajbansal] 16:54:38
+Turn this off…
+
+[virajbansal] 16:54:52
+Oh, what the…
+
+[Jeong Hoon Choi] 16:54:53
+Yeah, I also need to click the pages side.
+
+[Jeong Hoon Choi] 16:54:57
+Oh, it's sad.
+
+[virajbansal] 16:55:01
+It's the same.
+
+[virajbansal] 16:55:04
+What is going on?
+
+[virajbansal] 16:55:56
+And we're getting that, too.
+
+[virajbansal] 16:56:03
+Right. Maybe it's that first screen that's a problem.
+
+[virajbansal] 16:56:07
+Oh wait, I'm not getting it anymore.
+
+[Jeong Hoon Choi] 16:56:11
+Through my site, also.
+
+[virajbansal] 16:57:02
+So, care. We're gonna try this.
+
+[virajbansal] 16:57:14
+I want to give you a new shot key to paste, okay?
+
+[Jeong Hoon Choi] 16:57:17
+Okay.
+
+[virajbansal] 16:57:28
+Okay, paste that in.
+
+[Jeong Hoon Choi] 16:57:41
+Okay.
+
+[virajbansal] 16:57:47
+Yeah, replace the, uh, this old one with the new one I sent you.
+
+[Jeong Hoon Choi] 16:57:51
+Yeah, I just did. Just for me, I need to turn on the angry.
+
+[virajbansal] 16:57:57
+Okay, we'll retry…
+
+[virajbansal] 16:58:00
+this Asset Links URL…
+
+[Jeong Hoon Choi] 16:58:10
+Okay, Ireland Bank Group, okay.
+
+[virajbansal] 16:58:20
+I'm still seeing the old SHA-256.
+
+[Jeong Hoon Choi] 16:58:38
+always change. I think that's your cash.
+
+[virajbansal] 16:58:42
+Like, oh, you think it's my cash?
+
+[virajbansal] 16:58:47
+Wait, what the heck, how do I…
+
+[virajbansal] 16:59:02
+Do I need to try in a different browser?
+
+[virajbansal] 16:59:06
+Let me try it on Chrome.
+
+[virajbansal] 16:59:21
+I'm getting, uh…
+
+[virajbansal] 16:59:23
+I'm getting this error at, uh, uh, CN.
+
+[Jeong Hoon Choi] 16:59:29
+Oh, oh, yeah, that's true, just for a minute. I turn up the angel, just for a minute.
+
+[Jeong Hoon Choi] 16:59:35
+Oh, yeah, and if I learn, okay, it should change.
+
+[Jeong Hoon Choi] 16:59:41
+Let's put them in here. I think you need to…
+
+[Jeong Hoon Choi] 16:59:44
+track on purpose.
+
+[Jeong Hoon Choi] 16:59:46
+Oh, no, it's not changed. You can use that.
+
+[virajbansal] 16:59:54
+Okay, now I see it.
+
+[virajbansal] 16:59:56
+I don't know why it's… oh, no, it's updating now. There we go.
+
+[virajbansal] 17:00:01
+Okay, so…
+
+[virajbansal] 17:00:04
+Should definitely work now, shouldn't it?
+
+[Jeong Hoon Choi] 17:00:10
+So…
+
+[virajbansal] 17:00:29
+Nothing. Oh my gosh.
+
+[Jeong Hoon Choi] 17:00:30
+Hmm…
+
+[Jeong Hoon Choi] 17:00:39
+But I can see in my log, they say you caught a very known assert link, JSON.
+
+[Jeong Hoon Choi] 17:00:49
+So when you just, like, assess to…
+
+[Jeong Hoon Choi] 17:00:53
+The sober. You say you need literal asset links.
+
+[virajbansal] 17:01:02
+Uh…
+
+[virajbansal] 17:01:11
+Do you need what?
+
+[Jeong Hoon Choi] 17:01:12
+So your little offset link file, people, you didn't.
+
+[virajbansal] 17:01:19
+I need to link it?
+
+[Jeong Hoon Choi] 17:01:21
+No, I'm meaning you bring the…
+
+[Jeong Hoon Choi] 17:01:24
+buy from my server, the very known of such links.
+
+[Jeong Hoon Choi] 17:01:27
+So maybe inside the…
+
+[Jeong Hoon Choi] 17:01:30
+Fingerprint is long, or…
+
+[Jeong Hoon Choi] 17:01:33
+Yeah, well, they were happening.
+
+[virajbansal] 17:01:36
+Not sure.
+
+[virajbansal] 17:01:54
+Delete the app from the, um… delete the app from emulator.
+
+[virajbansal] 17:01:59
+long press, uh…
+
+[virajbansal] 17:02:01
+And I'm just, uh…
+
+[virajbansal] 17:02:10
+How do I uninstall the app?
+
+[virajbansal] 17:03:23
+What the heck?
+
+[virajbansal] 17:04:34
+Where's the terminal?
+
+[virajbansal] 17:07:19
+is so annoying. I'm trying to…
+
+[virajbansal] 17:08:29
+Well, I don't know what this thing's doing.
+
+[virajbansal] 17:08:34
+Or you could go here…
+
+[Jeong Hoon Choi] 17:08:35
+Elias?
+
+[Jeong Hoon Choi] 17:08:36
+Oh, just for you guys, Plato and grok.
+
+[virajbansal] 17:08:40
+Oh, you stop the ngrok, okay.
+
+[Jeong Hoon Choi] 17:08:47
+Yeah, you can try.
+
+[Jeong Hoon Choi] 17:14:19
+Now, you even not…
+
+[Jeong Hoon Choi] 17:14:21
+bring the…
+
+[virajbansal] 17:14:23
+Wait, I was… I was able to uninstall it, uh, is that ngrok running? Can you restart it?
+
+[Jeong Hoon Choi] 17:14:24
+Offered.
+
+[Jeong Hoon Choi] 17:14:29
+Yeah, Angrongelami, but you, this time, didn't bring the…
+
+[Jeong Hoon Choi] 17:14:34
+the fire, meaning the well-known offset links JSON file.
+
+[Jeong Hoon Choi] 17:14:38
+You didn't bring none.
+
+[virajbansal] 17:14:40
+I didn't bring… what do you mean? Like, bring where?
+
+[Jeong Hoon Choi] 17:14:44
+So, people are sending you the image, right?
+
+[Jeong Hoon Choi] 17:14:47
+So in here, you can see the…
+
+[virajbansal] 17:14:47
+Yeah.
+
+[Jeong Hoon Choi] 17:14:51
+your application bring the…
+
+[Jeong Hoon Choi] 17:14:53
+It's Jason Fire?
+
+[Jeong Hoon Choi] 17:14:55
+For now…
+
+[Jeong Hoon Choi] 17:14:58
+It didn't bring the JSON fire.
+
+[virajbansal] 17:15:06
+This is not a JSON file, this is, like, a favicon…
+
+[Jeong Hoon Choi] 17:15:09
+Yeah, so now you didn't bring up previous image, you bring the JSON file.
+
+[Jeong Hoon Choi] 17:15:15
+the OBO limit?
+
+[virajbansal] 17:15:15
+Oh…
+
+[virajbansal] 17:15:52
+Did I bring it now? Can you check?
+
+[Jeong Hoon Choi] 17:15:55
+No, this time, I even knock on anything, even barbecue corners are not branded.
+
+[virajbansal] 17:16:04
+Is that even working still?
+
+[virajbansal] 17:16:11
+Okay, this is coming.
+
+[virajbansal] 17:16:20
+Oh, wait!
+
+[virajbansal] 17:16:23
+I'd try changing the namespace, too.
+
+[virajbansal] 17:16:27
+Um, to this.
+
+[Jeong Hoon Choi] 17:16:33
+Hello, Artevo. Yeah.
+
+[virajbansal] 17:16:33
+CN? Yeah, yeah, change it to com. Yeah, change it to that.
+
+[Jeong Hoon Choi] 17:16:38
+I think I…
+
+[Jeong Hoon Choi] 17:16:41
+Yeah, hello world group chat.
+
+[Jeong Hoon Choi] 17:16:44
+Q1. Yeah, it's the same, right?
+
+[virajbansal] 17:16:47
+Yeah, it's the same.
+
+[Jeong Hoon Choi] 17:18:09
+uh… sphere.
+
+[Jeong Hoon Choi] 17:18:30
+What we're seeing here, I don't know.
+
+[virajbansal] 17:18:36
+Oh, is he in the Zoom?
+
+[virajbansal] 17:18:40
+Hey, Howard. We're having a hard time.
+
+[Chih-Yun Pai] 17:18:41
+Sorry, I was a bit… I'm beating, uh, busy…
+
+[Chih-Yun Pai] 17:18:46
+Wisme, another assignment.
+
+[Chih-Yun Pai] 17:18:48
+I got 24 out of 100, I don't know why.
+
+[virajbansal] 17:18:52
+Oh…
+
+[Jeong Hoon Choi] 17:18:54
+That's hard.
+
+[Jeong Hoon Choi] 17:18:57
+Uh, now we have a problem.
+
+[Chih-Yun Pai] 17:19:00
+Whoa… what was that?
+
+[Jeong Hoon Choi] 17:19:03
+So, now we try to do the TWA verification.
+
+[Chih-Yun Pai] 17:19:10
+Mm-hmm.
+
+[Jeong Hoon Choi] 17:19:10
+Well, it's not working.
+
+[virajbansal] 17:19:12
+Did you change it, uh, CN? Is it updated, or no?
+
+[Jeong Hoon Choi] 17:19:16
+Oh, we… you mean the…
+
+[virajbansal] 17:19:18
+namespace. Yeah, namespace.
+
+[Jeong Hoon Choi] 17:19:19
+a kid's name?
+
+[Jeong Hoon Choi] 17:19:22
+Oh, just for a minute, you mean the namespace, I'm sorry, I misunderstand.
+
+[Jeong Hoon Choi] 17:19:26
+Can you show me our kid?
+
+[virajbansal] 17:19:26
+But yeah, this… this thing changes this to…
+
+[virajbansal] 17:19:30
+this, like, do… just copy and paste this…
+
+[Jeong Hoon Choi] 17:19:34
+Thank you. Okay.
+
+[virajbansal] 17:19:34
+Here. Yeah.
+
+[virajbansal] 17:19:37
+I think that might be what's causing the issue.
+
+[Jeong Hoon Choi] 17:19:43
+Let's try.
+
+[Jeong Hoon Choi] 17:19:48
+Okay. I changed.
+
+[virajbansal] 17:19:52
+You changed? Okay, I see it.
+
+[Jeong Hoon Choi] 17:19:52
+Yes.
+
+[virajbansal] 17:19:56
+Uh, let's…
+
+[virajbansal] 17:20:01
+But, uh, I'm gonna restart…
+
+[Jeong Hoon Choi] 17:20:27
+Cool.
+
+[virajbansal] 17:20:35
+Uh…
+
+[virajbansal] 17:20:42
+What the heck?
+
+[virajbansal] 17:20:51
+What do you see on the backend?
+
+[Jeong Hoon Choi] 17:20:54
+Nothing.
+
+[virajbansal] 17:21:08
+What the…
+
+[virajbansal] 17:21:41
+Oh!
+
+[virajbansal] 17:21:45
+Wait, um…
+
+[virajbansal] 17:21:47
+So,
+
+[virajbansal] 17:21:49
+Uh, interesting thing I noticed, I copy and pasted this…
+
+[virajbansal] 17:21:54
+Into, um…
+
+[virajbansal] 17:21:57
+into the browser, and see.
+
+[virajbansal] 17:22:00
+when I paste that… here, I'll show you.
+
+[virajbansal] 17:22:03
+paste…
+
+[virajbansal] 17:22:05
+Enter.
+
+[virajbansal] 17:22:07
+This is… oh, wait, never mind.
+
+[virajbansal] 17:22:10
+What is this? Is it old?
+
+[Jeong Hoon Choi] 17:22:12
+I think so. That one is new.
+
+[virajbansal] 17:22:15
+Right, okay, so…
+
+[virajbansal] 17:22:18
+paste…
+
+[virajbansal] 17:22:19
+Okay, this is correct.
+
+[virajbansal] 17:22:26
+But why does it keep…
+
+[virajbansal] 17:22:30
+No, this is wrong. What is it doing?
+
+[virajbansal] 17:22:42
+I mean, this is working, I'm confused.
+
+[virajbansal] 17:22:49
+Well, maybe I just need a…
+
+[virajbansal] 17:23:19
+Uh, did it get requested that time?
+
+[Jeong Hoon Choi] 17:23:22
+Yeah, you bring… but you didn't bring the very known, outside link.
+
+[virajbansal] 17:23:23
+CN?
+
+[Jeong Hoon Choi] 17:23:28
+You only bring the babbicorn, meaning…
+
+[Jeong Hoon Choi] 17:23:31
+failure.
+
+[virajbansal] 17:23:35
+Yeah, I don't know, man.
+
+[virajbansal] 17:23:39
+pretty losch.
+
+[Jeong Hoon Choi] 17:23:39
+At first time, he kept praying for why now is even not praying.
+
+[Jeong Hoon Choi] 17:24:47
+And yes, then your Android app, even operating the…
+
+[Jeong Hoon Choi] 17:24:54
+also that linked JSON file from the software.
+
+[virajbansal] 17:25:12
+be running the app.
+
+[virajbansal] 17:25:15
+Android Studio…
+
+[virajbansal] 17:25:19
+Back end fast.
+
+[virajbansal] 17:25:22
+Yeah, I…
+
+[Jeong Hoon Choi] 17:25:23
+I had seen the Ngrok.
+
+[Jeong Hoon Choi] 17:25:26
+the log.
+
+[virajbansal] 17:25:28
+Back in ngrok.
+
+[virajbansal] 17:25:31
+It's not showing that the…
+
+[virajbansal] 17:25:36
+Uh, well known.
+
+[Jeong Hoon Choi] 17:25:43
+Thanks.
+
+[virajbansal] 17:25:45
+Uh, sir.json is getting…
+
+[virajbansal] 17:25:52
+Quest egg.
+
+[virajbansal] 17:30:11
+No, what the heck?
+
+[Jeong Hoon Choi] 17:32:04
+I'm just gonna be a pressure.
+
+[virajbansal] 17:33:28
+Uh, did I request it now?
+
+[Jeong Hoon Choi] 17:33:35
+Oh, I think so.
+
+[Jeong Hoon Choi] 17:33:39
+Can I try out here?
+
+[virajbansal] 17:33:42
+Uh, try again.
+
+[Jeong Hoon Choi] 17:33:43
+Yeah.
+
+[virajbansal] 17:33:45
+What about now?
+
+[Jeong Hoon Choi] 17:33:48
+I think this time, it's cash… nothing.
+
+[virajbansal] 17:33:56
+don't know what the issue is.
+
+[Jeong Hoon Choi] 17:34:12
+This time was so sick. I think…
+
+[Jeong Hoon Choi] 17:34:14
+The poster you bring is bringing the vernal, I think.
+
+[virajbansal] 17:34:22
+The first time I do it, it brings it.
+
+[virajbansal] 17:34:24
+They're saying, okay.
+
+[Jeong Hoon Choi] 17:34:25
+Yes.
+
+[virajbansal] 17:34:30
+So, like, this time when I launch it,
+
+[Jeong Hoon Choi] 17:34:37
+No, we bring all the public corn.
+
+[virajbansal] 17:34:42
+Gosh, okay.
+
+[Jeong Hoon Choi] 17:34:49
+Okay, so…
+
+[virajbansal] 17:34:53
+Okay, what do you say?
+
+[Jeong Hoon Choi] 17:36:18
+Oh, it's praying.
+
+[virajbansal] 17:36:27
+Oh, okay, so I bring…
+
+[Jeong Hoon Choi] 17:36:31
+Yeah, it's just done…
+
+[virajbansal] 17:36:32
+So it breaks…
+
+[Jeong Hoon Choi] 17:36:34
+Mm-hmm, mm-hmm.
+
+[virajbansal] 17:36:34
+Yeah…
+
+[Jeong Hoon Choi] 17:36:39
+Oh, there's a cash problem.
+
+[Chih-Yun Pai] 17:38:36
+Um, I think I've finished my part.
+
+[Chih-Yun Pai] 17:38:39
+my regrade request.
+
+[Jeong Hoon Choi] 17:38:42
+Uh-huh.
+
+[Chih-Yun Pai] 17:38:43
+May I ask what's the problem right now?
+
+[Jeong Hoon Choi] 17:38:45
+So, now we try to, using the Android app…
+
+[Chih-Yun Pai] 17:38:50
+Mm-hmm.
+
+[Jeong Hoon Choi] 17:38:51
+connect to our EC2 server.
+
+[Jeong Hoon Choi] 17:38:54
+But because our software is not very complicated, so it keeps showing the…
+
+[Jeong Hoon Choi] 17:38:59
+If you see the poem animated image, think about your red bar, right?
+
+[Chih-Yun Pai] 17:39:06
+Um, URL…
+
+[Jeong Hoon Choi] 17:39:08
+Yeah, in the Android.
+
+[Jeong Hoon Choi] 17:39:11
+platform.
+
+[Jeong Hoon Choi] 17:39:14
+So that's pretty good.
+
+[Chih-Yun Pai] 17:45:48
+Um, how about I write, uh, uh…
+
+[Chih-Yun Pai] 17:45:51
+Proposal Draft 2 first.
+
+[virajbansal] 17:45:55
+Yeah.
+
+[Jeong Hoon Choi] 17:45:56
+Oh, re…
+
+[Jeong Hoon Choi] 17:45:58
+might need to do in the PV presentation.
+
+[Chih-Yun Pai] 17:46:03
+What?
+
+[virajbansal] 17:46:06
+I…
+
+[virajbansal] 17:46:07
+Yeah, I think… I asked Tanya, but she didn't respond, so…
+
+[virajbansal] 17:46:11
+you can start on this.
+
+[Chih-Yun Pai] 17:46:13
+Okay.
+
+[virajbansal] 17:46:14
+Um, I can forward you this…
+
+[virajbansal] 17:46:21
+Do you have ChatGPT, right?
+
+[Chih-Yun Pai] 17:46:23
+Yeah.
+
+[virajbansal] 17:46:26
+Let me share you this chat.
+
+[Chih-Yun Pai] 17:46:37
+So basically, we need to submit a PDF, right?
+
+[virajbansal] 17:46:41
+Yeah, we need to submit a PDF with the requirements he was asking.
+
+[virajbansal] 17:46:46
+Honestly, ChatGPT, the entire thing, just like…
+
+[virajbansal] 17:46:49
+Ask it what roles we should come up with the diagrams,
+
+[virajbansal] 17:46:53
+There's a couple of different things, um…
+
+[Jeong Hoon Choi] 17:46:58
+Okay. Bye.
+
+[Chih-Yun Pai] 17:47:02
+Is it due today?
+
+[virajbansal] 17:47:02
+It was, uh…
+
+[virajbansal] 17:47:04
+It's due today.
+
+[Jeong Hoon Choi] 17:47:04
+Yes.
+
+[Chih-Yun Pai] 17:47:05
+Okay.
+
+[virajbansal] 17:47:06
+Yeah, ask it to come up with a diagram of the team org,
+
+[virajbansal] 17:47:11
+leads and other team members and their roles.
+
+[virajbansal] 17:47:15
+Uh, include two diagrams of the technical and business architecture.
+
+[virajbansal] 17:47:20
+Um…
+
+[Chih-Yun Pai] 17:47:22
+Huh.
+
+[virajbansal] 17:47:22
+And then include who will be responsible for which components of the diagrams,
+
+[virajbansal] 17:47:26
+All members should contribute to the business.
+
+[virajbansal] 17:47:29
+And then you just need to come up with a weekly schedule for, like, each of us.
+
+[Chih-Yun Pai] 17:47:33
+Okay. I'll just make this up.
+
+[virajbansal] 17:47:33
+I think…
+
+[virajbansal] 17:47:37
+Yeah, just make it up. That's fine. You, like, completely bullshit it, honestly.
+
+[Chih-Yun Pai] 17:47:41
+Okay.
+
+[Jeong Hoon Choi] 17:47:41
+Thank you.
+
+[virajbansal] 17:47:43
+Yeah, we'll try to finish this.
+
+[virajbansal] 17:47:45
+But if not, then, like…
+
+[virajbansal] 17:47:48
+I don't know, man. This thing is stuck.
+
+[Jeong Hoon Choi] 17:48:05
+Oh, that's a very long context.
+
+[virajbansal] 17:48:07
+Yeah, I know. I think I might have, like…
+
+[virajbansal] 17:48:11
+freaked it out.
+
+[virajbansal] 17:48:17
+Let me… let me check on my app. I have the app, too.
+
+[virajbansal] 17:48:19
+I wonder if it's, like, frozen on the app as well.
+
+[Jeong Hoon Choi] 17:49:28
+A neighbor?
+
+[virajbansal] 17:49:28
+Yeah.
+
+[virajbansal] 17:49:40
+We're just gonna paste this…
+
+[virajbansal] 17:50:23
+Trick.
+
+[virajbansal] 17:51:11
+Okay, it's, uh…
+
+[virajbansal] 17:51:15
+I mean, everything's exactly the same, let's…
+
+[virajbansal] 17:51:20
+1B, 6, 2…
+
+[Jeong Hoon Choi] 17:51:21
+Okay, maybe after end April?
+
+[virajbansal] 17:51:27
+Uh, we're still getting the verification.
+
+[Jeong Hoon Choi] 17:51:30
+Yeah…
+
+[virajbansal] 17:51:31
+1024…
+
+[virajbansal] 17:52:41
+Dang, um…
+
+[virajbansal] 17:53:20
+Um, try getting a… let's get a new ngrok.
+
+[virajbansal] 17:53:24
+URL.
+
+[virajbansal] 17:53:26
+CN. We'll try that one last time.
+
+[Jeong Hoon Choi] 17:53:47
+Do I need, or…?
+
+[virajbansal] 17:53:55
+Do you need what?
+
+[Jeong Hoon Choi] 17:53:59
+or… I don't know how to change it, so… just try.
+
+[Jeong Hoon Choi] 17:54:04
+No, it's not.
+
+[virajbansal] 17:54:07
+I don't even know how we're gonna turn in the lab, like, there's no…
+
+[Jeong Hoon Choi] 17:54:41
+They say every time I don't know.
+
+[Jeong Hoon Choi] 17:54:46
+I can set the domain.
+
+[Jeong Hoon Choi] 17:55:00
+Oh, no, this record.
+
+[Jeong Hoon Choi] 17:55:02
+hate.
+
+[Jeong Hoon Choi] 17:55:34
+I'm not sure they provide the changing the URL for the pre-tier.
+
+[virajbansal] 17:55:41
+Oh, really? You're getting the same URL back when you do…
+
+[Jeong Hoon Choi] 17:55:45
+Okay, well, gang.
+
+[virajbansal] 17:55:45
+And garage.
+
+[Jeong Hoon Choi] 17:55:47
+Yeah, keep the same.
+
+[virajbansal] 17:55:56
+dude, I don't know what to do.
+
+[virajbansal] 17:56:04
+And Tanya also is not responding.
+
+[virajbansal] 17:56:27
+Okay, um, let me just try to, uh, build.
+
+[virajbansal] 17:56:30
+compile, install.
+
+[virajbansal] 17:57:35
+Oh, wait, so we're done.
+
+[virajbansal] 17:57:39
+Yeah, because this already is running on an emulator.
+
+[Jeong Hoon Choi] 17:57:51
+What do you mean?
+
+[virajbansal] 17:57:54
+we're done then, right? This is already running in an emulator?
+
+[Jeong Hoon Choi] 17:57:57
+Yeah.
+
+[virajbansal] 17:57:57
+I couldn't get this login screen thing to work. I don't know what to put for here.
+
+[virajbansal] 17:58:05
+this username and password.
+
+[Jeong Hoon Choi] 17:58:08
+Oh, you mean the, what is the usual name?
+
+[virajbansal] 17:58:11
+Yeah, what is the username?
+
+[Jeong Hoon Choi] 17:58:12
+You can try with the TSCI by 60, both.
+
+[virajbansal] 17:58:17
+GS6 gears here for 6GS here.
+
+[virajbansal] 17:58:23
+Ah, okay.
+
+[Jeong Hoon Choi] 17:58:25
+Yeah, that's what I asked yesterday.
+
+[virajbansal] 17:58:30
+Cool, okay. I guess this is working, then.
+
+[Jeong Hoon Choi] 17:58:33
+Yeah.
+
+[virajbansal] 17:58:33
+The Android part was, like…
+
+[virajbansal] 17:58:35
+I don't know what is going on with the TWA…
+
+[Jeong Hoon Choi] 17:58:40
+Yeah, that's not our retry, and…
+
+[virajbansal] 17:58:40
+is not working.
+
+[Jeong Hoon Choi] 17:58:44
+Can I also, even not?
+
+[Jeong Hoon Choi] 17:58:46
+write down about it, such it there.
+
+[virajbansal] 17:58:50
+Yeah… I don't know what we're gonna demo, but thing is…
+
+[Jeong Hoon Choi] 17:58:54
+I think this is similar, like, a team sport thing, just set up, like, a showing.
+
+[virajbansal] 17:58:54
+We can demo…
+
+[Jeong Hoon Choi] 17:59:00
+or connected, and more.
+
+[virajbansal] 17:59:01
+Yeah, but, like, even the setup, we, like, barely did anything for the setup.
+
+[virajbansal] 17:59:05
+And then the SHA-256 didn't work. I mean, I guess you guys can talk about it. I'll just show the…
+
+[Jeong Hoon Choi] 17:59:12
+Yeah, I think that's enough this time.
+
+[Jeong Hoon Choi] 17:59:14
+Maybe he wants to focus on the draft.
+
+[virajbansal] 17:59:19
+Yeah, I guess.
+
+[Chih-Yun Pai] 17:59:19
+Don't worry, he won't… she won't even look at the video.
+
+[Jeong Hoon Choi] 17:59:24
+The problem is, this week, we even cannot submit a report or so.
+
+[virajbansal] 17:59:29
+Yeah, there's no report to… like, I mean, I think he said that there's a report to submit, but…
+
+[virajbansal] 17:59:34
+This is last week. Uh, yeah, he said that there's a report to submit, but then there's no link to submit the report, so I don't know how…
+
+[Jeong Hoon Choi] 17:59:41
+You already asked to Professor?
+
+[virajbansal] 17:59:42
+We will…
+
+[virajbansal] 17:59:44
+I already… yeah, I asked a professor at the end of class on Thursday, like, do we have to still do Lab 10 report? And he said, yeah.
+
+[Jeong Hoon Choi] 17:59:51
+Oh, yeah, yeah, I remember that.
+
+[virajbansal] 17:59:55
+uh… but now I don't see it. I saw it earlier in the week, the lab
+
+[virajbansal] 17:59:59
+Wait, do you guys see it on your end? Maybe it's just… my thing is being weird, again, like last time.
+
+[Jeong Hoon Choi] 18:00:05
+No, I also keep checking, but…
+
+[Jeong Hoon Choi] 18:00:08
+They don't have left 10 Lipport.
+
+[Chih-Yun Pai] 18:00:10
+Yeah.
+
+[Jeong Hoon Choi] 18:00:11
+and Lithin.
+
+[virajbansal] 18:00:14
+Gosh, okay. Yeah, and no reading, too. Reading 10 is not there.
+
+[Jeong Hoon Choi] 18:00:19
+Yeah.
+
+[virajbansal] 18:00:20
+Did she grade reading aid?
+
+[virajbansal] 18:00:22
+you know, okay.
+
+[virajbansal] 18:00:26
+Okay. I guess that's all we can do for that.
+
+[Jeong Hoon Choi] 18:00:30
+Yeah, just finishing here.
+
+[virajbansal] 18:00:31
+Uh… let's just, yeah, let's just finish the draft and submit it. I don't know exactly if we even need to do… like, there submit the report, so we'll just…
+
+[virajbansal] 18:00:41
+not do it.
+
+[Jeong Hoon Choi] 18:00:43
+Yeah. It's not our fault.
+
+[virajbansal] 18:00:44
+Okay.
+
+[virajbansal] 18:00:47
+Not all of our… yeah, not our fault.
+
+[Jeong Hoon Choi] 18:00:49
+Yeah, I gotta…
+
+[virajbansal] 18:00:49
+I think what gets…
+
+[Jeong Hoon Choi] 18:00:51
+part of the no-growth and Girl file.
+
+[virajbansal] 18:00:53
+Yeah, go ahead, that's fine, turn it off.
+
+[Jeong Hoon Choi] 18:00:56
+Okay…
+
+[virajbansal] 18:01:00
+I'll stop the app on my end…
+
+[Jeong Hoon Choi] 18:01:03
+Or you write down on the Cooper…
+
+[Jeong Hoon Choi] 18:01:06
+sucks?
+
+[Chih-Yun Pai] 18:01:06
+Uh, yeah, I'm writing.
+
+[Chih-Yun Pai] 18:01:09
+Yeah, I'll show you the link.
+
+[virajbansal] 18:01:10
+Yeah, share the link.
+
+[Jeong Hoon Choi] 18:01:10
+Yeah? Yeah, let's finish that today, and I think that's all.
+
+[virajbansal] 18:01:17
+Yeah.
+
+[virajbansal] 18:01:38
+Are you using the link that I sent you?
+
+[virajbansal] 18:01:40
+Heard of that, Howard? The ChatGPT?
+
+[Chih-Yun Pai] 18:01:42
+Uh, yeah.
+
+[virajbansal] 18:01:44
+Because it has all the…
+
+[virajbansal] 18:01:45
+info about the idea that…
+
+[virajbansal] 18:01:48
+I came up with… so you just have to ask it to, like, give you…
+
+[virajbansal] 18:01:54
+everything regarding the…
+
+[virajbansal] 18:01:56
+the final proposal.
+
+[Chih-Yun Pai] 18:01:59
+Uh-huh. Yeah, I'm just…
+
+[Chih-Yun Pai] 18:02:03
+Asking him to…
+
+[Chih-Yun Pai] 18:02:06
+Generate some diagram for me.
+
+[Chih-Yun Pai] 18:02:08
+Um, Discord here.
+

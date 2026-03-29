@@ -1,0 +1,2409 @@
+[Chih-Yun Pai] 16:05:39
+Yeah, Sharon.
+
+[virajbansal] 16:05:40
+Okay. Yeah, I see it.
+
+[virajbansal] 16:05:41
+Why is it showing up there?
+
+[virajbansal] 16:05:46
+Oh, there we go, okay.
+
+[virajbansal] 16:05:49
+Um, okay, well, we'll worry about that later, let's…
+
+[virajbansal] 16:05:52
+Let's do this lab thing, because this one's big.
+
+[virajbansal] 16:05:56
+Um…
+
+[Chih-Yun Pai] 16:05:57
+But I think this one is a lot of things that just keeps repeating in itself.
+
+[virajbansal] 16:05:58
+for the team.
+
+[virajbansal] 16:06:02
+Right, yeah, yeah, I think you're right.
+
+[virajbansal] 16:06:05
+Um, you start by preparing data and creating embeddings for text.
+
+[virajbansal] 16:06:09
+You'll work with your team on PDF text extraction in this lab.
+
+[virajbansal] 16:06:13
+Additionally, you'll process the data to create word embeddings and text chunks that will be used.
+
+[virajbansal] 16:06:20
+to train your LLMs and spend time getting familiar with different LLM models.
+
+[virajbansal] 16:06:25
+Okay…
+
+[virajbansal] 16:06:27
+Oh, so he gives us a drive…
+
+[virajbansal] 16:06:31
+To extract.
+
+[virajbansal] 16:06:33
+the stuff, I think?
+
+[Chih-Yun Pai] 16:06:33
+Uh, Xian already posts all the, uh…
+
+[Jeong Hoon Choi] 16:06:36
+Oh
+
+[Chih-Yun Pai] 16:06:36
+Stopping the drive to GitHub.
+
+[Jeong Hoon Choi] 16:06:38
+Yeah, I'm just copied in.
+
+[virajbansal] 16:06:40
+Oh, okay, you… it's already in the GitHub. Cool, cool, cool.
+
+[virajbansal] 16:06:44
+I haven't checked the GitHub, um, I should check it later.
+
+[Jeong Hoon Choi] 16:06:47
+Yeah, yeah.
+
+[virajbansal] 16:06:47
+Okay, at the end of both parts of the lab, the system would have done
+
+[virajbansal] 16:06:53
+of the above structure, the model should read a PDF from…
+
+[virajbansal] 16:06:57
+of the textbook and installation instructions in the…
+
+[virajbansal] 16:07:03
+drive link, convert them into embeddings using OpenAI's embeddings library, store them in a vector database.
+
+[virajbansal] 16:07:10
+The LLM model should be trained… oh, by the way, I think, um… so the…
+
+[virajbansal] 16:07:15
+the Snowflake instance that we have, like, we're gonna lose it, and like…
+
+[virajbansal] 16:07:20
+3 or 4 days, something like that, so I'm gonna have to spin up a…
+
+[virajbansal] 16:07:23
+a new instance…
+
+[Jeong Hoon Choi] 16:07:24
+Oh, oh.
+
+[virajbansal] 16:07:26
+Um…
+
+[Chih-Yun Pai] 16:07:26
+Okay.
+
+[virajbansal] 16:07:27
+Yeah, potentially. Because, uh…
+
+[virajbansal] 16:07:30
+Actually, let me check one…
+
+[Chih-Yun Pai] 16:07:33
+Yeah, I saw the warning, too.
+
+[virajbansal] 16:07:34
+When exactly…
+
+[Chih-Yun Pai] 16:07:35
+It says Iowa ends.
+
+[Chih-Yun Pai] 16:07:37
+This week.
+
+[virajbansal] 16:07:38
+Because it's a… we're on a free… we're on… we're just on the free, like, variation.
+
+[Jeong Hoon Choi] 16:07:38
+why I didn't get…
+
+[virajbansal] 16:07:42
+Yeah, engine 3 days, which is…
+
+[virajbansal] 16:07:47
+Uh… tomorrow, Friday, and Saturday. Okay, so we only have till Saturday.
+
+[virajbansal] 16:07:50
+After that, we lose the…
+
+[virajbansal] 16:07:53
+we lose… I think what I'm gonna end up doing is…
+
+[virajbansal] 16:07:57
+Actually, do you guys mind creating the Snowflake account?
+
+[virajbansal] 16:08:02
+since you guys probably have another email that you could use, you could use our…
+
+[virajbansal] 16:08:05
+Uh, USC one?
+
+[Jeong Hoon Choi] 16:08:07
+Uh-huh. Book.
+
+[virajbansal] 16:08:07
+I don't have another email I could try with.
+
+[Jeong Hoon Choi] 16:08:09
+Is that meaning that if we not touch the data for 3 days, it's gonna delete automatically?
+
+[virajbansal] 16:08:14
+It's not gonna delete it, per se, but it will basically lock us out. Like, it's… like, we can… we can log in, don't get me wrong.
+
+[virajbansal] 16:08:22
+wrong, but it's not gonna let us, like, view the data in the…
+
+[virajbansal] 16:08:26
+database, or anything until… unless we upgrade.
+
+[virajbansal] 16:08:30
+And then we'll get to use the data and, like, change the database stuff.
+
+[virajbansal] 16:08:34
+But it'll lock us out until we, like, renew the thing.
+
+[Jeong Hoon Choi] 16:08:35
+Oh, I…
+
+[virajbansal] 16:08:38
+And, like, pay money for it, essentially.
+
+[Jeong Hoon Choi] 16:08:41
+Oh, because in the, like, later in this description, like, number 3,
+
+[Jeong Hoon Choi] 16:08:47
+should procure about making the…
+
+[Jeong Hoon Choi] 16:08:50
+But if they're using the error time that without the open air, they kind of token, so he… she's asking about local…
+
+[Jeong Hoon Choi] 16:08:56
+other than, like, the Kendoki?
+
+[Jeong Hoon Choi] 16:08:59
+So maybe we need to install in local storage also together?
+
+[virajbansal] 16:09:00
+Um…
+
+[virajbansal] 16:09:05
+Uh, where does it say that?
+
+[Jeong Hoon Choi] 16:09:07
+So, number 3, using open source resources.
+
+[virajbansal] 16:09:11
+Three, you may have noticed that OpenAI charges fees for using their tools and models.
+
+[Chih-Yun Pai] 16:09:17
+I think…
+
+[virajbansal] 16:09:17
+This development path may not be the best for developing and deploying domain-specific chatbots, especially because
+
+[virajbansal] 16:09:24
+functionally equivalent solutions with acceptable performances can be built with open source tools and models.
+
+[virajbansal] 16:09:30
+Moreover, developers may not want ChatGPT to analyze their
+
+[virajbansal] 16:09:35
+Original proprietary data that contains domain-specific answers.
+
+[virajbansal] 16:09:38
+In some cases, the solution may not have access to
+
+[virajbansal] 16:09:42
+the internet, therefore your task in this section is to replace the OpenAI resource with free tools.
+
+[virajbansal] 16:09:49
+and models. You may use any…
+
+[virajbansal] 16:09:51
+open source local embedding models and LLMs, if they can produce outputs similar to that of OpenAI.
+
+[virajbansal] 16:09:58
+embeddings, um…
+
+[virajbansal] 16:10:00
+Many open-source text embedding models are available at Hugging Face.
+
+[virajbansal] 16:10:06
+Uh, additional… okay, okay, yeah, yeah, that's fine. Um…
+
+[virajbansal] 16:10:09
+Because we… for text embedding,
+
+[virajbansal] 16:10:11
+Because this is basically, like, Doc2Vec or whatever.
+
+[Jeong Hoon Choi] 16:10:11
+Mm-hmm.
+
+[virajbansal] 16:10:15
+Um, we could use, uh…
+
+[virajbansal] 16:10:18
+what is it? Like, we could use Snowflake again. So, Snowflake hex Cortex?
+
+[virajbansal] 16:10:24
+Which is also a built-in LLM. I'll talk to the professor again tomorrow about it, like, I'll ask him after class.
+
+[virajbansal] 16:10:30
+Um, whether that's fine to do.
+
+[Jeong Hoon Choi] 16:10:32
+Oh, okay.
+
+[virajbansal] 16:10:32
+for the open. But, uh, what we'll… what we'll end up doing is we'll just create another Snowflake account,
+
+[virajbansal] 16:10:39
+And build everything on that account instead of this current one, that way we can just keep using free
+
+[virajbansal] 16:10:46
+like, resources, um, and then we can do all the embedding, because Snowflake already has the embedding architecture.
+
+[virajbansal] 16:10:53
+So we can use all the embedding models from there, and then I think Snowflake also has a built-in LLM, like Cortex or something. Let me just check over with Snowflake.
+
+[virajbansal] 16:11:03
+about, um… LLM…
+
+[virajbansal] 16:11:08
+Provides a built-in managed large language models and vector search capabilities directly within Snowflake Direct. Yeah, so…
+
+[Jeong Hoon Choi] 16:11:15
+Because what Tanya doomlo that, if you see that, what is the Python code, the app
+
+[virajbansal] 16:11:16
+Um…
+
+[Jeong Hoon Choi] 16:11:22
+Hi, the script.
+
+[Jeong Hoon Choi] 16:11:23
+So, they're using the, like, a length chain, and now she asking to use the…
+
+[Jeong Hoon Choi] 16:11:29
+local air motor.
+
+[Jeong Hoon Choi] 16:11:31
+So, I'm thinking, like, uh…
+
+[virajbansal] 16:11:32
+Wait, where does… where does… where do you… where do you see that part?
+
+[Jeong Hoon Choi] 16:11:36
+So, in the Google Drive, so she already unloaded this, um…
+
+[Jeong Hoon Choi] 16:11:43
+a Python script.
+
+[virajbansal] 16:11:45
+Oh, hook.
+
+[Chih-Yun Pai] 16:11:45
+Or maybe you can just see that in GitHub.
+
+[Chih-Yun Pai] 16:11:48
+I think he's using that because he used OpenAI, and…
+
+[Jeong Hoon Choi] 16:11:49
+Yeah.
+
+[virajbansal] 16:11:49
+Let me…
+
+[Jeong Hoon Choi] 16:11:55
+Putin… uh-huh.
+
+[Chih-Yun Pai] 16:11:55
+Uh…
+
+[Chih-Yun Pai] 16:11:56
+Yeah. Yeah.
+
+[Jeong Hoon Choi] 16:11:57
+But she said, like, using the skeleton of the app pie?
+
+[Jeong Hoon Choi] 16:12:02
+fun. For this lab.
+
+[Jeong Hoon Choi] 16:12:04
+Yeah, she asked us.
+
+[Chih-Yun Pai] 16:12:04
+I think we can modify this one as long as we use a model, LM model, to…
+
+[Chih-Yun Pai] 16:12:11
+You know, to answer questions.
+
+[Chih-Yun Pai] 16:12:12
+We can use hogging face, we don't, um…
+
+[Jeong Hoon Choi] 16:12:13
+Uh-huh.
+
+[Chih-Yun Pai] 16:12:15
+I don't think we actually have to, like, follow
+
+[virajbansal] 16:12:17
+I mean, what is all of this stuff? There's almost… what is this, uh…
+
+[virajbansal] 16:12:21
+I mean, I see the PDF, sure.
+
+[virajbansal] 16:12:23
+But what does this HTML release notes HTML, what is all of this other stuff?
+
+[Jeong Hoon Choi] 16:12:28
+Well, see, I don't know what is the HTML, the Python script, they just write them.
+
+[virajbansal] 16:12:33
+ADS data…
+
+[Jeong Hoon Choi] 16:12:35
+I'm pretty
+
+[virajbansal] 16:12:36
+The licensing PDF…
+
+[virajbansal] 16:12:38
+What is this… what does this solve for? Like…
+
+[virajbansal] 16:12:42
+What do we do with this?
+
+[Jeong Hoon Choi] 16:12:42
+like, a scripting.
+
+[Jeong Hoon Choi] 16:12:44
+scrapping the… from the Wikipedia, and…
+
+[virajbansal] 16:12:48
+Okay, domain knowledge.
+
+[virajbansal] 16:12:50
+Okay, ADS cookbook…
+
+[virajbansal] 16:12:56
+Okay, so this is just the…
+
+[virajbansal] 16:13:00
+The cookbook is the main thing, right? That they… that she wants us to use?
+
+[Jeong Hoon Choi] 16:13:04
+Yeah.
+
+[virajbansal] 16:13:05
+this thing, okay.
+
+[Chih-Yun Pai] 16:13:05
+Yeah, that's, uh, knowledge.
+
+[Chih-Yun Pai] 16:13:08
+Uh, we're going to, like…
+
+[Chih-Yun Pai] 16:13:11
+serve as an input for the LLM.
+
+[Chih-Yun Pai] 16:13:13
+like a… uh…
+
+[Chih-Yun Pai] 16:13:15
+basic knowledge.
+
+[virajbansal] 16:13:16
+What does this thing do? App.py…
+
+[Chih-Yun Pai] 16:13:20
+I think app… app.py is how we're going to run through the whole process.
+
+[virajbansal] 16:13:21
+Line chain…
+
+[virajbansal] 16:13:26
+Oh, okay, she's just giving us her code. I think we don't need to use this. Like, we can use whatever…
+
+[virajbansal] 16:13:32
+whatever open-source thing that we want to use, or open…
+
+[Jeong Hoon Choi] 16:13:36
+Mm-hmm.
+
+[virajbansal] 16:13:36
+Um,
+
+[virajbansal] 16:13:39
+Because I'll talk to him about this number 3 tomorrow, CN.
+
+[virajbansal] 16:13:44
+Because the Snowflake stuff is gonna be free for us, like…
+
+[Jeong Hoon Choi] 16:13:44
+Okay.
+
+[virajbansal] 16:13:47
+I'll just make another trial account for us, and that'll basically be free, like, we're not gonna be spending any money on that.
+
+[virajbansal] 16:13:53
+Um,
+
+[Jeong Hoon Choi] 16:13:54
+Oh, I see.
+
+[virajbansal] 16:13:55
+So, if that's okay, then, like, we'll just do Snowflake, everything will be built in, and…
+
+[virajbansal] 16:14:01
+We won't have to use any other, like, libraries or install anything else. Like, it'll just all be in one spot for us.
+
+[virajbansal] 16:14:08
+As opposed to… um, but for, like, for example, running the model, like, locally,
+
+[virajbansal] 16:14:14
+like, we would need to…
+
+[virajbansal] 16:14:16
+If not using, um…
+
+[virajbansal] 16:14:21
+If we're gonna… we're not gonna be able to run it locally unless one of you guys has a GPU powerful enough to run the model locally. Like, if we use, like, uh…
+
+[virajbansal] 16:14:30
+what is it? Like, a 40 billion parameter model, or, like, some of the smaller ones compared to ChatGPT, but…
+
+[virajbansal] 16:14:35
+Like, that are still somewhat, like, good.
+
+[virajbansal] 16:14:39
+Um…
+
+[Jeong Hoon Choi] 16:14:39
+I think $4 billion is enough for this.
+
+[Jeong Hoon Choi] 16:14:42
+project. Like, we don't need such…
+
+[virajbansal] 16:14:43
+Uh, hopefully.
+
+[Jeong Hoon Choi] 16:14:44
+Yeah.
+
+[virajbansal] 16:14:45
+The thing is, even that's, like, really big, like, we won't be able to run it
+
+[virajbansal] 16:14:51
+on our laptops, like, just like that.
+
+[virajbansal] 16:14:53
+I don't think. Like, we would still need to…
+
+[virajbansal] 16:14:56
+then end up spinning up a…
+
+[virajbansal] 16:14:59
+uh, what do you call?
+
+[virajbansal] 16:15:02
+I'm thinking here, um…
+
+[virajbansal] 16:15:04
+like, some sort of EC2 instance or something.
+
+[virajbansal] 16:15:08
+or Google Compute with, like,
+
+[virajbansal] 16:15:11
+a couple of GPUs in there, that way then, like,
+
+[Jeong Hoon Choi] 16:15:13
+Mm-hmm.
+
+[virajbansal] 16:15:14
+then we basically, like, have a script talk to the…
+
+[virajbansal] 16:15:18
+the GPU to extract the chat data and, like, do all that stuff?
+
+[virajbansal] 16:15:23
+Um, I'd rather use Snowflake, because then we wouldn't have to spend any of that stuff up.
+
+[Jeong Hoon Choi] 16:15:29
+Uh, let's see…
+
+[Chih-Yun Pai] 16:15:29
+Oh, so, Snowflake has its… has its own API to connect to it.
+
+[Chih-Yun Pai] 16:15:34
+its AI model.
+
+[virajbansal] 16:15:36
+Yes, yeah, it has its own embedding API.
+
+[Chih-Yun Pai] 16:15:37
+Okay.
+
+[virajbansal] 16:15:39
+It has its own…
+
+[virajbansal] 16:15:43
+Let me see… court…
+
+[Chih-Yun Pai] 16:15:44
+like, storage, um…
+
+[virajbansal] 16:15:46
+Yeah, generates completion for a given text string or image using selected LLM. Yeah, so, like,
+
+[Chih-Yun Pai] 16:15:47
+Okay.
+
+[virajbansal] 16:15:53
+AI complete, basically, is, um…
+
+[virajbansal] 16:15:57
+like, the chatbot variation.
+
+[virajbansal] 16:16:00
+Um, and then AI embed.
+
+[Chih-Yun Pai] 16:16:00
+So, if a professor agrees…
+
+[virajbansal] 16:16:03
+Yeah, he was okay.
+
+[Chih-Yun Pai] 16:16:03
+Yeah, we can just use Snowflake.
+
+[virajbansal] 16:16:05
+Yeah, yeah, he was okay with it for the last ones. I'll ask him again tomorrow, because it does say open source. This is technically not open source.
+
+[virajbansal] 16:16:13
+But it's free. Like, we could use it.
+
+[Chih-Yun Pai] 16:16:16
+Okay.
+
+[virajbansal] 16:16:17
+Um, so I don't see why that would be an issue.
+
+[virajbansal] 16:16:21
+Um,
+
+[Chih-Yun Pai] 16:16:24
+Okay.
+
+[virajbansal] 16:16:24
+So we should, yeah, we should just be able to use all of this to do that.
+
+[virajbansal] 16:16:29
+Um, yeah.
+
+[virajbansal] 16:16:31
+Let me… what else is there? So…
+
+[virajbansal] 16:16:34
+that's the open source tools part. So that's basically… one part is we use the OpenAI stuff to do this.
+
+[virajbansal] 16:16:41
+And the other part is we use, um…
+
+[virajbansal] 16:16:46
+uh… Snowflake to do this.
+
+[virajbansal] 16:16:50
+Yeah, um…
+
+[virajbansal] 16:16:52
+So let me see here…
+
+[virajbansal] 16:16:55
+This is a more detailed explanation.
+
+[virajbansal] 16:16:57
+the PDF will… it'll get chunks of text from the PDF, embed that.
+
+[virajbansal] 16:17:04
+convert PDF into text document suitable for embeddings and GPT.
+
+[virajbansal] 16:17:10
+Uh, the text document will need to be split into short, mostly self-contained sections to be embedded.
+
+[virajbansal] 16:17:16
+embed each section…
+
+[virajbansal] 16:17:19
+embed each section is embedded with OpenAI API.
+
+[virajbansal] 16:17:22
+Store embeddings… embeddings are saved for large datasets using a vector database.
+
+[virajbansal] 16:17:29
+search, given a user query, generate an embedding for the query that… from… yeah, so, like,
+
+[virajbansal] 16:17:34
+But Snowflake also has that, uh…
+
+[virajbansal] 16:17:37
+Um…
+
+[virajbansal] 16:17:41
+functionality, too, where, like, you can embed and then search for…
+
+[virajbansal] 16:17:45
+Uh, things for you.
+
+[virajbansal] 16:17:47
+I think, um…
+
+[virajbansal] 16:17:50
+So we could use that as well.
+
+[virajbansal] 16:17:53
+Uh, let's see…
+
+[virajbansal] 16:17:57
+Um, you're gonna use your question generating embedding from the query, from the OpeningI API.
+
+[virajbansal] 16:18:03
+Z embeddings rank the text.
+
+[virajbansal] 16:18:04
+sections by relevance to the query.
+
+[virajbansal] 16:18:08
+Uh, insert the question and most relevant sections into a message.
+
+[virajbansal] 16:18:13
+to GPT, return GPT's answer, okay.
+
+[virajbansal] 16:18:16
+Um… use all tools…
+
+[virajbansal] 16:18:20
+you used in the previous labs, including the conversion tools and database for this assignment.
+
+[virajbansal] 16:18:27
+from… for this assignment, you will need to use Python scripts and other useful tools in the Linux environment. Make sure to document.
+
+[virajbansal] 16:18:35
+Oh, all setups, okay, joyful, has it ringing at all.
+
+[virajbansal] 16:18:41
+Oh, read me… wait, there's no README in the driver folder.
+
+[Jeong Hoon Choi] 16:18:44
+Oh, yeah, they have a limit in the…
+
+[Jeong Hoon Choi] 16:18:48
+driver, and I didn't move to my GitHub.
+
+[virajbansal] 16:18:52
+Oh, I see.
+
+[Jeong Hoon Choi] 16:18:54
+Yeah, they took…
+
+[virajbansal] 16:19:04
+App T1, so you move App, whatever that one app file is.
+
+[virajbansal] 16:19:07
+into here.
+
+[Jeong Hoon Choi] 16:19:10
+Yes, mate.
+
+[virajbansal] 16:19:10
+That's what you're saying?
+
+[Jeong Hoon Choi] 16:19:12
+I mean, I moved the app…
+
+[Jeong Hoon Choi] 16:19:15
+high from the disk drive, Google Drive.
+
+[Jeong Hoon Choi] 16:19:18
+to my laboratory.
+
+[virajbansal] 16:19:18
+Yeah.
+
+[virajbansal] 16:19:21
+Yeah.
+
+[virajbansal] 16:19:25
+Uh, okay.
+
+[virajbansal] 16:19:26
+So you moved, uh, that one, and then you moved this other…
+
+[virajbansal] 16:19:31
+HTMLsTemplates.py.
+
+[Jeong Hoon Choi] 16:19:34
+Yes.
+
+[Chih-Yun Pai] 16:19:37
+So, basically, we're going to, like… I think how we have three parts. One is to, uh, turn the…
+
+[Chih-Yun Pai] 16:19:45
+data into embeddings and, uh, starting to…
+
+[Chih-Yun Pai] 16:19:50
+database. Second is how to…
+
+[Chih-Yun Pai] 16:19:53
+Uh, get that data and has the, uh…
+
+[Chih-Yun Pai] 16:19:57
+user input.
+
+[Chih-Yun Pai] 16:20:00
+all feeding to the LM and generate the answer, and the best part is, like…
+
+[Chih-Yun Pai] 16:20:05
+Uh, how to show it on the web interface.
+
+[Jeong Hoon Choi] 16:20:08
+Yeah, I'm also thinking, like, that dividing to, like, death.
+
+[Jeong Hoon Choi] 16:20:12
+So, one person may be doing the…
+
+[Jeong Hoon Choi] 16:20:13
+making the backpore database.
+
+[Jeong Hoon Choi] 16:20:15
+If you see that that picture,
+
+[Jeong Hoon Choi] 16:20:18
+So, one person focusing on each trendy.
+
+[Chih-Yun Pai] 16:20:18
+Hmm.
+
+[Jeong Hoon Choi] 16:20:21
+distracting the vector.
+
+[Jeong Hoon Choi] 16:20:24
+story in the vector database, and one people
+
+[Jeong Hoon Choi] 16:20:26
+controlling the error and, like, uh…
+
+[Jeong Hoon Choi] 16:20:29
+with the input and using the database to make an output.
+
+[Chih-Yun Pai] 16:20:32
+Yeah, and…
+
+[virajbansal] 16:20:33
+Okay, yeah.
+
+[Chih-Yun Pai] 16:20:35
+And that's what I'm gonna do.
+
+[virajbansal] 16:20:35
+Um, okay.
+
+[Jeong Hoon Choi] 16:20:36
+And one point, yeah.
+
+[virajbansal] 16:20:38
+Okay, this is… yeah, this makes sense. So, like,
+
+[virajbansal] 16:20:40
+I guess what we could have again is…
+
+[virajbansal] 16:20:44
+One person working on the, um…
+
+[virajbansal] 16:20:46
+like, the data collection and preprocessing stuff.
+
+[virajbansal] 16:20:49
+So, like, figuring out, uh…
+
+[virajbansal] 16:20:51
+how to get the text extracted and do the chunking and everything?
+
+[virajbansal] 16:20:56
+Um… they'll use, um, OpenAI's embeddings and stuff to create the embeddings.
+
+[Chih-Yun Pai] 16:20:56
+Hmm.
+
+[virajbansal] 16:21:03
+Um…
+
+[virajbansal] 16:21:05
+Uh, and then… let's see here…
+
+[virajbansal] 16:21:08
+Um, and then they'll store the embeddings into the vector database.
+
+[Chih-Yun Pai] 16:21:13
+Yeah.
+
+[virajbansal] 16:21:13
+Um, so I can… I can definitely take on the vector database stuff.
+
+[virajbansal] 16:21:18
+if you guys, uh, don't want to do that, um, I can do all the vector database backend stuff there.
+
+[virajbansal] 16:21:24
+Um, the database work.
+
+[virajbansal] 16:21:27
+Um, and then…
+
+[virajbansal] 16:21:28
+If you guys also want, I could handle…
+
+[virajbansal] 16:21:32
+the snowflake open… like, I can do the open source part.
+
+[virajbansal] 16:21:36
+Um…
+
+[virajbansal] 16:21:38
+Where, like, we use a different model.
+
+[virajbansal] 16:21:40
+and everything, um, I'll figure that part out. If the professor says something else, I'll, like, figure out how to get a different…
+
+[virajbansal] 16:21:47
+Um, AI model to run.
+
+[virajbansal] 16:21:49
+And then, uh, let's see here…
+
+[virajbansal] 16:21:52
+And then… does… does… do you… does anybody… do you, um, CN, or do you guys, anybody want to do the web, uh, web stuff? Like the…
+
+[virajbansal] 16:22:00
+web interface stuff, HTML, CSS?
+
+[virajbansal] 16:22:03
+JavaScript, or do you want me to take that? I could take that.
+
+[Chih-Yun Pai] 16:22:08
+Um…
+
+[Jeong Hoon Choi] 16:22:08
+Uh, Austria.
+
+[Jeong Hoon Choi] 16:22:09
+Oh, yeah.
+
+[Chih-Yun Pai] 16:22:11
+Uh, if there are any requirements for that, well,
+
+[Chih-Yun Pai] 16:22:15
+Because I feel like maybe he's…
+
+[Chih-Yun Pai] 16:22:17
+I didn't read through the template yet, but…
+
+[Chih-Yun Pai] 16:22:20
+This is just, like, having the…
+
+[virajbansal] 16:22:22
+No, it is, it is. It says…
+
+[virajbansal] 16:22:24
+web interface dev… it's… it's for web interface design. You will focus on designing a user-friendly chatbot interface using HTML and CSS.
+
+[virajbansal] 16:22:33
+implement JavaScript to handle user interactions and communicate with the chatbot.
+
+[virajbansal] 16:22:38
+Like, and then you'll need…
+
+[Chih-Yun Pai] 16:22:38
+Yeah, I mean, but do we have to…
+
+[virajbansal] 16:22:40
+Oh.
+
+[Chih-Yun Pai] 16:22:41
+doing, like, in a fancy way, or just…
+
+[virajbansal] 16:22:44
+It doesn't need to be… it doesn't need to be fancy. You just… you just need to…
+
+[Chih-Yun Pai] 16:22:45
+a… a…
+
+[virajbansal] 16:22:48
+Like, I don't think you need to go too crazy, but…
+
+[virajbansal] 16:22:51
+like… like, somebody will need to spend time basically working on it. It could be ugly, like, is what I'm saying, Howard. Like, you can make it as ugly as you want it to be.
+
+[virajbansal] 16:22:59
+Honestly, I could care less.
+
+[virajbansal] 16:23:01
+Uh, but…
+
+[virajbansal] 16:23:03
+Um, with that being said, you'll still have to, like, work on the JavaScript and, like,
+
+[virajbansal] 16:23:08
+making some basic HTML and CSS
+
+[virajbansal] 16:23:11
+things so you can interact with it. Otherwise, like, it may not be usable, so you just have to make sure it's usable, but it can be ugly.
+
+[virajbansal] 16:23:18
+If that's what you're asking? Yeah.
+
+[virajbansal] 16:23:23
+So, I don't know if one of you guys want to take that on.
+
+[Jeong Hoon Choi] 16:23:27
+Uh, I'm thinking about because Horon last time, already built on every PDF extraction function.
+
+[Jeong Hoon Choi] 16:23:33
+So, maybe he doing the PDF…
+
+[Jeong Hoon Choi] 16:23:37
+part, and once I'm listening to him making the AI agent.
+
+[Jeong Hoon Choi] 16:23:41
+So, I want to try the local element to doing the…
+
+[Jeong Hoon Choi] 16:23:47
+Adam Park?
+
+[virajbansal] 16:23:49
+You want to do it in the Part 3?
+
+[Jeong Hoon Choi] 16:23:51
+the…
+
+[virajbansal] 16:23:51
+Because that's the… the open source local LLM stuff that you want to do that one?
+
+[virajbansal] 16:23:56
+Is that what you're saying?
+
+[Jeong Hoon Choi] 16:23:56
+Yeah, so in the picture, the right side one.
+
+[virajbansal] 16:24:01
+Wait, what do you mean in the picture?
+
+[Jeong Hoon Choi] 16:24:03
+Oh, they have some, like, graph in the first page of the instructions.
+
+[virajbansal] 16:24:10
+Uh…
+
+[virajbansal] 16:24:12
+So the OpenAI stuff, then, the open… like, whether it'll ask GPT and then, um…
+
+[Jeong Hoon Choi] 16:24:16
+Yeah.
+
+[virajbansal] 16:24:18
+So, you want to do the OpenAI, but, like, the OpenAI can't be run locally, you know that, right? Like…
+
+[virajbansal] 16:24:23
+you would need to use Hugging Faces or something.
+
+[Jeong Hoon Choi] 16:24:23
+Yeah,
+
+[Jeong Hoon Choi] 16:24:26
+I want to use the…
+
+[virajbansal] 16:24:26
+or Snowflake-like, as I was used.
+
+[Jeong Hoon Choi] 16:24:29
+I already use paper, so I think I can use that.
+
+[virajbansal] 16:24:33
+So, do you mind just doing both the OpenAI part and then the local model, if you want to handle that part? I won't ask about the…
+
+[virajbansal] 16:24:41
+the snowflake thing tomorrow, because if you're gonna, like, if you want to do the local model, then, like…
+
+[Jeong Hoon Choi] 16:24:45
+Yeah, I can, like, make the OpenAI API the client together, so we can change
+
+[virajbansal] 16:24:46
+That's…
+
+[Jeong Hoon Choi] 16:24:52
+the part module.
+
+[Jeong Hoon Choi] 16:24:53
+Yeah, I'm gonna do both then, yeah.
+
+[virajbansal] 16:24:53
+Okay. Okay, okay.
+
+[Chih-Yun Pai] 16:24:56
+Oh, so you're…
+
+[virajbansal] 16:24:56
+If you're gonna do both,
+
+[Chih-Yun Pai] 16:24:58
+You're not going to use a snowflake.
+
+[Chih-Yun Pai] 16:25:02
+Oh, yeah.
+
+[Jeong Hoon Choi] 16:25:03
+Also, if you ins…
+
+[virajbansal] 16:25:03
+Snowflake is…
+
+[virajbansal] 16:25:05
+Oh, go ahead.
+
+[Jeong Hoon Choi] 16:25:07
+Yeah, if it's installing the… I mean, what is the store, the data in the…
+
+[Jeong Hoon Choi] 16:25:14
+Snowflake database, I think I can…
+
+[Jeong Hoon Choi] 16:25:16
+extract from there, right?
+
+[virajbansal] 16:25:18
+Yeah, I'll write you the… I'll write you the functions to store and extract the…
+
+[Chih-Yun Pai] 16:25:19
+Yeah, sure.
+
+[virajbansal] 16:25:22
+the data from Snowflake, so you wouldn't need to worry about those.
+
+[Jeong Hoon Choi] 16:25:25
+Yellow. Yeah, while I'm trying, I want to use the snowflake, and I'm gonna try that also.
+
+[virajbansal] 16:25:27
+I'll… I'll manage.
+
+[virajbansal] 16:25:32
+Okay, okay. You'll have to, yeah, you'll have to look into it. Snowflake Cortex is, like, basically what you use.
+
+[Chih-Yun Pai] 16:25:33
+Oh, okay.
+
+[Jeong Hoon Choi] 16:25:39
+cortex.
+
+[virajbansal] 16:25:39
+Um, yeah, Snowflake, uh, Snowflake Cortex is the main, like, um,
+
+[virajbansal] 16:25:44
+uh, like, their AI stuff.
+
+[Jeong Hoon Choi] 16:25:45
+Vortex. Okay.
+
+[virajbansal] 16:25:47
+Um, so it'll have a bunch of functions that you'll have to look through what they are and how to use them.
+
+[virajbansal] 16:25:53
+as agents and stuff, and it has a bunch of stuff. Snowflake portext Search is also, like, it'll…
+
+[virajbansal] 16:25:58
+give you embedded search and stuff.
+
+[virajbansal] 16:26:00
+So, um, okay, I'll leave that up to you then. So you can, you can, you can do the OpenAI plus…
+
+[virajbansal] 16:26:07
+the open source local or open, uh, Snowflake, whatever that part.
+
+[virajbansal] 16:26:12
+basically 3 CN…
+
+[virajbansal] 16:26:14
+I guess I'll let you… let you to handle, and then…
+
+[virajbansal] 16:26:19
+Um, you'll also have to do the OpenAI parts of the search.
+
+[virajbansal] 16:26:23
+like, generate an embedding from the query for the user.
+
+[virajbansal] 16:26:27
+And then rank the embeddings using the text section by relevance.
+
+[virajbansal] 16:26:32
+And then, like, taking those chunks
+
+[virajbansal] 16:26:34
+from the, uh, from the… from the rankings, and then…
+
+[virajbansal] 16:26:38
+passing that on to GPT as, uh…
+
+[virajbansal] 16:26:40
+as a question along with the user's thing to get GPT's answer. Like, you'll basically handle that part. I think you might need to use Langchain.
+
+[virajbansal] 16:26:48
+And then whatever, uh,
+
+[virajbansal] 16:26:50
+Tanya's script is doing, uh, to basically handle that part.
+
+[virajbansal] 16:26:54
+She's already given you a lot of the getting the vector
+
+[Jeong Hoon Choi] 16:26:55
+Yeah.
+
+[virajbansal] 16:26:57
+embeddings and stuff.
+
+[virajbansal] 16:26:59
+We'll have to change… I'll have to change some of this, I think.
+
+[virajbansal] 16:27:03
+Um, get PDF text. I'll have to change some of this code to make it work with Snowflake, I think.
+
+[virajbansal] 16:27:08
+But for the most part, like, um…
+
+[virajbansal] 16:27:11
+you should have a lot of what you need already.
+
+[virajbansal] 16:27:15
+Um… okay.
+
+[Jeong Hoon Choi] 16:27:17
+Yeah, I think it's the same with the…
+
+[virajbansal] 16:27:17
+Uh, Howard, I'll ask…
+
+[Jeong Hoon Choi] 16:27:20
+Oh, yeah, AI agent? Oh, I'm sorry.
+
+[virajbansal] 16:27:21
+Howard, yeah
+
+[virajbansal] 16:27:22
+No, no, no, go ahead, go ahead. Sorry, I keep interrupting you. Go ahead, see what you're saying.
+
+[Jeong Hoon Choi] 16:27:27
+Yeah, I mean, it seemed like the same with the…
+
+[Jeong Hoon Choi] 16:27:31
+It's the long-term memory in the AI agent.
+
+[Jeong Hoon Choi] 16:27:33
+So, yeah, I think I can use the…
+
+[Jeong Hoon Choi] 16:27:35
+memes at all, or that kind of…
+
+[Jeong Hoon Choi] 16:27:37
+thing. Yeah, I think I'm gonna try.
+
+[virajbansal] 16:27:39
+Okay. Cool.
+
+[virajbansal] 16:27:41
+Do you want to do the… the front-end part? The web interface design?
+
+[virajbansal] 16:27:46
+get… get some exposure with that?
+
+[Chih-Yun Pai] 16:27:47
+Uh, I think I can do…
+
+[Chih-Yun Pai] 16:27:49
+Easier… either of them, but…
+
+[Chih-Yun Pai] 16:27:51
+I feel like if you're not going to do something fancy stuff on the… on the…
+
+[Chih-Yun Pai] 16:27:57
+interface. Then, like, that part might be easy.
+
+[Chih-Yun Pai] 16:28:00
+And for the embeddings part, I feel like…
+
+[Chih-Yun Pai] 16:28:06
+um… still, because we have done that before, right? Like, the PDF extraction.
+
+[virajbansal] 16:28:10
+Yeah.
+
+[Chih-Yun Pai] 16:28:11
+And I've… I read through the PDF.
+
+[Chih-Yun Pai] 16:28:15
+I just scan through it, and it's much easier than the oiled industry one.
+
+[virajbansal] 16:28:20
+Okay. Yeah.
+
+[Chih-Yun Pai] 16:28:21
+So, actually, I'm like…
+
+[Chih-Yun Pai] 16:28:24
+Do you have any preference between this?
+
+[Chih-Yun Pai] 16:28:27
+I can choose for this.
+
+[virajbansal] 16:28:28
+Uh…
+
+[virajbansal] 16:28:30
+Uh…
+
+[virajbansal] 16:28:32
+I personally don't want to deal with the PDF extraction, so I…
+
+[virajbansal] 16:28:37
+don't mind doing the web interface stuff.
+
+[Chih-Yun Pai] 16:28:37
+Okay.
+
+[virajbansal] 16:28:40
+I think the PDF extraction is more of a…
+
+[Chih-Yun Pai] 16:28:40
+Okay, now…
+
+[virajbansal] 16:28:43
+kind of a bitch to deal with, if I'm being honest.
+
+[Chih-Yun Pai] 16:28:46
+I can… okay.
+
+[virajbansal] 16:28:46
+So if… since you have more… yeah.
+
+[virajbansal] 16:28:48
+Okay.
+
+[Chih-Yun Pai] 16:28:48
+Yeah, I'll do is a PDF for extraction, but, um, can you help me to ask the professor if
+
+[Chih-Yun Pai] 16:28:55
+is where they do, like…
+
+[Chih-Yun Pai] 16:28:57
+like, if we can use a snowflake.
+
+[Jeong Hoon Choi] 16:29:01
+Yeah, let's ask tomorrow together.
+
+[virajbansal] 16:29:02
+you know, like, you want me to still ask about that?
+
+[virajbansal] 16:29:05
+Okay. Okay, I'll still talk to him.
+
+[Chih-Yun Pai] 16:29:07
+to start.
+
+[virajbansal] 16:29:09
+Also, I'll talk to him about the snowflake stuff, um…
+
+[virajbansal] 16:29:12
+tomorrow. We'll still use the vector store for Snowflake, because that's, like, very easy to do.
+
+[Chih-Yun Pai] 16:29:17
+Oh, yeah.
+
+[virajbansal] 16:29:18
+Um…
+
+[virajbansal] 16:29:19
+But I'll ask… I'll also ask about…
+
+[virajbansal] 16:29:22
+like, using, um…
+
+[virajbansal] 16:29:25
+They're not open-source model, but free to use.
+
+[virajbansal] 16:29:28
+embedding models and, um, LLM models.
+
+[virajbansal] 16:29:32
+And we'll see what he says.
+
+[virajbansal] 16:29:34
+Um, I don't imagine he'll have an issue with it.
+
+[Chih-Yun Pai] 16:29:35
+Hmm.
+
+[virajbansal] 16:29:36
+So, I think we will be good.
+
+[Chih-Yun Pai] 16:29:38
+Okay.
+
+[virajbansal] 16:29:38
+But in case he does the end, then you'll get to…
+
+[virajbansal] 16:29:41
+you'll get to do the local LLM.
+
+[Jeong Hoon Choi] 16:29:44
+Yeah, I already…
+
+[virajbansal] 16:29:45
+a local embedding model, and…
+
+[virajbansal] 16:29:46
+And I'll, um…
+
+[Jeong Hoon Choi] 16:29:46
+Try the same thing. Yeah, I can do.
+
+[virajbansal] 16:29:49
+Okay.
+
+[Chih-Yun Pai] 16:29:49
+So, do I have to really, uh…
+
+[Chih-Yun Pai] 16:29:53
+Snowflake account again.
+
+[virajbansal] 16:29:56
+Um, so…
+
+[virajbansal] 16:29:58
+So go to Snowflake,
+
+[virajbansal] 16:30:01
+Actually, if you want to share your screen, like, we could do this together.
+
+[virajbansal] 16:30:06
+Um…
+
+[Chih-Yun Pai] 16:30:06
+Um…
+
+[virajbansal] 16:30:09
+Or we could do it later, whatever, it's up to you, it's up to you.
+
+[Chih-Yun Pai] 16:30:09
+Uh, wait a minute…
+
+[virajbansal] 16:30:14
+Um, but you just have to go to Snowflake's website.
+
+[Chih-Yun Pai] 16:30:19
+Wait, where's my screen?
+
+[virajbansal] 16:30:20
+Slow 6, sign up.
+
+[virajbansal] 16:30:25
+Yeah, go to Snowflake… here, let me… I have the…
+
+[virajbansal] 16:30:28
+I have the URL, I'll paste it in chat.
+
+[Chih-Yun Pai] 16:30:30
+Snowflake…
+
+[virajbansal] 16:30:33
+This is our app's website. Don't go to that. I'll paste it in chat.
+
+[Chih-Yun Pai] 16:30:36
+Don't go do this.
+
+[virajbansal] 16:30:37
+Yeah, I pasted it in chat.
+
+[virajbansal] 16:30:41
+in Zoom chat, in Zoom's chat.
+
+[Chih-Yun Pai] 16:30:42
+Yeah, I see.
+
+[virajbansal] 16:30:44
+Yeah, this, this, this, uh, this website, yep.
+
+[virajbansal] 16:30:46
+And just, uh, sign up over here.
+
+[Chih-Yun Pai] 16:30:51
+Uh, do I have to use a USC email?
+
+[virajbansal] 16:30:54
+Uh, you can use your USC email, or whatever email, like, whatever you want to use on it, it doesn't matter to me.
+
+[virajbansal] 16:31:01
+Uh, you could just say USC for this university.
+
+[virajbansal] 16:31:05
+Yeah, our student is fine as well here.
+
+[Chih-Yun Pai] 16:31:07
+Drop title, okay.
+
+[virajbansal] 16:31:08
+doesn't really matter.
+
+[Chih-Yun Pai] 16:31:18
+I'll start a 30-day trial was 40 to $400 in credits.
+
+[Chih-Yun Pai] 16:31:23
+No credit card repair.
+
+[Chih-Yun Pai] 16:31:26
+Check your inbox.
+
+[virajbansal] 16:31:28
+Yeah.
+
+[virajbansal] 16:31:36
+So I go to your email, yeah, or I… you're probably already on it.
+
+[Chih-Yun Pai] 16:31:40
+Yeah, I haven't received any…
+
+[Chih-Yun Pai] 16:31:43
+You message it to me.
+
+[virajbansal] 16:31:46
+your USC email?
+
+[Chih-Yun Pai] 16:31:47
+Yeah. Didn't see any message yet.
+
+[Chih-Yun Pai] 16:31:51
+type it wrong.
+
+[virajbansal] 16:31:54
+Uh, weird.
+
+[Chih-Yun Pai] 16:32:00
+Oh, yeah, I see.
+
+[Chih-Yun Pai] 16:32:01
+Uh, click to activate.
+
+[Chih-Yun Pai] 16:32:05
+username…
+
+[Chih-Yun Pai] 16:32:11
+Um, password. Uh, do I have to…
+
+[Chih-Yun Pai] 16:32:14
+have the same one as, uh, as the older account.
+
+[virajbansal] 16:32:18
+Uh, you… you can… it's up to you. You can use the same one if you want. Doesn't have to be.
+
+[Chih-Yun Pai] 16:32:24
+Shoot
+
+[Jeong Hoon Choi] 16:32:32
+That's interesting.
+
+[Chih-Yun Pai] 16:32:36
+What's my password?
+
+[virajbansal] 16:32:43
+Honestly, same.
+
+[Chih-Yun Pai] 16:32:45
+It's like, oh yeah, sure.
+
+[Chih-Yun Pai] 16:32:50
+This should be…
+
+[Chih-Yun Pai] 16:32:54
+Good stuff.
+
+[virajbansal] 16:33:02
+Okay. Um, and then…
+
+[Chih-Yun Pai] 16:33:04
+It's good for now.
+
+[virajbansal] 16:33:05
+And then go to… yeah, skip for now, just skip that, that… you don't need to do that.
+
+[virajbansal] 16:33:09
+Um, then go to governance.
+
+[virajbansal] 16:33:12
+and security?
+
+[virajbansal] 16:33:14
+Yeah, users and roles, and then you're gonna go to invite.
+
+[virajbansal] 16:33:20
+Yeah.
+
+[Chih-Yun Pai] 16:33:20
+Invite user…
+
+[virajbansal] 16:33:22
+Yeah. And then, just put, uh, Varaj Ban at USC.
+
+[virajbansal] 16:33:28
+Here, I'll type in my email.
+
+[virajbansal] 16:33:31
+And at usc.edu.
+
+[virajbansal] 16:33:40
+Yeah, and then change the system role to account admin.
+
+[Chih-Yun Pai] 16:33:45
+Account admin, okay.
+
+[virajbansal] 16:33:47
+Yeah. And then…
+
+[Chih-Yun Pai] 16:33:48
+Thank you, sir.
+
+[virajbansal] 16:33:49
+Yeah, and then add another one.
+
+[virajbansal] 16:33:51
+Uh, go to invite up top, there you go, yeah.
+
+[virajbansal] 16:33:54
+And then, yeah.
+
+[Chih-Yun Pai] 16:34:00
+Okay.
+
+[Chih-Yun Pai] 16:34:03
+Done
+
+[Chih-Yun Pai] 16:34:05
+Great, that's it?
+
+[virajbansal] 16:34:05
+Okay… yep, that's it.
+
+[virajbansal] 16:34:08
+I got the… I got the email.
+
+[virajbansal] 16:34:20
+I'm signing in right now as well.
+
+[virajbansal] 16:34:23
+Okay. So…
+
+[Chih-Yun Pai] 16:34:24
+Oh, so… uh…
+
+[Chih-Yun Pai] 16:34:27
+How can I, like…
+
+[Chih-Yun Pai] 16:34:30
+log into this…
+
+[virajbansal] 16:34:33
+the same, uh… so you see, um, save this link, I would, one, save this, uh, this, uh, like, bookmark this, uh,
+
+[Chih-Yun Pai] 16:34:33
+app, if I want.
+
+[virajbansal] 16:34:41
+this link right here. Uh, go to the homepage so you don't bookmark the…
+
+[Chih-Yun Pai] 16:34:42
+Okay.
+
+[virajbansal] 16:34:44
+Yeah, just bookmark this.
+
+[virajbansal] 16:34:46
+And then, um, like, now if you… anytime you, like, need to log in, and you will hit this thing, and it'll bring you to the login page automatically.
+
+[Chih-Yun Pai] 16:34:55
+Oh, okay.
+
+[virajbansal] 16:34:55
+And do you just sign in with your… the username and password that you just used earlier?
+
+[Chih-Yun Pai] 16:35:00
+Okay.
+
+[virajbansal] 16:35:01
+Yeah. Should be good.
+
+[virajbansal] 16:35:05
+Okay, um…
+
+[virajbansal] 16:35:09
+Yeah, uh…
+
+[Chih-Yun Pai] 16:35:13
+So, uh, my part will handle the snowflake.
+
+[Chih-Yun Pai] 16:35:17
+function, utility functions,
+
+[virajbansal] 16:35:19
+Yeah, do you want to do that? Do you think you can do the vector database? I'll actually just work on the front-end stuff.
+
+[Chih-Yun Pai] 16:35:19
+Is that right?
+
+[Chih-Yun Pai] 16:35:25
+I can try, I mean…
+
+[Chih-Yun Pai] 16:35:27
+Uh, issue them be…
+
+[virajbansal] 16:35:27
+It's not… no, it's not gonna be too hard.
+
+[Chih-Yun Pai] 16:35:29
+a lot of difference between… yeah.
+
+[virajbansal] 16:35:30
+Yeah, like, you can copy and paste the majority of the code that's in, um…
+
+[virajbansal] 16:35:35
+And our other ones, too.
+
+[virajbansal] 16:35:37
+And just modify that to work.
+
+[Chih-Yun Pai] 16:35:37
+Okay.
+
+[virajbansal] 16:35:39
+But you'll have to create the database and the…
+
+[virajbansal] 16:35:42
+Uh, and the schema and stuff, so just, you know, I'll let you deal with that. It's not too bad, I don't think.
+
+[Chih-Yun Pai] 16:35:47
+Okay.
+
+[virajbansal] 16:35:48
+Yeah, I'll just… I'll manage the front-end stuff to retrieve
+
+[virajbansal] 16:35:51
+Um, but yeah, I'll do that, uh, on the side.
+
+[virajbansal] 16:35:55
+And then once you guys are ready and, like, the data… the stuff is…
+
+[virajbansal] 16:36:00
+Don, I think we can meet on…
+
+[virajbansal] 16:36:03
+Um, Friday, I'm a little bit busy.
+
+[virajbansal] 16:36:06
+But I think we might have to meet on Saturday, like, probably a little bit early, so we have enough time to finish everything out.
+
+[virajbansal] 16:36:11
+But, um…
+
+[Jeong Hoon Choi] 16:36:13
+Yeah, so it seems like we don't need to finish on the Saturday, right? Because Professor, this time, talk again,
+
+[Jeong Hoon Choi] 16:36:20
+Yeah, that he…
+
+[Chih-Yun Pai] 16:36:20
+Oh. Oh, yeah, he said that, uh, you don't… we don't actually have to complete all the tasks on Saturday, we can just…
+
+[Chih-Yun Pai] 16:36:29
+Uh, may not have been reported that it looks like we already completed it.
+
+[Chih-Yun Pai] 16:36:35
+And… anyways, we'll have to video record due on Monday, so it's not the…
+
+[virajbansal] 16:36:40
+Uh, he said that he…
+
+[Chih-Yun Pai] 16:36:40
+like, thing I hear…
+
+[virajbansal] 16:36:42
+He says that every time, and then Tanya comes back and says, like, oh, you didn't do this, and then you didn't do that, and like, I'm knocking off points because you used AI here or something.
+
+[Chih-Yun Pai] 16:36:45
+Yeah.
+
+[Chih-Yun Pai] 16:36:52
+Yes.
+
+[virajbansal] 16:36:52
+like…
+
+[Jeong Hoon Choi] 16:36:54
+Yeah, Tana sit there together, so maybe she also is seen again.
+
+[virajbansal] 16:36:58
+Should we email her? Because, like…
+
+[virajbansal] 16:37:00
+This is so much work, like, if I'm really… if I'm actually being honest about this, like, there's a lot of work to do, kind of, like, uh…
+
+[virajbansal] 16:37:08
+you… because you have to do two models…
+
+[virajbansal] 16:37:11
+Stan, you have to set up, one, the OpenAI one, like, sure, but then you also, if you… if…
+
+[virajbansal] 16:37:15
+If… if you want to do the local part, like, you'll have to do the Lang chain and the OpenAI stuff.
+
+[virajbansal] 16:37:20
+As well. And then, once I set up the front end, the front end actually needs to be able to talk with the back end and OpenAI and stuff.
+
+[virajbansal] 16:37:28
+to actually work. So I'll have to pour all that code over once…
+
+[Jeong Hoon Choi] 16:37:29
+That's true.
+
+[virajbansal] 16:37:33
+Once you… once you guys are finished with that, so, like,
+
+[virajbansal] 16:37:35
+Look, this is kind of a lot. I don't see how we would finish everything, everything, by…
+
+[virajbansal] 16:37:43
+um… by…
+
+[virajbansal] 16:37:45
+Saturday night, but…
+
+[Jeong Hoon Choi] 16:37:47
+Anyway, this time, oh, I mean, our video submission is next,
+
+[virajbansal] 16:37:49
+Maybe…
+
+[Jeong Hoon Choi] 16:37:53
+Next one day, right?
+
+[virajbansal] 16:37:54
+Monday. Uh, not this… not even this… yeah, this… the Monday after next Monday.
+
+[Jeong Hoon Choi] 16:37:55
+Yeah.
+
+[Jeong Hoon Choi] 16:37:58
+Yeah, so…
+
+[virajbansal] 16:37:59
+Um…
+
+[Jeong Hoon Choi] 16:38:00
+If she or loaded, we have a… yeah.
+
+[virajbansal] 16:38:01
+But I think… Yeah.
+
+[virajbansal] 16:38:03
+I think I'll… well, we'll do… I will at least email her, honestly. Like, I'll ask her, like, hey…
+
+[virajbansal] 16:38:09
+professor, because you… she… you guys… she… she was there when Professor made that announcement.
+
+[Jeong Hoon Choi] 16:38:14
+I'm not sure if she… yeah, she came that day.
+
+[Chih-Yun Pai] 16:38:14
+Yeah, she was there.
+
+[virajbansal] 16:38:18
+So she heard what the professor said.
+
+[Chih-Yun Pai] 16:38:21
+she heard, but I'm not sure if he she really hurt.
+
+[virajbansal] 16:38:26
+That's why I'm, like, gonna email her and ask her, like,
+
+[Jeong Hoon Choi] 16:38:27
+Motion?
+
+[virajbansal] 16:38:29
+hey, we'll submit a report, but it'll probably…
+
+[virajbansal] 16:38:32
+be pretty BS. We probably won't even have screenshots, really.
+
+[virajbansal] 16:38:36
+Um, because we won't be done.
+
+[virajbansal] 16:38:39
+Right? So…
+
+[Jeong Hoon Choi] 16:38:42
+It should… he or she, like, do participate in better than any of the students?
+
+[virajbansal] 16:38:47
+So, like, what is it, like, how are you… are you gonna grade on this, and, like, what is the expectation? And we'll get a sense of…
+
+[virajbansal] 16:38:55
+what she's expecting. Like, she also wants… I read the comment…
+
+[virajbansal] 16:38:59
+that you, uh, pasted, CN?
+
+[virajbansal] 16:39:01
+She wants us to meet more often, and I…
+
+[Jeong Hoon Choi] 16:39:02
+Mm-hmm. Oh, yeah.
+
+[Chih-Yun Pai] 16:39:04
+Oh, yeah! Holy shoot!
+
+[virajbansal] 16:39:05
+I was getting so annoyed with that. I was like…
+
+[virajbansal] 16:39:09
+she just wants us to waste our time, because, like, we're usually…
+
+[virajbansal] 16:39:12
+Like, the stuff that we have to work on, like, is pretty well divided, I would say, right? Like, we all know what we need to do.
+
+[Jeong Hoon Choi] 16:39:16
+Uh-huh.
+
+[virajbansal] 16:39:18
+And then, like, if we have any questions or anything, we just, like, ask each other in Discord, and, like, figure it out from there.
+
+[Chih-Yun Pai] 16:39:23
+Yeah.
+
+[Jeong Hoon Choi] 16:39:23
+Yeah.
+
+[virajbansal] 16:39:25
+like, what's the point in just meeting for no reason? Like, I just don't get it.
+
+[virajbansal] 16:39:30
+But…
+
+[Jeong Hoon Choi] 16:39:30
+So, that day, like, a meeting report, we also only meet once, but we write down, there's two days we met.
+
+[virajbansal] 16:39:38
+And even then, she was like, no, you guys should be more…
+
+[Jeong Hoon Choi] 16:39:40
+That's…
+
+[Jeong Hoon Choi] 16:39:42
+Yeah, did she want us to meet every day, really?
+
+[Chih-Yun Pai] 16:39:44
+Okay. Should we conclude this part into a subscription? When he reads immediately meaning this?
+
+[Jeong Hoon Choi] 16:39:53
+I'm not gonna write that, I am usually not just a kid.
+
+[virajbansal] 16:39:56
+Or, Cian, here's what you do.
+
+[Chih-Yun Pai] 16:39:56
+There will be a section, like, Tanya…
+
+[virajbansal] 16:39:58
+See, and here's what you do. You take the meeting minutes, because we've talked for 40 minutes, approximately, which is long, like, a long meeting. This is not usually how long our meetings go.
+
+[Jeong Hoon Choi] 16:40:03
+Uh-huh.
+
+[virajbansal] 16:40:07
+Just take the meeting minutes from… or the transcript from this one, and, like, split it into, like, 3 different days.
+
+[virajbansal] 16:40:12
+And ask ChatGPT to, like,
+
+[Chih-Yun Pai] 16:40:14
+Oh…
+
+[virajbansal] 16:40:14
+Yeah, just, like, give you 3 different days version for each of them.
+
+[virajbansal] 16:40:19
+like, just do it that way, because, like…
+
+[virajbansal] 16:40:22
+Like, you shouldn't be spending time on, like, actually doing the meeting minutes. Like, that's crazy to me.
+
+[virajbansal] 16:40:26
+So…
+
+[Jeong Hoon Choi] 16:40:27
+I would say everything is just made from my brain.
+
+[virajbansal] 16:40:32
+Yeah. Yeah. Professor always says, uh, reports just a checkpoint. The demo video is all we care about, but the demo video, we all… she just says, good job, right, on the demo video all the time?
+
+[Jeong Hoon Choi] 16:40:32
+close by. Yeah.
+
+[Jeong Hoon Choi] 16:40:42
+Uh-huh, yeah. I'm not sure you should really check.
+
+[virajbansal] 16:40:43
+And then on the report, she's like,
+
+[virajbansal] 16:40:46
+Yeah, I don't know, I don't think she actually watches our demo videos. I think…
+
+[virajbansal] 16:40:51
+she, like, may watch, like, a couple minutes, especially that one time when I think, uh…
+
+[virajbansal] 16:40:57
+where I, like, talked for, like, 20 minutes, and then Howard talked for, like, 30 minutes, explaining the…
+
+[virajbansal] 16:41:03
+the Python scraping stuff, I think one of those was, like, 30 to 40 minutes long. There's no way, like, she watched that entire video.
+
+[virajbansal] 16:41:10
+So, uh, I wouldn't doubt it.
+
+[virajbansal] 16:41:13
+I think she just reads the report and, like, just grades the report.
+
+[Jeong Hoon Choi] 16:41:16
+Mm-hmm.
+
+[Jeong Hoon Choi] 16:41:18
+Yeah.
+
+[virajbansal] 16:41:18
+pretty much super harshly, which I don't understand.
+
+[virajbansal] 16:41:23
+So…
+
+[virajbansal] 16:41:25
+Okay, well…
+
+[virajbansal] 16:41:27
+I think we all know what to do, we're all good.
+
+[Jeong Hoon Choi] 16:41:31
+Yeah. Laura, you're also, like, want to make sure that tomorrow the snowflake thing, maybe you can…
+
+[Chih-Yun Pai] 16:41:31
+Okay.
+
+[virajbansal] 16:41:32
+Okay, uh…
+
+[Jeong Hoon Choi] 16:41:38
+not touch the slope, like, yeah, just start the extracting PDF.
+
+[virajbansal] 16:41:42
+Yeah, yeah, yeah, if you… you can hold off on the… no, no, you can use the vector database.
+
+[Jeong Hoon Choi] 16:41:42
+And we can ask him again, yeah.
+
+[virajbansal] 16:41:49
+CN. The Snowflake stuff that I'm gonna talk to him about is…
+
+[virajbansal] 16:41:52
+being able to use the Snowflakes built-in embedding model and LL…
+
+[virajbansal] 16:41:56
+LLM instead of the open source. Like, that part is for you.
+
+[virajbansal] 16:42:00
+for your stuff, but we can use Snowflake for storing our data. Like, I already talked to him about that.
+
+[Jeong Hoon Choi] 16:42:03
+Uh…
+
+[virajbansal] 16:42:05
+he has no issue with that, yeah. Yeah, yeah, yeah.
+
+[Jeong Hoon Choi] 16:42:05
+Oh, okay, okay.
+
+[Jeong Hoon Choi] 16:42:07
+Oh, makes sense.
+
+[virajbansal] 16:42:08
+So, the Vector Store database, uh, Howard, if you… I don't know if… you probably won't get to it by tomorrow, but if you do, like, you can…
+
+[virajbansal] 16:42:15
+create the vector database, uh, load your data into Snowflake,
+
+[virajbansal] 16:42:20
+Um… do it how you want, essentially.
+
+[virajbansal] 16:42:23
+Um, if you… if you want, you can also look at the Lab 5
+
+[virajbansal] 16:42:29
+database I created in the… in our old, uh, in our old Snowflake, um…
+
+[virajbansal] 16:42:33
+account, and, like, just use the… like, there's a bunch of…
+
+[Chih-Yun Pai] 16:42:34
+Okay.
+
+[virajbansal] 16:42:38
+statements and stuff in there, like, you could just look at how I created stuff in there to create the vector database, and it should be pretty…
+
+[virajbansal] 16:42:44
+Pretty easy. Um…
+
+[Chih-Yun Pai] 16:42:45
+Okay.
+
+[virajbansal] 16:42:46
+But yeah, if you need any help with it, just, like, ask me, like, I don't mind, uh…
+
+[Chih-Yun Pai] 16:42:49
+Yeah, sure.
+
+[virajbansal] 16:42:50
+just explaining it, so it should be… should be fine.
+
+[Jeong Hoon Choi] 16:42:53
+Yeah, but anyway, who are embedding method and my embedding method need to be same, so we maybe need to talk about that again.
+
+[Chih-Yun Pai] 16:42:53
+Mm-hmm.
+
+[Jeong Hoon Choi] 16:43:02
+Right?
+
+[virajbansal] 16:43:03
+Oh, gosh…
+
+[Chih-Yun Pai] 16:43:03
+embedding? I mean…
+
+[virajbansal] 16:43:04
+Sure, but I don't see why… it doesn't need to be the same, um…
+
+[virajbansal] 16:43:08
+Tian.
+
+[Chih-Yun Pai] 16:43:08
+You only have two.
+
+[Jeong Hoon Choi] 16:43:08
+If not same, how are I gonna search?
+
+[Jeong Hoon Choi] 16:43:11
+So, similar document.
+
+[virajbansal] 16:43:12
+You'll just use, um… you'll just use whatever, uh, uh, dot product
+
+[virajbansal] 16:43:17
+Because usually you do cosine similarities, so, like,
+
+[virajbansal] 16:43:20
+Cosine similarity just accepts two vectors and then calculates the…
+
+[virajbansal] 16:43:24
+both sign similarity, it doesn't… it's not dependent on how big the vectors are, as long as the two vectors you send in
+
+[virajbansal] 16:43:30
+are the same length.
+
+[Jeong Hoon Choi] 16:43:30
+Oh, uh… I mean, what I need to do is… so, from the quarry,
+
+[Jeong Hoon Choi] 16:43:35
+I mean, dudes or Corey, I need to culturate the embedding and…
+
+[virajbansal] 16:43:36
+Mm-hmm.
+
+[Jeong Hoon Choi] 16:43:39
+looking for the… from the database, the similar information, right?
+
+[virajbansal] 16:43:44
+Yeah, you'll need to embed the query with two different embedding models, one for the OpenAI stuff,
+
+[virajbansal] 16:43:50
+And one for the open source stuff.
+
+[Jeong Hoon Choi] 16:43:53
+Yeah, I thought…
+
+[virajbansal] 16:43:54
+So you'll just…
+
+[Jeong Hoon Choi] 16:43:56
+if my embedding is different withhold, it should not… cannot…
+
+[Jeong Hoon Choi] 16:43:59
+like, corporate rich… the information is similar from the whole PDF, right?
+
+[Jeong Hoon Choi] 16:44:05
+So, I think we need to use the…
+
+[virajbansal] 16:44:06
+Uh, but you'll… you'll need to embed both the document, the PDF document, using the two different embedding models, and
+
+[virajbansal] 16:44:13
+embed the user's query with two different embedding models.
+
+[virajbansal] 16:44:17
+That way, like, whichever version of the embedding you're using, you…
+
+[virajbansal] 16:44:21
+use the same document embedding as well, is what I'm trying to say.
+
+[Jeong Hoon Choi] 16:44:25
+But hold…
+
+[virajbansal] 16:44:25
+So you'll need to do embeddings on both sides.
+
+[Jeong Hoon Choi] 16:44:29
+in the… that real time, or…
+
+[virajbansal] 16:44:31
+Yeah, like, because the thing is, you're not gonna find an embedding model that's exactly the same as the OpenAI one. Like, there's just low probability of you finding that.
+
+[virajbansal] 16:44:41
+Um, so you'll have to embed the documents twice, the PDF document that Howard will extract, all that text that Howard will extract for us.
+
+[Jeong Hoon Choi] 16:44:41
+Uh-huh.
+
+[virajbansal] 16:44:49
+You'll need to embed that twice, one with the OpenAI embedding model, one with whatever open source model that you use.
+
+[Jeong Hoon Choi] 16:44:57
+But already PDF-extracted texts need to be embedded before
+
+[Jeong Hoon Choi] 16:45:01
+So, get the curry right.
+
+[virajbansal] 16:45:04
+Uh, yes, but it'll need to maybe… what I'm saying is it… yes, it will need to be embedded.
+
+[virajbansal] 16:45:10
+Sure, but that needs to be embedded
+
+[virajbansal] 16:45:12
+Um, using two different embedding models. One is the OpenAI embedding model, and one is the…
+
+[virajbansal] 16:45:18
+open source model, and they'll be stored in two different…
+
+[virajbansal] 16:45:21
+vector data, or vector tables, vector database tables. They'll have their own
+
+[virajbansal] 16:45:25
+tables for it. The text will come from the same spot, is what I'm trying to say.
+
+[virajbansal] 16:45:29
+But the embeddings will… you'll create two embeddings for it, one for OpenAI, one for…
+
+[virajbansal] 16:45:34
+open source. Does that make sense?
+
+[Jeong Hoon Choi] 16:45:37
+Oh, I see, so it's mainly who are only gonna extract the text from the PDF and install in the snowflake?
+
+[Jeong Hoon Choi] 16:45:43
+And I'm gonna embedded all of them.
+
+[Jeong Hoon Choi] 16:45:47
+saving the snowflake again.
+
+[virajbansal] 16:45:49
+Yeah, yeah, you'll have to save it in Snowflake again. Separate, two, using whatever…
+
+[Jeong Hoon Choi] 16:45:50
+Okay, okay.
+
+[virajbansal] 16:45:54
+to embedding models, because one, we have to use OpenAI's embedding model,
+
+[virajbansal] 16:45:57
+And the other, you get to pick whatever open-source embedding model you want to use. You could use Snowflake's embedding model, or you could find your own.
+
+[virajbansal] 16:46:05
+CNN and use that one, whatever works for you. And I'll obviously talk to him about it tomorrow.
+
+[virajbansal] 16:46:11
+after class, but you'll basically need to embed the same text that Howard extracts
+
+[virajbansal] 16:46:16
+using the two different embedding models, because you need to do… but, like, that's what the lab is asking for.
+
+[virajbansal] 16:46:21
+Essentially.
+
+[Jeong Hoon Choi] 16:46:22
+Okay, so, or embed…
+
+[Chih-Yun Pai] 16:46:22
+Um, so what I'm storing is…
+
+[Chih-Yun Pai] 16:46:25
+Uh, what I saw in Snowflake?
+
+[Chih-Yun Pai] 16:46:27
+database is, uh, one that…
+
+[Chih-Yun Pai] 16:46:30
+being embedded, or…
+
+[virajbansal] 16:46:32
+So, now I'm thinking about it, because if that's the case, then…
+
+[Chih-Yun Pai] 16:46:33
+not given that.
+
+[virajbansal] 16:46:37
+a CN, you might need to wa…
+
+[virajbansal] 16:46:39
+Like, we have this snowflake instance already, it might be that Howard just needs to do the…
+
+[virajbansal] 16:46:44
+data extraction, and you need to also
+
+[virajbansal] 16:46:46
+do the embedding and the…
+
+[virajbansal] 16:46:48
+the chunking stuff, since you're handling the snow… the OpenAI, and then the open source
+
+[virajbansal] 16:46:54
+part as well.
+
+[Chih-Yun Pai] 16:46:56
+Or maybe we could… I mean, I can just talk to Ciena when I see how the jobs, uh, separate.
+
+[Chih-Yun Pai] 16:47:05
+You can go. Right.
+
+[virajbansal] 16:47:05
+Yeah, or yeah, you guys could… you guys could discuss it in-betweens yourself.
+
+[Jeong Hoon Choi] 16:47:06
+Yeah, yeah.
+
+[Chih-Yun Pai] 16:47:10
+Yeah.
+
+[virajbansal] 16:47:10
+maybe, like, maybe, like, Howard can do…
+
+[virajbansal] 16:47:13
+the OpenAI embedding part, and then…
+
+[virajbansal] 16:47:15
+Uh, you could use, like, the same functions and stuff to make your…
+
+[virajbansal] 16:47:19
+other embedding, um, CN.
+
+[virajbansal] 16:47:22
+And, uh, you could do it that way. So that way, like, Howard can at least just do a part of the embeddings for you, and then you could worry about doing the other
+
+[Jeong Hoon Choi] 16:47:22
+Uh-huh.
+
+[Jeong Hoon Choi] 16:47:24
+Yeah.
+
+[virajbansal] 16:47:31
+these second embedding using the open source embedding model.
+
+[Jeong Hoon Choi] 16:47:34
+Yeah, I kind of motorized that, so it's not important using the two different ones, but for maybe then you can store the low data, but chunkware?
+
+[Jeong Hoon Choi] 16:47:44
+And storing the…
+
+[virajbansal] 16:47:45
+Um, yeah, you'll need to figure out, uh, get…
+
+[virajbansal] 16:47:48
+You'll need to figure out a chunking method, which I'm not entirely sure how you're gonna do.
+
+[virajbansal] 16:47:53
+Um, but that's how, essentially, how it's gonna get stored in the vector database, is there's gonna be chunks of rows
+
+[Chih-Yun Pai] 16:47:59
+Yeah.
+
+[virajbansal] 16:48:00
+of vectors.
+
+[Jeong Hoon Choi] 16:48:01
+Yeah, that…
+
+[virajbansal] 16:48:01
+Essentially, and then you'll parse through those.
+
+[Chih-Yun Pai] 16:48:02
+Mm-hmm.
+
+[Jeong Hoon Choi] 16:48:04
+Yeah, then I'm gonna embed in using all of them in my site.
+
+[virajbansal] 16:48:08
+Yeah, yeah, yeah. Yeah, exactly, exactly.
+
+[Jeong Hoon Choi] 16:48:09
+Yeah, yeah, sounds good. Yeah.
+
+[virajbansal] 16:48:10
+Yeah, yeah. Okay.
+
+[Jeong Hoon Choi] 16:48:13
+That sounds good.
+
+[virajbansal] 16:48:13
+Does that… that hopefully makes sense. Okay, cool.
+
+[virajbansal] 16:48:15
+Um, save the transcript before we end this meeting.
+
+[Jeong Hoon Choi] 16:48:18
+Oh, yeah, thank you.
+
+[virajbansal] 16:48:20
+Yeah, before we do that.
+

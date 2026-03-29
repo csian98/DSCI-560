@@ -34,3 +34,9 @@
 [submodule "laboratory/lab7/cloud-IoT-hub"]
 	path = laboratory/lab7/cloud-IoT-hub
 	url = https://github.com/csian98/cloud-IoT-hub.git
+[submodule "laboratory/lab9/AI agent with domain knowledge"]
+	path = laboratory/lab9/AI agent with domain knowledge
+	url = https://github.com/csian98/AI-agent-with-domain-knowledge.git
+[submodule "laboratory/lab10/chat-with-AI-and-android-app"]
+	path = laboratory/lab10/chat-with-AI-and-android-app
+	url = https://github.com/csian98/chat-with-AI-and-android-app.git
