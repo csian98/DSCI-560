@@ -40,3 +40,6 @@
 [submodule "laboratory/lab10/chat-with-AI-and-android-app"]
 	path = laboratory/lab10/chat-with-AI-and-android-app
 	url = https://github.com/csian98/chat-with-AI-and-android-app.git
+[submodule "project/NeuralVC"]
+	path = project/NeuralVC
+	url = https://github.com/csian98/NeuralVC.git
